@@ -1,0 +1,55 @@
+{
+  "id": "6c3b3aaa-ed39-45d5-8a54-ba8c2a04b72b",
+  "name": "Get_Report_Card - fallback",
+  "auto": true,
+  "contexts": [
+    "Get_Report_Card-asking_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_report_card_fallback",
+      "affectedContexts": [
+        {
+          "name": "Get_Report_Card-asking_id",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hmm, that doesn't look like a valid school ID! Please use format stu32543, as5425, or STU10293. Mind double-checking?",
+            "Oops, that ID format isn't clicking! Double-check the school badge for an ID like stu32543 or as5425 and try again.",
+            "That ID looks off! Our school IDs look like stu32543, as5425, or STU10293. Let's give it another try!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Try format:",
+          "replies": [
+            "stu32543",
+            "as5425",
+            "STU10293"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "c9a476c8-1508-4807-b89d-bc3c45464b3c",
+  "rootId": "c9a476c8-1508-4807-b89d-bc3c45464b3c"
+}

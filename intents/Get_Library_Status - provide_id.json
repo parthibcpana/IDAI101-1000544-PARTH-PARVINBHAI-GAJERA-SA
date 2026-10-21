@@ -1,0 +1,64 @@
+{
+  "id": "a0eeddbb-18cd-4475-8c5f-6ce00124142c",
+  "name": "Get_Library_Status - provide_id",
+  "auto": true,
+  "contexts": [
+    "Get_Library_Status-asking_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_library_status_provide_id",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "80a8f6c6-4ce6-45f0-abfd-2c5d34a1ca1e",
+          "name": "student_id",
+          "required": true,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Library status for student $student_id: 2 books checked out ('To Kill a Mockingbird' due Oct 10, 'General Science' due Oct 14). Zero overdue fines!",
+            "All good for $student_id: Currently has 2 books issued (due Oct 10 and Oct 14), with $0 in late fines. You can renew them online anytime!",
+            "Checked $student_id: 2 books borrowed, due next week on Oct 10 and Oct 14. Zero pending library fines on file!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Quick options:",
+          "replies": [
+            "Book Renewal",
+            "Attendance Check",
+            "Fee Details"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "e1af0b98-6be3-46ea-bec1-85c75cc24152",
+  "rootId": "e1af0b98-6be3-46ea-bec1-85c75cc24152"
+}

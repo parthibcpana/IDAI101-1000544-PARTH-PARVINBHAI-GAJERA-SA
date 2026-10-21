@@ -1,0 +1,9 @@
+{
+  "id": "8a7d7194-7a15-4669-8eeb-25a32d494b00",
+  "name": "Notice_Category",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,216 @@
+[
+  {
+    "id": "c0d07356-4dde-4d48-ae0d-2a15d47360a3",
+    "data": [
+      {
+        "text": "Hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3716e986-2f64-4330-acc3-145b1fff629a",
+    "data": [
+      {
+        "text": "Hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d846aaff-6ea7-4259-885d-ce8a5c846f34",
+    "data": [
+      {
+        "text": "Hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e2ac0a4-3300-4cd9-8b8c-750b44c31ba0",
+    "data": [
+      {
+        "text": "Good morning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0778b627-3874-4fd6-adaf-c09b6f23de53",
+    "data": [
+      {
+        "text": "Good afternoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64addfc6-b0c4-4f15-95df-a98e879a6f1f",
+    "data": [
+      {
+        "text": "Hello ParentConnect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3fa8e70-878b-4ed5-8744-5514171aa718",
+    "data": [
+      {
+        "text": "Hey there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34e3dbdf-21d7-49b1-9d82-de54c21cba39",
+    "data": [
+      {
+        "text": "Is anyone available from the school office?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4a4fdaff-5345-42ab-9189-9e8d77d219fe",
+    "data": [
+      {
+        "text": "Hi I need some information about my child",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3bc04c8-7dff-40be-a689-2a3531f28bf9",
+    "data": [
+      {
+        "text": "Greetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4b68b24-47a3-4d2b-8e2c-ac0329ebab71",
+    "data": [
+      {
+        "text": "Hello school office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d75e6f3a-a335-41d6-8d5a-6e1374af872b",
+    "data": [
+      {
+        "text": "Can you help me with school updates?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbaf1bd0-ccf0-41ff-a53e-2d976e9e0d86",
+    "data": [
+      {
+        "text": "ParentConnect ",
+        "userDefined": false
+      },
+      {
+        "text": "AI",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7c16bc9e-e252-4889-b9fe-04eb94a379a5",
+    "data": [
+      {
+        "text": "Hello assistant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67716609-12bf-4aa0-b261-4d048cc5e085",
+    "data": [
+      {
+        "text": "Start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "674249ce-bf6e-4e28-ad31-5738e4648bec",
+    "data": [
+      {
+        "text": "Help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

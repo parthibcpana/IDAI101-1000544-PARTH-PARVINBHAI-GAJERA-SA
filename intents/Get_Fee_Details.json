@@ -1,0 +1,80 @@
+{
+  "id": "09d57392-f106-464e-9c74-14d0b6ef0d61",
+  "name": "Get_Fee_Details",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_fee_details",
+      "affectedContexts": [
+        {
+          "name": "Get_Fee_Details-asking_id",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "dd179f63-d31f-45ed-9bc8-fec3f8327e76",
+          "name": "student_id",
+          "required": false,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "822d8d05-a3b3-40d3-bc8d-b9aa78e8eba1",
+          "name": "fee_type",
+          "required": false,
+          "dataType": "@Fee_Type",
+          "value": "$fee_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure thing! What's your child's Student ID? (e.g., stu32543, as5425, or STU10293).",
+            "Gotcha! Send over their Student ID (like stu32543 or STU10293) and I'll look up the fee balance.",
+            "Alright, let me check the account! What's the Student ID? (e.g., as5425 or stu32543)."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Sample Student IDs:",
+          "replies": [
+            "stu32543",
+            "as5425",
+            "STU10293"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

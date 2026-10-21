@@ -1,0 +1,80 @@
+{
+  "id": "638cb009-3416-444c-b071-25f45d569d0a",
+  "name": "Get_Student_Attendance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_student_attendance",
+      "affectedContexts": [
+        {
+          "name": "Get_Student_Attendance-asking_id",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "800da0ba-3283-402c-9384-83a5f3542990",
+          "name": "student_id",
+          "required": false,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7e23cdf7-f6de-4a7c-8bee-f57724bef93e",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Gotcha! What's your child's Student ID? (e.g., stu32543, as5425, or STU10293).",
+            "Sure thing! Drop your child's Student ID right here (like stu32543 or STU10293) and I'll pull up the records.",
+            "Alright, let's check that attendance! Could you share their Student ID? (e.g., as5425 or stu32543)."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Sample Student IDs:",
+          "replies": [
+            "stu32543",
+            "as5425",
+            "STU10293"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

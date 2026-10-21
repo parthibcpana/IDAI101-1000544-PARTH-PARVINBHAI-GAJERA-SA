@@ -1,0 +1,64 @@
+{
+  "id": "98f7e728-fe4e-49a6-ac99-9cd39e0bc39d",
+  "name": "Get_Fee_Details - provide_id",
+  "auto": true,
+  "contexts": [
+    "Get_Fee_Details-asking_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_fee_details_provide_id",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "444ce0c7-2e01-4527-a7b5-4da424f10782",
+          "name": "student_id",
+          "required": true,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Here's the breakdown for student $student_id: Current Term Tuition Fee due is $420.00, payable by October 15, 2026. All bus and lab dues are cleared. Want the online payment link?",
+            "Got it! Account for $student_id shows $420.00 pending for Term Tuition Fee, due October 15, 2026. No overdue fines on file. Need help paying via UPI or portal?",
+            "Found it for $student_id: You have $420.00 due for Term Tuition Fee by October 15, 2026. Prior dues are 100% cleared. Let me know if you want the payment link!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Payment choices:",
+          "replies": [
+            "Pay via UPI",
+            "Online Portal",
+            "Fee Receipt"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "09d57392-f106-464e-9c74-14d0b6ef0d61",
+  "rootId": "09d57392-f106-464e-9c74-14d0b6ef0d61"
+}

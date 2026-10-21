@@ -1,0 +1,55 @@
+{
+  "id": "205d6e97-aee3-4c65-865d-b0400de37daa",
+  "name": "Get_Fee_Details - fallback",
+  "auto": true,
+  "contexts": [
+    "Get_Fee_Details-asking_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_fee_details_fallback",
+      "affectedContexts": [
+        {
+          "name": "Get_Fee_Details-asking_id",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hmm, that ID doesn't match our billing records! Please enter a valid ID like stu32543, as5425, or STU10293.",
+            "Oops, couldn't find that ID! Make sure it looks like stu32543 or as5425. Could you check your fee slip and re-enter?",
+            "That format isn't recognized! It should be letters followed by digits (e.g., stu32543 or STU10293). Give it one more try!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Try format:",
+          "replies": [
+            "stu32543",
+            "as5425",
+            "STU10293"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "09d57392-f106-464e-9c74-14d0b6ef0d61",
+  "rootId": "09d57392-f106-464e-9c74-14d0b6ef0d61"
+}

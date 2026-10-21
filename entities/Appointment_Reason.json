@@ -1,0 +1,9 @@
+{
+  "id": "262cada9-09a5-46cb-9d4b-96327fe31c20",
+  "name": "Appointment_Reason",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

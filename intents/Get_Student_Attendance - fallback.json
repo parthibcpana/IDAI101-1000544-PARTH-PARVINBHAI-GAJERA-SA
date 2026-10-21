@@ -1,0 +1,55 @@
+{
+  "id": "de15e34f-34bd-46a3-9388-cd763ea691cd",
+  "name": "Get_Student_Attendance - fallback",
+  "auto": true,
+  "contexts": [
+    "Get_Student_Attendance-asking_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_student_attendance_fallback",
+      "affectedContexts": [
+        {
+          "name": "Get_Student_Attendance-asking_id",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hmm, that ID doesn't look quite right! It should be 2–3 letters followed by 4–6 digits (like stu32543, as5425, or STU10293). Mind checking the ID card and trying again?",
+            "Oops, couldn't match that ID! Make sure it looks like stu32543 or as5425. Could you double-check and send it once more?",
+            "That doesn't match our school ID format! It needs to look like stu32543, as5425, or STU10293. Give it another shot!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Try format:",
+          "replies": [
+            "stu32543",
+            "as5425",
+            "STU10293"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "638cb009-3416-444c-b071-25f45d569d0a",
+  "rootId": "638cb009-3416-444c-b071-25f45d569d0a"
+}

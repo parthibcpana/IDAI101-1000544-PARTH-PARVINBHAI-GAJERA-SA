@@ -1,0 +1,66 @@
+[
+  {
+    "value": "Tuition Fee",
+    "synonyms": [
+      "Tuition Fee",
+      "School Fee",
+      "Academic Fee",
+      "Term Fee",
+      "Tuition Dues"
+    ]
+  },
+  {
+    "value": "Transport Fee",
+    "synonyms": [
+      "Transport Fee",
+      "Bus Fee",
+      "Van Fee",
+      "Conveyance Charges"
+    ]
+  },
+  {
+    "value": "Admission Fee",
+    "synonyms": [
+      "Admission Fee",
+      "Registration Fee",
+      "Enrollment Charges"
+    ]
+  },
+  {
+    "value": "Examination Fee",
+    "synonyms": [
+      "Examination Fee",
+      "Exam Fee",
+      "Assessment Fee",
+      "Board Registration Fee"
+    ]
+  },
+  {
+    "value": "Library Fine",
+    "synonyms": [
+      "Library Fine",
+      "Late Book Fee",
+      "Library Dues",
+      "Library Fee"
+    ]
+  },
+  {
+    "value": "Laboratory Fee",
+    "synonyms": [
+      "Laboratory Fee",
+      "Lab Fee",
+      "Computer Lab Fee",
+      "Science Lab Charges"
+    ]
+  },
+  {
+    "value": "Sports & Activity Fee",
+    "synonyms": [
+      "Sports & Activity Fee",
+      "Activity Fee",
+      "Sports Fee",
+      "Club Fee",
+      "Annual Day Dues"
+    ]
+  }
+]

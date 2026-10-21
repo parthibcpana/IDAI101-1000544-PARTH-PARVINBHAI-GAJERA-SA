@@ -1,0 +1,9 @@
+{
+  "id": "380d586c-2ad1-4882-8f5f-bb8d80ef85d4",
+  "name": "Attendance_Status",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

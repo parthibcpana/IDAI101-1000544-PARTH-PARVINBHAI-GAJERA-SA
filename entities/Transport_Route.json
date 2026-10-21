@@ -1,0 +1,9 @@
+{
+  "id": "8c2125a7-c1ff-4edd-87f4-cf047050dccf",
+  "name": "Transport_Route",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

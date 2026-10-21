@@ -1,0 +1,48 @@
+[
+  {
+    "value": "Bonafide Certificate",
+    "synonyms": [
+      "Bonafide Certificate",
+      "Study Certificate",
+      "Student Bonafide",
+      "Proof of Enrollment"
+    ]
+  },
+  {
+    "value": "Transfer Certificate",
+    "synonyms": [
+      "Transfer Certificate",
+      "TC",
+      "School Leaving Certificate",
+      "Migration Certificate"
+    ]
+  },
+  {
+    "value": "Report Card",
+    "synonyms": [
+      "Report Card",
+      "Progress Report",
+      "Marksheet",
+      "Grade Sheet",
+      "Transcript"
+    ]
+  },
+  {
+    "value": "Fee Receipt",
+    "synonyms": [
+      "Fee Receipt",
+      "Payment Acknowledgment",
+      "Tuition Challan Receipt",
+      "Tax Exemption Receipt"
+    ]
+  },
+  {
+    "value": "ID Card Replacement",
+    "synonyms": [
+      "ID Card Replacement",
+      "Duplicate ID Card",
+      "Lost Student ID",
+      "New Badge"
+    ]
+  }
+]

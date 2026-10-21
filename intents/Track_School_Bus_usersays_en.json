@@ -1,0 +1,347 @@
+[
+  {
+    "id": "b508e335-1434-4d99-b0cf-ab21870e874a",
+    "data": [
+      {
+        "text": "Where is ",
+        "userDefined": false
+      },
+      {
+        "text": "Route 3",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " bus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6e40f33-e2ac-422d-aa76-8700d6d2ba1d",
+    "data": [
+      {
+        "text": "Track school bus ",
+        "userDefined": false
+      },
+      {
+        "text": "Route 4",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "788a6063-ca14-40c5-88d7-057edf0db693",
+    "data": [
+      {
+        "text": "Has ",
+        "userDefined": false
+      },
+      {
+        "text": "Bus 2",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " reached my stop?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eab22f82-705a-42a5-a7ee-128ddb2964df",
+    "data": [
+      {
+        "text": "When will ",
+        "userDefined": false
+      },
+      {
+        "text": "Route 1",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " arrive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f058973-aa7d-4f01-9add-39d57f12a00c",
+    "data": [
+      {
+        "text": "Is the morning bus on ",
+        "userDefined": false
+      },
+      {
+        "text": "Route 3",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " running late?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "10a63b20-34d7-47b8-951b-5a7396b8f09b",
+    "data": [
+      {
+        "text": "Live bus tracking for ",
+        "userDefined": false
+      },
+      {
+        "text": "Route 2",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f399b138-877f-4a2f-9e90-146ba7ff8372",
+    "data": [
+      {
+        "text": "Where did ",
+        "userDefined": false
+      },
+      {
+        "text": "Bus 1",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " get to?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c7b2a2f-2b12-40da-83cf-b051c262e7d5",
+    "data": [
+      {
+        "text": "Track transport vehicle for ",
+        "userDefined": false
+      },
+      {
+        "text": "Route 4",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "366f0053-8ed8-4a1b-8a85-be423c8b2cc0",
+    "data": [
+      {
+        "text": "Bus route status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6c124695-3790-4e5f-a6b5-58667dd037a9",
+    "data": [
+      {
+        "text": "Is ",
+        "userDefined": false
+      },
+      {
+        "text": "Bus 3",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " delayed ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d355baf8-7f33-47ea-a6c5-d6c76634c353",
+    "data": [
+      {
+        "text": "Estimated arrival for ",
+        "userDefined": false
+      },
+      {
+        "text": "Route 1",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " afternoon drop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79c9d236-8a50-47fa-b8c9-669cae9c4a65",
+    "data": [
+      {
+        "text": "What is the contact for ",
+        "userDefined": false
+      },
+      {
+        "text": "Route 2",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " driver?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c34d17f3-a18e-46a6-b8ac-5dab3c1c5076",
+    "data": [
+      {
+        "text": "Check bus status for ",
+        "userDefined": false
+      },
+      {
+        "text": "North Line",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01835dcc-ebb6-43e9-8564-d2234f6478a8",
+    "data": [
+      {
+        "text": "Where is the ",
+        "userDefined": false
+      },
+      {
+        "text": "Downtown Express",
+        "alias": "transport_route",
+        "meta": "@Transport_Route",
+        "userDefined": true
+      },
+      {
+        "text": " bus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4a7dad66-7a67-48b9-8bf6-2750368ec67e",
+    "data": [
+      {
+        "text": "Bus tracking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7fc637ba-267c-4141-bf51-8f6365c464ab",
+    "data": [
+      {
+        "text": "Where is our school bus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aac2b44c-9c77-4b31-9dc9-25d60b46e64d",
+    "data": [
+      {
+        "text": "School bus status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

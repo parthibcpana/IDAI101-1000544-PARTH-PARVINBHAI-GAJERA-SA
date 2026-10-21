@@ -1,0 +1,158 @@
+[
+  {
+    "id": "916ed403-25d9-441b-a10c-047790d6a266",
+    "data": [
+      {
+        "text": "Yes please confirm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "365cf613-80bd-4ba7-ae88-426d2b403bdf",
+    "data": [
+      {
+        "text": "Confirm appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8bd5379c-564b-4dd7-b001-29e477dc9de4",
+    "data": [
+      {
+        "text": "Yes book it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f65baa9a-8a91-49ca-ab55-df2491df7783",
+    "data": [
+      {
+        "text": "Submit meeting request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ccf5543-57a4-4671-883f-572c87bbd4b9",
+    "data": [
+      {
+        "text": "Yes that works",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b84f66b-9d66-4eee-a7ba-78febf2fa6f7",
+    "data": [
+      {
+        "text": "Confirm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b1bd06a-e2b2-456f-83c3-d43ba8ec5f27",
+    "data": [
+      {
+        "text": "Yes please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d689225-902c-49ac-8c7a-f6deac62d558",
+    "data": [
+      {
+        "text": "Send request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fb1f0956-fc57-4e04-8568-e5b2cab2d39b",
+    "data": [
+      {
+        "text": "Book the slot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1e66aa2-74ad-4e8d-b6f1-574b78025ae4",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b71fbc37-cbf9-44dc-9300-f77449a76aeb",
+    "data": [
+      {
+        "text": "Go ahead and book it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cbe7b4b-2708-4f04-9dd7-61dde1c8880e",
+    "data": [
+      {
+        "text": "Please submit the request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

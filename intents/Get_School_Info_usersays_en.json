@@ -1,0 +1,158 @@
+[
+  {
+    "id": "6ab81cc7-f884-41ef-aebf-fa7f125ff0b2",
+    "data": [
+      {
+        "text": "What are the school office hours?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6950c2f-aecb-42ea-a82f-dc2eaa4d4bdb",
+    "data": [
+      {
+        "text": "Where is the school campus located?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "51edf018-5c6b-4432-8d0a-e80c1a461272",
+    "data": [
+      {
+        "text": "What is the school contact number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b0683950-471a-4767-bd15-dcb4c36c4de0",
+    "data": [
+      {
+        "text": "How do I reach the front desk?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "faa040cb-3b0f-4b05-973b-7707cc0df038",
+    "data": [
+      {
+        "text": "When does the administrative office open?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8982cedb-c5d0-46c0-bc61-59c5b6f4ea3f",
+    "data": [
+      {
+        "text": "Campus address and email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a146724a-096a-4bb8-9520-b4fd4ccb1efe",
+    "data": [
+      {
+        "text": "What time does school start and end?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ada99419-c8db-48e5-8d3b-81ca36ec9fa9",
+    "data": [
+      {
+        "text": "Visitor policies at school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b1ab0bd-f865-42b5-b798-7cfb9a626106",
+    "data": [
+      {
+        "text": "Where can I contact the school reception?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8c73056-cabf-435d-9f7b-9bffe8583c60",
+    "data": [
+      {
+        "text": "School phone directory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "42282582-5811-4531-bc42-0765f6ed184f",
+    "data": [
+      {
+        "text": "Administrative contact number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "984113fe-ca5f-4c05-a47b-633aa6433e67",
+    "data": [
+      {
+        "text": "What is the official school email?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "value": "Water Bottle",
+    "synonyms": [
+      "Water Bottle",
+      "water bottle",
+      "bottle",
+      "flask",
+      "thermos",
+      "sipper",
+      "drinking bottle"
+    ]
+  },
+  {
+    "value": "Lunchbox",
+    "synonyms": [
+      "Lunchbox",
+      "lunchbox",
+      "lunch box",
+      "tiffin",
+      "tiffin box",
+      "snack box",
+      "meal container"
+    ]
+  },
+  {
+    "value": "Jacket / Sweater",
+    "synonyms": [
+      "Jacket / Sweater",
+      "jacket",
+      "sweater",
+      "cardigan",
+      "coat",
+      "hoodie",
+      "school blazer",
+      "blazer",
+      "pullover"
+    ]
+  },
+  {
+    "value": "Eyeglasses",
+    "synonyms": [
+      "Eyeglasses",
+      "eyeglasses",
+      "glasses",
+      "spectacles",
+      "reading glasses",
+      "frames"
+    ]
+  },
+  {
+    "value": "Backpack",
+    "synonyms": [
+      "Backpack",
+      "backpack",
+      "school bag",
+      "bag",
+      "rucksack",
+      "bookbag"
+    ]
+  },
+  {
+    "value": "Pencil Case",
+    "synonyms": [
+      "Pencil Case",
+      "pencil case",
+      "pencil box",
+      "stationery pouch",
+      "pouch",
+      "geometry box",
+      "pen box"
+    ]
+  },
+  {
+    "value": "Textbook / Notebook",
+    "synonyms": [
+      "Textbook / Notebook",
+      "textbook",
+      "notebook",
+      "workbook",
+      "binder",
+      "diary",
+      "school planner",
+      "exercise book"
+    ]
+  },
+  {
+    "value": "Student ID Card",
+    "synonyms": [
+      "Student ID Card",
+      "student ID card",
+      "ID card",
+      "identity card",
+      "school badge",
+      "bus pass"
+    ]
+  },
+  {
+    "value": "Sports Kit",
+    "synonyms": [
+      "Sports Kit",
+      "sports kit",
+      "PE uniform",
+      "swimming costume",
+      "sports shoes",
+      "sneakers",
+      "cleats"
+    ]
+  },
+  {
+    "value": "Umbrella",
+    "synonyms": [
+      "Umbrella",
+      "umbrella",
+      "raincoat",
+      "rain poncho"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "id": "cac5bea2-e973-4a40-b6ff-2e303b51dd8a",
+  "name": "Get_School_Info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_school_info",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure thing! Our main campus is at 124 Greenfield Avenue. The front office is open Mon–Fri, 8:00 AM to 4:00 PM, and you can reach us directly at (555) 019-2800 or office@greenfieldschool.edu.",
+            "Gotcha! We're located at 124 Greenfield Avenue. Office hours are Monday through Friday, 8:00 AM to 4:00 PM. Give us a call anytime at (555) 019-2800 or email office@greenfieldschool.edu.",
+            "Alright! The school is at 124 Greenfield Avenue. Admin office runs Mon–Fri, 8:00 AM–4:00 PM. Front desk phone is (555) 019-2800 and email is office@greenfieldschool.edu."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Quick details:",
+          "replies": [
+            "Office Hours",
+            "Campus Address",
+            "Staff Directory"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

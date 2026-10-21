@@ -1,0 +1,64 @@
+{
+  "id": "5a734e30-60de-41b9-96f4-75f1de687d80",
+  "name": "Get_Student_Attendance - provide_id",
+  "auto": true,
+  "contexts": [
+    "Get_Student_Attendance-asking_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_student_attendance_provide_id",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "faabfc31-b882-4b25-b584-e322e41a8f13",
+          "name": "student_id",
+          "required": true,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Got it! For student $student_id: Total school days: 112. Days present: 108 (96.4% attendance). Excused medical absences: 3. Looking great and in good standing!",
+            "Alright, pulled up $student_id: 108 days present out of 112 (96.4% attendance), with 3 excused absences. Well above the required 85% mark!",
+            "Here's the scoop for student $student_id: Attendance stands at 96.4% (108 out of 112 days attended, 3 excused absences). All clear and doing awesome!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Check more:",
+          "replies": [
+            "Report Card",
+            "Fee Details",
+            "Today's Homework"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "638cb009-3416-444c-b071-25f45d569d0a",
+  "rootId": "638cb009-3416-444c-b071-25f45d569d0a"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fcc354d1-57a3-4006-a1a1-0d9b376dcee6",
+  "name": "Activity_Type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

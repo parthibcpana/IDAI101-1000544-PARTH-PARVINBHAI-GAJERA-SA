@@ -1,0 +1,431 @@
+[
+  {
+    "id": "ba08d4fd-fee5-4045-93bf-07730a7b8e1d",
+    "data": [
+      {
+        "text": "What is on the cafeteria menu ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5e3fdb2-8839-45cd-91ae-7aa179e68373",
+    "data": [
+      {
+        "text": "What is for ",
+        "userDefined": false
+      },
+      {
+        "text": "lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " at school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9eaecc6-d2c5-4774-a0ce-96b3758518a6",
+    "data": [
+      {
+        "text": "Show me the ",
+        "userDefined": false
+      },
+      {
+        "text": "Breakfast",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "556ecbab-45ed-43a4-b5e4-f4d04cb376e5",
+    "data": [
+      {
+        "text": "Is there a ",
+        "userDefined": false
+      },
+      {
+        "text": "Vegetarian Meal",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " option ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d9171709-860a-42ff-8117-aeda16cf4ad5",
+    "data": [
+      {
+        "text": "Cafeteria food options for ",
+        "userDefined": false
+      },
+      {
+        "text": "lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b222e329-8166-47a1-950f-a0a2f0a567b2",
+    "data": [
+      {
+        "text": "What ",
+        "userDefined": false
+      },
+      {
+        "text": "snack",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " is being served ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f8e434f-3362-4ac3-8069-0b3af6fa3442",
+    "data": [
+      {
+        "text": "Does the cafeteria offer ",
+        "userDefined": false
+      },
+      {
+        "text": "Vegan Meal",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6006590e-3f79-4237-802c-827c7d398e38",
+    "data": [
+      {
+        "text": "School ",
+        "userDefined": false
+      },
+      {
+        "text": "lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " menu for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74a64853-9ab0-473c-9b47-116804f0007d",
+    "data": [
+      {
+        "text": "What are students having for ",
+        "userDefined": false
+      },
+      {
+        "text": "Breakfast",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "872b6684-0165-4d14-ace2-346073437dcc",
+    "data": [
+      {
+        "text": "Daily ",
+        "userDefined": false
+      },
+      {
+        "text": "Hot Lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2bdf2b0e-2e89-4646-8dae-58468264c4ee",
+    "data": [
+      {
+        "text": "Any allergen warning on ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "'s school meal?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c3376e5-7087-467d-be0c-e46a5bbf9e6b",
+    "data": [
+      {
+        "text": "Weekly ",
+        "userDefined": false
+      },
+      {
+        "text": "lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " menu at cafeteria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7bd04ea9-6074-4324-8320-ebb5156da943",
+    "data": [
+      {
+        "text": "What is being served for ",
+        "userDefined": false
+      },
+      {
+        "text": "Standard Lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f453440d-df20-4b7c-8bc5-311cf1febefd",
+    "data": [
+      {
+        "text": "Is there dairy in the ",
+        "userDefined": false
+      },
+      {
+        "text": "Evening Snack",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "31e9a6c0-4b60-48e0-8fca-4d49c13a02d4",
+    "data": [
+      {
+        "text": "Cafeteria menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7924dcc8-b822-4e73-a2c0-b8d4331e3684",
+    "data": [
+      {
+        "text": "Lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": " options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ba33239-b4ee-4403-b9ae-dfbbe1c031c0",
+    "data": [
+      {
+        "text": "What's for ",
+        "userDefined": false
+      },
+      {
+        "text": "lunch",
+        "alias": "meal_type",
+        "meta": "@Meal_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

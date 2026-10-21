@@ -1,0 +1,39 @@
+{
+  "id": "6dc9f912-b1b2-4a63-bfb3-2e7ced7d33b2",
+  "name": "Report_Student_Absence - cancel",
+  "auto": true,
+  "contexts": [
+    "Report_Student_Absence-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "report_student_absence_cancel",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "No sweat! Cancelled the absence report. Nothing was submitted, and attendance remains normal.",
+            "Got it, scratched that! Draft absence was discarded. Let me know if you need anything else.",
+            "All good! Absence report cancelled. No changes were made to the records."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "e46b4908-9111-4698-918a-7cdbe7f45355",
+  "rootId": "e46b4908-9111-4698-918a-7cdbe7f45355"
+}

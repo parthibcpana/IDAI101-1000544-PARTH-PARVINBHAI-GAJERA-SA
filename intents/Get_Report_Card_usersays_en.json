@@ -1,0 +1,288 @@
+[
+  {
+    "id": "1e093e11-f3fb-4bd1-856d-c3dda9c853d6",
+    "data": [
+      {
+        "text": "I want to see the ",
+        "userDefined": false
+      },
+      {
+        "text": "report card",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c1db15b-9850-4e3a-90c5-4b968286a3f6",
+    "data": [
+      {
+        "text": "Can I check my child's grades?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6fe07cbd-f4c8-40de-b77e-0751bd41c255",
+    "data": [
+      {
+        "text": "Download student ",
+        "userDefined": false
+      },
+      {
+        "text": "report card",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "180aadef-9606-41ab-913c-45ac548c01d2",
+    "data": [
+      {
+        "text": "Progress report",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for my kid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d65b92b2-0673-4344-87e4-9e5a48653774",
+    "data": [
+      {
+        "text": "Get exam results for student ",
+        "userDefined": false
+      },
+      {
+        "text": "STU10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "421c798e-a406-4ac4-a2b1-4bc51e3ae25a",
+    "data": [
+      {
+        "text": "How did my child perform in the exams?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "07410034-84f2-439d-bb14-b09233c7b5c7",
+    "data": [
+      {
+        "text": "Check term ",
+        "userDefined": false
+      },
+      {
+        "text": "marksheet",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e901f169-d072-4fa1-9d8e-9ad1b45dc6a8",
+    "data": [
+      {
+        "text": "View ",
+        "userDefined": false
+      },
+      {
+        "text": "report card",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu32543",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "619f5f9a-e5c5-4200-aced-e56fe4697b31",
+    "data": [
+      {
+        "text": "Show academic performance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "797a6cf4-5510-47d9-80e1-71928585e33c",
+    "data": [
+      {
+        "text": "Academic ",
+        "userDefined": false
+      },
+      {
+        "text": "report card",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Term 1",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ec6d0aa8-2903-4a5a-b540-67af47687547",
+    "data": [
+      {
+        "text": "How are my child's marks in ",
+        "userDefined": false
+      },
+      {
+        "text": "Midterm Exam",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bbcc8304-6876-4c44-bc54-52c06f37a570",
+    "data": [
+      {
+        "text": "Can I download the latest ",
+        "userDefined": false
+      },
+      {
+        "text": "marksheet",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "59109cb2-9c58-422c-a099-cebe8df51f2b",
+    "data": [
+      {
+        "text": "Check ",
+        "userDefined": false
+      },
+      {
+        "text": "report card",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "as5425",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c49ac9ae-2c1b-433b-83b9-5a393857a7ee",
+    "data": [
+      {
+        "text": "View marks for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

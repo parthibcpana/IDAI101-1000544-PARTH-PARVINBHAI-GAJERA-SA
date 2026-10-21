@@ -1,0 +1,39 @@
+{
+  "id": "ee7b6140-3f80-4440-98d0-10dde10928f5",
+  "name": "Request_Teacher_Appointment - cancel",
+  "auto": true,
+  "contexts": [
+    "Request_Teacher_Appointment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "request_teacher_appointment_cancel",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "No worries at all! Cancelled the appointment request. Nothing was booked.",
+            "Got it, cancelled! No meeting was scheduled. Feel free to request one whenever you're ready.",
+            "No problem! Discarded the meeting draft. What else can I help you with?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "bd7d91a4-d307-4b81-985a-25b58bb76ed0",
+  "rootId": "bd7d91a4-d307-4b81-985a-25b58bb76ed0"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "cce9fab6-b1bb-4ad3-b036-da7ebb418af7",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "default_welcome_intent",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9fd36095-a651-42f4-8184-3f7942bdb33f",
+          "name": "school_subject",
+          "required": false,
+          "dataType": "@School_Subject",
+          "value": "$school_subject",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hey there! Welcome to ParentConnect AI. Whether you're a parent or school staff, I've got you covered with attendance, bus routes, fees, and daily notices. What can I look up for you?",
+            "Hi! Welcome to ParentConnect AI. How can I help you today? Ask me anything about bus timings, student attendance, homework, or upcoming school events.",
+            "Hello! Welcome to ParentConnect AI, your 24/7 school assistant. What's on your mind today? I can pull up student records, lunch menus, fees, or event schedules in a snap."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Quick choices:",
+          "replies": [
+            "Check Attendance",
+            "Track School Bus",
+            "Fee Details",
+            "Report Absence",
+            "Sports & Clubs"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

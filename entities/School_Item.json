@@ -1,0 +1,9 @@
+{
+  "id": "22c5dc0d-c088-43b5-8d51-8711188ebb47",
+  "name": "School_Item",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

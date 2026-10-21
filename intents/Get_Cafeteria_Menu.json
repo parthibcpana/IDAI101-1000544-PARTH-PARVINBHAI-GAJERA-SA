@@ -1,0 +1,75 @@
+{
+  "id": "e14d7969-0527-410a-a6e1-854f8e8046cd",
+  "name": "Get_Cafeteria_Menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_cafeteria_menu",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bb7ebe45-7d78-479e-aa75-a985a376bddc",
+          "name": "meal_type",
+          "required": false,
+          "dataType": "@Meal_Type",
+          "value": "$meal_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b3cdae9e-589b-42cb-bdcb-1c9b6028611e",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Today's lunch menu: Grilled chicken with brown rice or Vegetarian pasta with roasted veggies, plus a salad bowl and fresh fruit. 100% nut-free!",
+            "What's cooking today: Choice of grilled chicken with brown rice or Vegetarian pasta with veggies, served with salad and fresh fruit. Completely nut-free!",
+            "Here's lunch today: Grilled chicken with brown rice, or a Vegetarian pasta with roasted veggies, with side salad and fresh fruit. Strictly nut-free!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Meal choices:",
+          "replies": [
+            "Standard Lunch",
+            "Vegetarian Meal",
+            "Breakfast Menu",
+            "Snack Menu"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

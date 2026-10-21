@@ -1,0 +1,102 @@
+{
+  "id": "eb04362a-0bd8-4a0e-9692-7142082c7b93",
+  "name": "Get_Exam_Schedule",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_exam_schedule",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b4277459-2a3f-4e38-a8e3-53a3b5e76ae7",
+          "name": "academic_term",
+          "required": false,
+          "dataType": "@Academic_Term",
+          "value": "$academic_term",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "518d6e37-6d16-4aa6-9264-f33e23b3cc04",
+          "name": "grade_level",
+          "required": false,
+          "dataType": "@Grade_Level",
+          "value": "$grade_level",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d86b5efc-01f6-48de-b50a-55f004911159",
+          "name": "notice_category",
+          "required": false,
+          "dataType": "@Notice_Category",
+          "value": "$notice_category",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "03ce1fcd-0af9-4ff7-b7a5-76364788ff97",
+          "name": "school_subject",
+          "required": false,
+          "dataType": "@School_Subject",
+          "value": "$school_subject",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Midterm Exams run from Monday, Nov 10 to Friday, Nov 21. Exam sessions start at 9:00 AM daily (reporting time 8:40 AM). Full timetable is on the portal!",
+            "Mark your calendar! Midterm Exams are scheduled Nov 10–21, starting at 9:00 AM every morning. Full date sheet is ready on the school portal.",
+            "Midterms kick off Monday, Nov 10 and wrap up Friday, Nov 21. Daily exams start promptly at 9:00 AM. Grab the complete timetable from the portal!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select Term:",
+          "replies": [
+            "Midterm Exam",
+            "Final Term",
+            "Unit Test"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "663088eb-d488-41ed-9275-8a78122a371c",
+  "name": "Student_ID",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": true,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

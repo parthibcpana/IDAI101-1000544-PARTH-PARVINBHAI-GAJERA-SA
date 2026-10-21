@@ -1,0 +1,327 @@
+[
+  {
+    "id": "6d63c7a8-1cb0-40a3-9f81-85774a066b0e",
+    "data": [
+      {
+        "text": "How can I pay school fees?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f4d8f91-863e-4401-a534-b68ecb731f84",
+    "data": [
+      {
+        "text": "Can I pay ",
+        "userDefined": false
+      },
+      {
+        "text": "Tuition Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " with ",
+        "userDefined": false
+      },
+      {
+        "text": "UPI",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a926c778-d316-4a9f-bde5-fb84c79d3ba5",
+    "data": [
+      {
+        "text": "What payment methods are accepted?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efddee57-b6c3-4de3-90c3-567ad7e643b5",
+    "data": [
+      {
+        "text": "How to pay via ",
+        "userDefined": false
+      },
+      {
+        "text": "Online Portal",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b12dd6e-1111-4b8a-a202-152d640ed108",
+    "data": [
+      {
+        "text": "Can I pay fees with ",
+        "userDefined": false
+      },
+      {
+        "text": "Credit Card",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0cc631ae-aed7-490d-acdf-5b2727e5dcd6",
+    "data": [
+      {
+        "text": "Net Banking",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": " payment options for ",
+        "userDefined": false
+      },
+      {
+        "text": "school fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6d23643-4366-4d00-bc6e-771459c462c9",
+    "data": [
+      {
+        "text": "Is ",
+        "userDefined": false
+      },
+      {
+        "text": "cash",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": " accepted for fee payment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4ef089b-fb83-4c6b-8d5f-0220f7d275e5",
+    "data": [
+      {
+        "text": "Can I submit a ",
+        "userDefined": false
+      },
+      {
+        "text": "Bank Demand Draft",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Tuition Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a2f2256f-b974-4ca8-9f30-9bcb732fd6d1",
+    "data": [
+      {
+        "text": "Payment options for ",
+        "userDefined": false
+      },
+      {
+        "text": "Transport Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "706c913d-1e87-49d4-8f2e-903bb504a07e",
+    "data": [
+      {
+        "text": "How do I pay school dues using ",
+        "userDefined": false
+      },
+      {
+        "text": "Google Pay",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02800394-aba9-46bf-a280-fefc950ee7da",
+    "data": [
+      {
+        "text": "Pay fees via ",
+        "userDefined": false
+      },
+      {
+        "text": "PhonePe",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": " or ",
+        "userDefined": false
+      },
+      {
+        "text": "UPI",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a167f79b-5b41-4f04-8ede-6f429d135883",
+    "data": [
+      {
+        "text": "Installment payment options for ",
+        "userDefined": false
+      },
+      {
+        "text": "Tuition Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4ac82ea-b4fc-4701-88ce-5f247136ec2e",
+    "data": [
+      {
+        "text": "Can I pay at the ",
+        "userDefined": false
+      },
+      {
+        "text": "Cash Counter",
+        "alias": "payment_mode",
+        "meta": "@Payment_Mode",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11971c05-7664-4cde-997c-696dbfab10ed",
+    "data": [
+      {
+        "text": "Payment methods",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8a95f724-2c25-4e48-8bba-0eb70faf7cd8",
+    "data": [
+      {
+        "text": "How to pay fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

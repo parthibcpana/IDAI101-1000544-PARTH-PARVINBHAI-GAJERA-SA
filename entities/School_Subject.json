@@ -1,0 +1,9 @@
+{
+  "id": "ac8f948e-54c8-46ad-9e44-669c11ac2595",
+  "name": "School_Subject",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

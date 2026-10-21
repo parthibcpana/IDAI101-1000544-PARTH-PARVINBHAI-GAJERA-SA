@@ -1,0 +1,49 @@
+[
+  {
+    "value": "Standard Lunch",
+    "synonyms": [
+      "Standard Lunch",
+      "Regular Lunch",
+      "Hot Lunch",
+      "Daily Thali",
+      "Non-Veg Lunch"
+    ]
+  },
+  {
+    "value": "Vegetarian Meal",
+    "synonyms": [
+      "Vegetarian Meal",
+      "Veg Lunch",
+      "Pure Veg Option",
+      "Jain Meal"
+    ]
+  },
+  {
+    "value": "Breakfast",
+    "synonyms": [
+      "Breakfast",
+      "Morning Meal",
+      "Cereal & Milk",
+      "Morning Tiffin"
+    ]
+  },
+  {
+    "value": "Afternoon Snack",
+    "synonyms": [
+      "Afternoon Snack",
+      "Evening Refreshment",
+      "Juice & Cookies",
+      "Tea Time Snack"
+    ]
+  },
+  {
+    "value": "Gluten-Free & Allergy Safe",
+    "synonyms": [
+      "Gluten-Free & Allergy Safe",
+      "Allergy Meal",
+      "Nut-Free Lunch",
+      "Diabetic Meal",
+      "Special Diet"
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "id": "4582336a-8036-40c2-92cd-2ddd7a0b276b",
+  "name": "Get_Report_Card - provide_id",
+  "auto": true,
+  "contexts": [
+    "Get_Report_Card-asking_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_report_card_provide_id",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "04692c29-df47-4ce2-97a9-283e6383574f",
+          "name": "student_id",
+          "required": true,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Awesome news for student $student_id! Overall GPA is 3.8 / 4.0 (A Grade), with top marks in Math (94%) and Science (91%). Full PDF is downloadable on the parent portal!",
+            "Got the results for $student_id: Term GPA is 3.8 / 4.0 (A Grade), led by Math at 94% and Science at 91%. Grab the full signed report card on the parent portal!",
+            "Here's how $student_id did: Overall GPA is 3.8 / 4.0 (Grade A)! Math scored 94% and Science scored 91%. You can view the full report card on the parent portal."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Actions:",
+          "replies": [
+            "Teacher Meeting",
+            "Attendance Check",
+            "Fee Details"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "c9a476c8-1508-4807-b89d-bc3c45464b3c",
+  "rootId": "c9a476c8-1508-4807-b89d-bc3c45464b3c"
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "cbc925e5-5566-4f23-b434-58590651ec82",
+    "data": [
+      {
+        "text": "Cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "20771e9b-5f81-4805-bbbc-91acefffe482",
+    "data": [
+      {
+        "text": "No don't submit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56d3ed56-accd-4d53-a7d2-73674b4f5d95",
+    "data": [
+      {
+        "text": "Never mind",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3f407ab3-145f-4ad9-9f80-510aa9269a8d",
+    "data": [
+      {
+        "text": "Cancel the absence report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c825e9a-698a-4807-bbfd-c13f9ae9293f",
+    "data": [
+      {
+        "text": "Stop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "98e43741-6152-41f4-bde2-dcf7e0261f3c",
+    "data": [
+      {
+        "text": "Don't send it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8fc2ac43-0913-4785-82fa-472f6fef96aa",
+    "data": [
+      {
+        "text": "No cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8618bb18-aeec-4ce9-a80e-8f127dc6bd4a",
+    "data": [
+      {
+        "text": "I made a mistake cancel it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d51f2bd7-1557-43a4-a0e3-d8e28108706f",
+    "data": [
+      {
+        "text": "Discard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45d6766a-85f8-4ef0-b0fc-85394f867b5f",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c0131637-3fef-4cf7-8849-3ecfbe3d0248",
+    "data": [
+      {
+        "text": "Abort",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "48876ba9-e1fc-4022-97de-cd9d8e2fccf0",
+    "data": [
+      {
+        "text": "Don't file it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

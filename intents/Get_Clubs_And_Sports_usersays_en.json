@@ -1,0 +1,690 @@
+[
+  {
+    "id": "dda42880-6cbc-4727-bb4c-5f846a496c05",
+    "data": [
+      {
+        "text": "how many ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " are available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "99cfa3c5-0e56-4530-b3f2-692de63289c0",
+    "data": [
+      {
+        "text": "how many ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " are available in school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "916fa426-69ae-405b-81ff-5531d3f39d37",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " are available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e392d710-9140-4c19-8090-351a50145a39",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " are available in school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b30b83f-bd60-423f-b881-d19720efd3d4",
+    "data": [
+      {
+        "text": "which ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " are available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6eaa2f3a-b7cb-472e-a48d-57325a17c99a",
+    "data": [
+      {
+        "text": "available ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3664f9cf-637c-40c9-8390-8277caa540dc",
+    "data": [
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " available in school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c05c3d4-4373-4dbb-8db2-04906b8d2ddf",
+    "data": [
+      {
+        "text": "list of ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cf298b47-25c5-48da-9f02-198d3fe4be7c",
+    "data": [
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "50736e75-d1f0-4bfd-84fd-d2d3d242a4ff",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " can students play",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d63c0515-cb2c-42fa-a280-5c8d85bb2c4f",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " can my child play at school?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "455561c9-02ed-4057-a1ff-43847c8341e3",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " activities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2cbb7c8f-586b-4a38-9bae-8ea3b6238c36",
+    "data": [
+      {
+        "text": "how many clubs are there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb31897a-c32b-489f-9e57-024da36350ef",
+    "data": [
+      {
+        "text": "what clubs are available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cfba53a8-af8e-4c2b-9f52-151c08552e21",
+    "data": [
+      {
+        "text": "which clubs can students join",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ac9fd35-b42d-4a33-9965-d6138397ee63",
+    "data": [
+      {
+        "text": "What extracurricular activities are available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fab12019-480b-43f2-87fa-6f81ac3ff05d",
+    "data": [
+      {
+        "text": "Are there any clubs like ",
+        "userDefined": false
+      },
+      {
+        "text": "robotics",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " or ",
+        "userDefined": false
+      },
+      {
+        "text": "drama",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "991ab8ca-89c0-43b6-891a-677894d838f1",
+    "data": [
+      {
+        "text": "After-school ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " programs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df10eba2-7ecb-4e5e-80c0-01e3a4e4b5a7",
+    "data": [
+      {
+        "text": "How can my child join the school ",
+        "userDefined": false
+      },
+      {
+        "text": "soccer",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " team?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b3608d1-e7e4-4d11-b494-14f6c4718c10",
+    "data": [
+      {
+        "text": "List of student clubs and activities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70b68323-1eef-43e4-b721-8d656c82788b",
+    "data": [
+      {
+        "text": "Does the school have a ",
+        "userDefined": false
+      },
+      {
+        "text": "music",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " club or ",
+        "userDefined": false
+      },
+      {
+        "text": "choir",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aebe7ad8-c3ab-4309-869c-a40724c5f6ec",
+    "data": [
+      {
+        "text": "Athletics",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " facilities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78c85691-c318-4130-a25e-4a43b46f7dd0",
+    "data": [
+      {
+        "text": "Co-curricular activities at school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ddc5e4b-f474-4ced-975f-4646b14de3f3",
+    "data": [
+      {
+        "text": "How to enroll in the ",
+        "userDefined": false
+      },
+      {
+        "text": "robotics",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " club?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7f170b09-dfb1-4a93-8bf1-172e09070429",
+    "data": [
+      {
+        "text": "Swimming",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " pool and ",
+        "userDefined": false
+      },
+      {
+        "text": "basketball",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " facilities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36220b5a-ec6b-4e36-9173-fd6d2be37d36",
+    "data": [
+      {
+        "text": "Debate",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " club and ",
+        "userDefined": false
+      },
+      {
+        "text": "drama",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " society enrollment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f63921dd-735d-4e69-92b9-f320ba889642",
+    "data": [
+      {
+        "text": "When are trials for the ",
+        "userDefined": false
+      },
+      {
+        "text": "cricket",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "basketball",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " team?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ee7785a0-b52e-40e1-85eb-ad8b47bd6031",
+    "data": [
+      {
+        "text": "can my child play ",
+        "userDefined": false
+      },
+      {
+        "text": "basketball",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89f35513-a1ec-48c6-ba1a-172956b89852",
+    "data": [
+      {
+        "text": "swimming",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " team trials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb868a71-e3bd-454f-9cee-34ec0fab768a",
+    "data": [
+      {
+        "text": "chess",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " club enrollment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0ac9a88-c74d-4594-9b9a-4e6d3282cef1",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      },
+      {
+        "text": " activities do you have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "128c8113-4d84-4c4a-a719-b873936be862",
+    "data": [
+      {
+        "text": "sports",
+        "alias": "activity_type",
+        "meta": "@Activity_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

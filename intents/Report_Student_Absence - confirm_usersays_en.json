@@ -1,0 +1,171 @@
+[
+  {
+    "id": "e40b83a9-fa44-42cf-bc4f-52f0aea5ed88",
+    "data": [
+      {
+        "text": "Yes submit it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57e65d35-4111-424f-8b35-91ee83d37503",
+    "data": [
+      {
+        "text": "Confirm absence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c09f1d5a-da24-4fb9-bfe8-ff047ab469df",
+    "data": [
+      {
+        "text": "Yes please log it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "35cb81a0-683f-4f8b-8b4d-dcee833d755d",
+    "data": [
+      {
+        "text": "Send the note",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6f060b6-cfdb-4e4a-97d0-99ed4d460e08",
+    "data": [
+      {
+        "text": "Yes that's correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f155fb7-9824-449a-b41a-e2aaaad4a844",
+    "data": [
+      {
+        "text": "Confirm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f1e2498e-dad2-4f12-a436-8715bdbeeedd",
+    "data": [
+      {
+        "text": "Yes please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc4ce5fb-7a48-40cb-9691-5c4d4af18d12",
+    "data": [
+      {
+        "text": "Go ahead and submit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "426536d1-85d1-46bd-8c5e-184f38686d3f",
+    "data": [
+      {
+        "text": "Please confirm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2d5dc11d-bfb4-4c51-8374-e0620b540142",
+    "data": [
+      {
+        "text": "Yes file the absence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0e7e14e5-aca0-4cf1-8454-a200d779fb92",
+    "data": [
+      {
+        "text": "Yes send it to the teacher",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97ea62dd-e188-40eb-8847-e89b13dd2a5d",
+    "data": [
+      {
+        "text": "Confirm the leave",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a21c563b-7a7f-4d4e-8999-e571b3d0cac8",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "id": "006831d4-dd6f-4eb8-a3f2-8769e6eabe87",
+  "name": "Request_Certificate_Document",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "request_certificate_document",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "14258453-3e9e-4558-a4ea-75355ba9394e",
+          "name": "document_type",
+          "required": true,
+          "dataType": "@Document_Type",
+          "value": "$document_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            "Which certificate do you need? (e.g., Bonafide Certificate, Transfer Certificate, or Fee Receipt)."
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "71c9caa0-6ec4-4827-96af-c36782f910f9",
+          "name": "student_id",
+          "required": true,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            "What's your child's Student ID? (e.g., stu32543, as5425, or STU10293)."
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Got it! Your request for a $document_type for student $student_id is in. Takes 2–3 business days, and we'll text you when it's signed and ready!",
+            "All set! Processing $document_type for student $student_id. Standard turnaround is 2–3 working days. You'll get an SMS as soon as it's ready!",
+            "Request logged! Application for $document_type for student $student_id takes about 2 business days. We'll ping you once it's stamped and ready for pickup."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select document:",
+          "replies": [
+            "Bonafide Cert",
+            "Transfer Cert",
+            "Fee Receipt",
+            "Character Cert"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

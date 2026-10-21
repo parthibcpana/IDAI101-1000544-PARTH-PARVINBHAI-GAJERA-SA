@@ -1,0 +1,75 @@
+{
+  "id": "c74988ff-95b7-460e-88c9-165ba233afbd",
+  "name": "Track_School_Bus",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "track_school_bus",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ed5328ff-9438-4908-b71c-6c412990f8e8",
+          "name": "transport_route",
+          "required": false,
+          "dataType": "@Transport_Route",
+          "value": "$transport_route",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9e7704be-bf45-49b1-b4be-091da7d635b9",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Live update: School Bus Route 3 is near Central Park Crossing, running about 8–10 minutes from the next stop. Kids are safe onboard! Dispatch desk: (555) 019-2834.",
+            "Gotcha! Route 3 is currently rolling past Central Park Crossing and is about 8–10 minutes away. Everything's smooth! For live dispatch, call (555) 019-2834.",
+            "Route 3 status: Currently near Central Park Crossing, ETA 8–10 minutes to the next stop. All safe! Need dispatch? Ring (555) 019-2834."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Other bus routes:",
+          "replies": [
+            "Route 1",
+            "Route 2",
+            "Route 4",
+            "Call Dispatch"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

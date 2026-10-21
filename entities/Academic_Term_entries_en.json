@@ -1,0 +1,51 @@
+[
+  {
+    "value": "Term 1",
+    "synonyms": [
+      "Term 1",
+      "First Term",
+      "First Semester",
+      "Quarter 1",
+      "Fall Term"
+    ]
+  },
+  {
+    "value": "Term 2",
+    "synonyms": [
+      "Term 2",
+      "Second Term",
+      "Second Semester",
+      "Quarter 2",
+      "Spring Term"
+    ]
+  },
+  {
+    "value": "Midterm Exam",
+    "synonyms": [
+      "Midterm Exam",
+      "Midterm",
+      "Half Yearly",
+      "Midterm Assessment",
+      "Half-Yearly Exam"
+    ]
+  },
+  {
+    "value": "Final Exam",
+    "synonyms": [
+      "Final Exam",
+      "Annual Exam",
+      "Finals",
+      "Year-End Assessment",
+      "Board Exam"
+    ]
+  },
+  {
+    "value": "Unit Test",
+    "synonyms": [
+      "Unit Test",
+      "Weekly Assessment",
+      "Monthly Test",
+      "Quiz Week"
+    ]
+  }
+]

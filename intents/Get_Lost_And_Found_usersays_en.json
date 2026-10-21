@@ -1,0 +1,414 @@
+[
+  {
+    "id": "4ed218c3-ebbb-481f-8ed6-01d920898c88",
+    "data": [
+      {
+        "text": "Where is the lost and found office?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "524982c3-b045-4f92-ab68-b841cf797fb3",
+    "data": [
+      {
+        "text": "My child lost their ",
+        "userDefined": false
+      },
+      {
+        "text": "water bottle",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": " at school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6fa0e0af-a041-4421-94f2-93dc23f2306e",
+    "data": [
+      {
+        "text": "Lost ",
+        "userDefined": false
+      },
+      {
+        "text": "water bottle",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b0f19605-9d31-4cb0-849f-d92b0a477b44",
+    "data": [
+      {
+        "text": "Lost ",
+        "userDefined": false
+      },
+      {
+        "text": "lunchbox",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": " in the cafeteria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "60e6abf7-e63d-4d1d-b159-30d19e3a1524",
+    "data": [
+      {
+        "text": "Has anyone found a ",
+        "userDefined": false
+      },
+      {
+        "text": "lunchbox",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f832649-8fde-4521-8a1e-556989177d00",
+    "data": [
+      {
+        "text": "Where do I report lost ",
+        "userDefined": false
+      },
+      {
+        "text": "eyeglasses",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9bab92ac-ab0b-4f40-a9de-75f2eb92f4f2",
+    "data": [
+      {
+        "text": "Lost ",
+        "userDefined": false
+      },
+      {
+        "text": "glasses",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": " on the school bus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f630b618-d19e-41ea-9386-48166120952d",
+    "data": [
+      {
+        "text": "Lost ",
+        "userDefined": false
+      },
+      {
+        "text": "school blazer",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": " on the bus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd45f2c8-a441-46a4-a088-63f0863f2538",
+    "data": [
+      {
+        "text": "Misplaced ",
+        "userDefined": false
+      },
+      {
+        "text": "jacket",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": " in classroom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf770280-7fcc-44ae-aef6-fceab3e0b932",
+    "data": [
+      {
+        "text": "My child forgot their ",
+        "userDefined": false
+      },
+      {
+        "text": "sweater",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f5841017-3a58-4458-8abb-ca68c8c3b4b7",
+    "data": [
+      {
+        "text": "Lost ",
+        "userDefined": false
+      },
+      {
+        "text": "pencil case",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": " in school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3cccf6b3-2a17-49f0-98d6-d34b79c8ac14",
+    "data": [
+      {
+        "text": "Did anyone find a blue ",
+        "userDefined": false
+      },
+      {
+        "text": "backpack",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "94a6804b-2597-4edd-8846-8ab64650c273",
+    "data": [
+      {
+        "text": "Lost ",
+        "userDefined": false
+      },
+      {
+        "text": "backpack",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9082ec6f-5e47-40e0-85eb-e8766415130f",
+    "data": [
+      {
+        "text": "Missing ",
+        "userDefined": false
+      },
+      {
+        "text": "student ID card",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "238ff5f3-7acd-4d98-b735-45e4e86888ed",
+    "data": [
+      {
+        "text": "My son misplaced his ",
+        "userDefined": false
+      },
+      {
+        "text": "lunchbox",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22ca3c97-1341-4c32-ac5f-ac0a6a7e995a",
+    "data": [
+      {
+        "text": "How to retrieve items left on school bus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca44db3a-6d73-4da0-abac-00ff4ea5900d",
+    "data": [
+      {
+        "text": "Campus lost and found policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "443a63ca-6e60-4e4e-964f-a22bf999cdac",
+    "data": [
+      {
+        "text": "Inquire about misplaced ",
+        "userDefined": false
+      },
+      {
+        "text": "school blazer",
+        "alias": "school_item",
+        "meta": "@School_Item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68cdd99e-8d81-496e-8b6b-1ef1e656a8e5",
+    "data": [
+      {
+        "text": "Where are lost items kept?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97df01b2-a839-4651-9373-7d771dcfc1d2",
+    "data": [
+      {
+        "text": "How do I claim a lost item?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8ff8e3d4-df56-487c-b06a-23fabed8067a",
+    "data": [
+      {
+        "text": "Lost property desk location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb7d87e0-4143-4f07-8def-34d2e11d582f",
+    "data": [
+      {
+        "text": "Lost and found",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

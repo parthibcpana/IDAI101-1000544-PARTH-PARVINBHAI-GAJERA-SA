@@ -1,0 +1,242 @@
+[
+  {
+    "id": "5b92f013-6adc-4b48-b4c0-e7104354eba6",
+    "data": [
+      {
+        "text": "Check attendance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d365d5c-5e95-4f2d-ac00-ee93275537b3",
+    "data": [
+      {
+        "text": "How is my child's attendance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "900ed564-d8bd-4f97-b5e3-9b87c20cdbaf",
+    "data": [
+      {
+        "text": "Has my child been attending classes regularly?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8e4fab09-637d-40f9-b7d8-7019fd5de623",
+    "data": [
+      {
+        "text": "Attendance record for my kid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fedb0b99-9d5c-4e41-9a25-5aa7992c02ec",
+    "data": [
+      {
+        "text": "I want to see student attendance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47425df1-b4f4-45cf-9d24-09943c4b5a79",
+    "data": [
+      {
+        "text": "Check attendance for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ec59234-ffa5-4902-9297-b6c71a32e7d2",
+    "data": [
+      {
+        "text": "Look up attendance for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu32543",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9496078-bc94-428b-adf5-d5fc869fda61",
+    "data": [
+      {
+        "text": "Can you show attendance for ",
+        "userDefined": false
+      },
+      {
+        "text": "as5425",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c52ef1b1-1272-4038-8372-acb91657831c",
+    "data": [
+      {
+        "text": "Attendance percentage for my child",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ffee0a3d-ef64-4410-af9b-1244c2299c41",
+    "data": [
+      {
+        "text": "Is my son marked present ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b22289d5-c05b-4f63-8ceb-94fd9be0ff53",
+    "data": [
+      {
+        "text": "Did my daughter reach class ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "235df651-4701-4af9-b65f-ff16da32cd8d",
+    "data": [
+      {
+        "text": "Show me attendance summary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8a4f94c-20b6-409a-984b-3574f70099ea",
+    "data": [
+      {
+        "text": "Check attendance for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU54321",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "844dc18c-05bb-4e0b-8812-be58fd6dae2d",
+    "data": [
+      {
+        "text": "Look up ",
+        "userDefined": false
+      },
+      {
+        "text": "stu10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      },
+      {
+        "text": " attendance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

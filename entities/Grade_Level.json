@@ -1,0 +1,9 @@
+{
+  "id": "1972cb3a-961b-4178-a9ba-8d8726d3178e",
+  "name": "Grade_Level",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

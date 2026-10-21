@@ -1,0 +1,324 @@
+[
+  {
+    "id": "56d6a461-5945-4d0b-93ad-476e47dd89e4",
+    "data": [
+      {
+        "text": "I need a ",
+        "userDefined": false
+      },
+      {
+        "text": "Bonafide Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for student ",
+        "userDefined": false
+      },
+      {
+        "text": "STU10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d902df3c-d9db-420f-823e-dad1cf382e8d",
+    "data": [
+      {
+        "text": "Apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "Transfer Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7cc19520-2c67-4425-a762-5f2eb7f028fe",
+    "data": [
+      {
+        "text": "Request ",
+        "userDefined": false
+      },
+      {
+        "text": "Study Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu32543",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da8e59eb-9923-4e6f-9f82-cb4d354cdf8a",
+    "data": [
+      {
+        "text": "I need a ",
+        "userDefined": false
+      },
+      {
+        "text": "Fee Receipt",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "as5425",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "466ed95a-d363-4171-b313-153a3176c6e8",
+    "data": [
+      {
+        "text": "Request ",
+        "userDefined": false
+      },
+      {
+        "text": "School Leaving Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "038723c8-3711-4ca9-af69-f98e20ec0a08",
+    "data": [
+      {
+        "text": "How to get a ",
+        "userDefined": false
+      },
+      {
+        "text": "Bonafide Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4bf6f7b-2282-4788-bdb1-9d632e93dcf0",
+    "data": [
+      {
+        "text": "Need ",
+        "userDefined": false
+      },
+      {
+        "text": "Character Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1bd9f990-8e65-4c45-8dec-3337e8764e4b",
+    "data": [
+      {
+        "text": "Certificate request for student ",
+        "userDefined": false
+      },
+      {
+        "text": "stu54321",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b745d03b-62e5-4348-818a-3fa0b883230c",
+    "data": [
+      {
+        "text": "Apply for student ",
+        "userDefined": false
+      },
+      {
+        "text": "Migration Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "107e93d1-5a04-41a1-972f-d0dda69b785a",
+    "data": [
+      {
+        "text": "Request ",
+        "userDefined": false
+      },
+      {
+        "text": "Bonafide Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU12345",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7c971b56-7e38-49c1-bc86-65a67cb6dce6",
+    "data": [
+      {
+        "text": "How do I get an official ",
+        "userDefined": false
+      },
+      {
+        "text": "Fee Receipt",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "41ef6047-2441-44d2-ad13-97a4e25cfd88",
+    "data": [
+      {
+        "text": "Download grade transcript for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14405d8f-39e3-4319-82e0-10c5cc1fbfff",
+    "data": [
+      {
+        "text": "I need a ",
+        "userDefined": false
+      },
+      {
+        "text": "Bonafide Certificate",
+        "alias": "document_type",
+        "meta": "@Document_Type",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "08275548-26ea-413a-b4c0-79be7ef8d411",
+    "data": [
+      {
+        "text": "Need a certificate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "value": "Route 1",
+    "synonyms": [
+      "Route 1",
+      "Bus 1",
+      "North Line",
+      "North Sector Route"
+    ]
+  },
+  {
+    "value": "Route 2",
+    "synonyms": [
+      "Route 2",
+      "Bus 2",
+      "South Line",
+      "South Sector Route"
+    ]
+  },
+  {
+    "value": "Route 3",
+    "synonyms": [
+      "Route 3",
+      "Bus 3",
+      "East Line",
+      "Downtown Express"
+    ]
+  },
+  {
+    "value": "Route 4",
+    "synonyms": [
+      "Route 4",
+      "Bus 4",
+      "West Line",
+      "Suburban Line"
+    ]
+  },
+  {
+    "value": "Route 5",
+    "synonyms": [
+      "Route 5",
+      "Bus 5",
+      "Central Highway",
+      "Main Avenue Bus"
+    ]
+  },
+  {
+    "value": "Route 6",
+    "synonyms": [
+      "Route 6",
+      "Bus 6",
+      "Greenwood Colony Bus"
+    ]
+  },
+  {
+    "value": "Route 7",
+    "synonyms": [
+      "Route 7",
+      "Bus 7",
+      "Palm Grove Route"
+    ]
+  },
+  {
+    "value": "Route 8",
+    "synonyms": [
+      "Route 8",
+      "Bus 8",
+      "Sunrise Hills Bus"
+    ]
+  }
+]

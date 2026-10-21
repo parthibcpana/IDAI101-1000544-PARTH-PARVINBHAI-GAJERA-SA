@@ -1,0 +1,49 @@
+[
+  {
+    "value": "Academic Progress",
+    "synonyms": [
+      "Academic Progress",
+      "Grades & Marks",
+      "Studies Concern",
+      "Subject Help",
+      "Learning Difficulty"
+    ]
+  },
+  {
+    "value": "Behavioral Concern",
+    "synonyms": [
+      "Behavioral Concern",
+      "Discipline Issue",
+      "Classroom Behavior",
+      "Social Interaction",
+      "Bullying Concern"
+    ]
+  },
+  {
+    "value": "Attendance Issues",
+    "synonyms": [
+      "Attendance Issues",
+      "Frequent Absences",
+      "Attendance Shortage",
+      "Medical Leave Review"
+    ]
+  },
+  {
+    "value": "Fee & Accounts Query",
+    "synonyms": [
+      "Fee & Accounts Query",
+      "Scholarship Discussion",
+      "Payment Plan",
+      "Fee Waiver"
+    ]
+  },
+  {
+    "value": "Career & Stream Guidance",
+    "synonyms": [
+      "Career & Stream Guidance",
+      "Subject Selection",
+      "College Prep",
+      "Stream Choice for Grade 11"
+    ]
+  }
+]

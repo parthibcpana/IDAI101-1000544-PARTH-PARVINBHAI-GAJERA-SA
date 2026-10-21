@@ -1,0 +1,126 @@
+[
+  {
+    "value": "Kindergarten",
+    "synonyms": [
+      "Kindergarten",
+      "KG",
+      "Pre-K",
+      "Nursery",
+      "Prep"
+    ]
+  },
+  {
+    "value": "Grade 1",
+    "synonyms": [
+      "Grade 1",
+      "1st Grade",
+      "Class 1",
+      "First Grade"
+    ]
+  },
+  {
+    "value": "Grade 2",
+    "synonyms": [
+      "Grade 2",
+      "2nd Grade",
+      "Class 2",
+      "Second Grade"
+    ]
+  },
+  {
+    "value": "Grade 3",
+    "synonyms": [
+      "Grade 3",
+      "3rd Grade",
+      "Class 3",
+      "Third Grade"
+    ]
+  },
+  {
+    "value": "Grade 4",
+    "synonyms": [
+      "Grade 4",
+      "4th Grade",
+      "Class 4",
+      "Fourth Grade"
+    ]
+  },
+  {
+    "value": "Grade 5",
+    "synonyms": [
+      "Grade 5",
+      "5th Grade",
+      "Class 5",
+      "Fifth Grade"
+    ]
+  },
+  {
+    "value": "Grade 6",
+    "synonyms": [
+      "Grade 6",
+      "6th Grade",
+      "Class 6",
+      "Sixth Grade",
+      "Middle School"
+    ]
+  },
+  {
+    "value": "Grade 7",
+    "synonyms": [
+      "Grade 7",
+      "7th Grade",
+      "Class 7",
+      "Seventh Grade"
+    ]
+  },
+  {
+    "value": "Grade 8",
+    "synonyms": [
+      "Grade 8",
+      "8th Grade",
+      "Class 8",
+      "Eighth Grade"
+    ]
+  },
+  {
+    "value": "Grade 9",
+    "synonyms": [
+      "Grade 9",
+      "9th Grade",
+      "Class 9",
+      "Ninth Grade",
+      "Freshman"
+    ]
+  },
+  {
+    "value": "Grade 10",
+    "synonyms": [
+      "Grade 10",
+      "10th Grade",
+      "Class 10",
+      "Tenth Grade",
+      "Sophomore",
+      "Board Class"
+    ]
+  },
+  {
+    "value": "Grade 11",
+    "synonyms": [
+      "Grade 11",
+      "11th Grade",
+      "Class 11",
+      "Junior",
+      "Senior Secondary"
+    ]
+  },
+  {
+    "value": "Grade 12",
+    "synonyms": [
+      "Grade 12",
+      "12th Grade",
+      "Class 12",
+      "Senior",
+      "Twelfth Grade"
+    ]
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "05bca4e5-c20c-4151-aa97-0c26a193808f",
+    "data": [
+      {
+        "text": "Check library book status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e670222-5dfe-467e-824b-8e9bde0d4f83",
+    "data": [
+      {
+        "text": "Does my child have any overdue library books?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac261db3-dbce-4879-87b4-0e88ac4e5c84",
+    "data": [
+      {
+        "text": "Library account check for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1fefd22-de25-46d5-98b7-411f8b2d4d74",
+    "data": [
+      {
+        "text": "What books are borrowed on ",
+        "userDefined": false
+      },
+      {
+        "text": "stu32543",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebbf5a6f-97e6-4f36-8a18-76588eaa0ab9",
+    "data": [
+      {
+        "text": "Are there any pending ",
+        "userDefined": false
+      },
+      {
+        "text": "Library Fine",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " charges?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eacfeee3-55c4-42b6-8058-126c928d817c",
+    "data": [
+      {
+        "text": "Check borrowed books for my child",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f2366cf-791e-4d60-9f07-03a233ae59d6",
+    "data": [
+      {
+        "text": "School library status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7daad5b9-6844-4ef4-bfdf-e1b9db5bfed9",
+    "data": [
+      {
+        "text": "Library books due date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "98ed7280-6871-420d-b6a8-b773ca961a37",
+    "data": [
+      {
+        "text": "Any fine on library card ",
+        "userDefined": false
+      },
+      {
+        "text": "as5425",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa33a17b-09c3-40b8-a26f-958ad98d8332",
+    "data": [
+      {
+        "text": "Check library account for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82ae7017-67d5-447a-b1c5-64ff4c30f72c",
+    "data": [
+      {
+        "text": "When are borrowed books due?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e30f8d6a-a0cd-4f9e-acc6-48629f25513e",
+    "data": [
+      {
+        "text": "Look up library account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

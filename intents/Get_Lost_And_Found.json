@@ -1,0 +1,61 @@
+{
+  "id": "b0c6eea4-9b18-4138-9338-d9b2491cd854",
+  "name": "Get_Lost_And_Found",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_lost_and_found",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "12a0d2d1-a7f2-497c-988d-0dadea8cccff",
+          "name": "school_item",
+          "required": false,
+          "dataType": "@School_Item",
+          "value": "$school_item",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Gotcha! Lost items (bottles, lunchboxes, jackets, glasses) are kept at the Central Admin Helpdesk, open Mon–Fri 8:00 AM–3:30 PM. Bus items are dropped off daily by drivers.",
+            "Lost something? Unclaimed items like water bottles, lunchboxes, blazers, and spectacles are at the front lobby helpdesk Mon–Fri 8:00 AM–3:30 PM. Drivers turn in bus items daily.",
+            "Check the Lost & Found desk in the main admin building (open Mon–Fri 8:00 AM to 3:30 PM). Jackets, bottles, and glasses left on buses are brought there every afternoon!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Reported items:",
+          "replies": [
+            "Water Bottle",
+            "Lunchbox",
+            "Jacket / Sweater",
+            "Eyeglasses"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "value": "Holiday Notice",
+    "synonyms": [
+      "Holiday Notice",
+      "School Holiday",
+      "Vacation",
+      "Summer Break",
+      "Winter Break",
+      "Public Holiday"
+    ]
+  },
+  {
+    "value": "Parent-Teacher Meeting",
+    "synonyms": [
+      "Parent-Teacher Meeting",
+      "PTM",
+      "Open House",
+      "Parents Evening",
+      "Teacher Conference"
+    ]
+  },
+  {
+    "value": "Sports Day",
+    "synonyms": [
+      "Sports Day",
+      "Athletics Meet",
+      "Annual Sports",
+      "Tournament"
+    ]
+  },
+  {
+    "value": "Annual Function",
+    "synonyms": [
+      "Annual Function",
+      "Annual Day",
+      "School Concert",
+      "Cultural Day"
+    ]
+  },
+  {
+    "value": "Weather Emergency",
+    "synonyms": [
+      "Weather Emergency",
+      "Rain Holiday",
+      "Snow Day",
+      "Heatwave Advisory",
+      "Emergency Closure"
+    ]
+  },
+  {
+    "value": "Science Exhibition",
+    "synonyms": [
+      "Science Exhibition",
+      "Science Fair",
+      "Project Expo",
+      "Tech Fest"
+    ]
+  },
+  {
+    "value": "Exam Circular",
+    "synonyms": [
+      "Exam Circular",
+      "Exam Notice",
+      "Timetable Circular",
+      "Assessment Guidelines"
+    ]
+  }
+]

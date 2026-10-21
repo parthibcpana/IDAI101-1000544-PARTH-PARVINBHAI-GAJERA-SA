@@ -1,0 +1,89 @@
+{
+  "id": "0472dde8-16c3-43f4-91e0-c3db81da3d4e",
+  "name": "Get_Admission_Inquiry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_admission_inquiry",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8f5da25b-54ef-48da-800e-993cb9e21483",
+          "name": "grade_level",
+          "required": false,
+          "dataType": "@Grade_Level",
+          "value": "$grade_level",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9cfdcab6-36eb-44f4-968d-ca632c00b5fa",
+          "name": "fee_type",
+          "required": false,
+          "dataType": "@Fee_Type",
+          "value": "$fee_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "62b57f80-04a5-4b99-9b0d-a7bab5e9a565",
+          "name": "notice_category",
+          "required": false,
+          "dataType": "@Notice_Category",
+          "value": "$notice_category",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Admissions are open for Kindergarten through Grade 11! Apply online at admissions.greenfieldschool.edu. Campus tours run every Saturday at 10:00 AM.",
+            "We're currently enrolling for Kindergarten to Grade 11! Fill out the form at admissions.greenfieldschool.edu or join our campus open house Saturdays at 10 AM.",
+            "Admissions are live! Apply on admissions.greenfieldschool.edu for KG to Grade 11. Guided campus tours happen every Saturday morning at 10:00 AM."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Inquire about:",
+          "replies": [
+            "Kindergarten",
+            "Grade 1",
+            "Grade 6",
+            "Campus Tour"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

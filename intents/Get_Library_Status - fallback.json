@@ -1,0 +1,55 @@
+{
+  "id": "68747582-b4e4-4cbc-8507-4ec19b1cc4ec",
+  "name": "Get_Library_Status - fallback",
+  "auto": true,
+  "contexts": [
+    "Get_Library_Status-asking_id"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_library_status_fallback",
+      "affectedContexts": [
+        {
+          "name": "Get_Library_Status-asking_id",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hmm, that doesn't look like a valid library ID! Please enter a format like stu32543, as5425, or STU10293.",
+            "Oops, couldn't find that ID on the library system! It should look like stu32543 or STU10293. Mind double-checking?",
+            "That ID format isn't clicking! Please check the student card and enter an ID like stu32543 or as5425."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Try format:",
+          "replies": [
+            "stu32543",
+            "as5425",
+            "STU10293"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "e1af0b98-6be3-46ea-bec1-85c75cc24152",
+  "rootId": "e1af0b98-6be3-46ea-bec1-85c75cc24152"
+}

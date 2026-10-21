@@ -1,0 +1,62 @@
+{
+  "id": "0d4423b6-9755-42af-b206-b8f96644ada7",
+  "name": "Get_Clubs_And_Sports",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_clubs_and_sports",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b0dd3a0e-c524-4571-8c85-a1a59c5c8b44",
+          "name": "activity_type",
+          "required": false,
+          "dataType": "@Activity_Type",
+          "value": "$activity_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "We offer 6 major sports (Basketball, Soccer, Swimming, Cricket, Tennis, Track & Field) and 5 popular clubs (Robotics, Debate, Drama, Art, Chess). Which one would you like to explore?",
+            "Here are our activities: Sports include Basketball, Soccer, Swimming, Cricket, Tennis, and Track & Field. Clubs include Robotics, Debate, Drama, Art, and Chess. Want details on trials?",
+            "Lots to do here! We have Basketball, Soccer, Swimming, Cricket, Tennis, and Track & Field for sports, plus Robotics, Debate, Drama, Art, and Chess clubs. What catches your eye?"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Popular activities:",
+          "replies": [
+            "Basketball",
+            "Soccer",
+            "Swimming",
+            "Robotics Club",
+            "Debate Society"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "f4f0a2e4-8532-427c-b193-bbea81f66090",
+  "name": "Request_Teacher_Appointment - yes",
+  "auto": true,
+  "contexts": [
+    "Request_Teacher_Appointment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "request_teacher_appointment_yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Boom, submitted! The teacher will confirm the exact time slot via email/SMS within 24 hours. Have a great discussion!",
+            "All set! Booking request sent to the faculty coordinator. You'll get an email invite with the room details shortly.",
+            "Confirmed! Meeting request sent to the teacher. Look out for a confirmation email with your slot by tomorrow morning!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "bd7d91a4-d307-4b81-985a-25b58bb76ed0",
+  "rootId": "bd7d91a4-d307-4b81-985a-25b58bb76ed0"
+}

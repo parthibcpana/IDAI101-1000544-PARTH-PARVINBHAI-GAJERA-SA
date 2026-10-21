@@ -1,0 +1,57 @@
+[
+  {
+    "value": "Present",
+    "synonyms": [
+      "Present",
+      "Attended",
+      "In Class",
+      "Marked Present"
+    ]
+  },
+  {
+    "value": "Absent",
+    "synonyms": [
+      "Absent",
+      "Not in School",
+      "Missed Class",
+      "Marked Absent"
+    ]
+  },
+  {
+    "value": "Sick Leave",
+    "synonyms": [
+      "Sick Leave",
+      "Medical Leave",
+      "Down with Fever",
+      "Doctor Note",
+      "Medical Absence"
+    ]
+  },
+  {
+    "value": "Late Arrival",
+    "synonyms": [
+      "Late Arrival",
+      "Tardy",
+      "Late to School",
+      "Delayed Entry"
+    ]
+  },
+  {
+    "value": "Half Day",
+    "synonyms": [
+      "Half Day",
+      "Early Departure",
+      "Left Early",
+      "Partial Attendance"
+    ]
+  },
+  {
+    "value": "Excused Absence",
+    "synonyms": [
+      "Excused Absence",
+      "Approved Leave",
+      "Authorized Leave",
+      "Family Leave"
+    ]
+  }
+]

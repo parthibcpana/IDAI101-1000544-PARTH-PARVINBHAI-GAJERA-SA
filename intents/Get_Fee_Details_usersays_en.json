@@ -1,0 +1,274 @@
+[
+  {
+    "id": "9dc15812-40d3-4fc5-8b7e-5a0555c0fb47",
+    "data": [
+      {
+        "text": "What is my fee balance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dfcb200a-574f-4049-af16-90f05a3278f1",
+    "data": [
+      {
+        "text": "Check school fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82e29cdc-20f8-4a81-9331-28f4b318f01c",
+    "data": [
+      {
+        "text": "How much ",
+        "userDefined": false
+      },
+      {
+        "text": "Tuition Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " is pending?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "094348db-222c-4082-a906-48970bb1af9f",
+    "data": [
+      {
+        "text": "Check fee dues for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "218f2bea-5709-4769-b539-b6bbfaab5a50",
+    "data": [
+      {
+        "text": "Is the ",
+        "userDefined": false
+      },
+      {
+        "text": "Transport Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " paid for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu32543",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78ba009f-6bfb-4bb9-ad0a-a3b3da85074f",
+    "data": [
+      {
+        "text": "When is the next fee payment due?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff5285a1-5692-4d96-abe6-6d05516b8432",
+    "data": [
+      {
+        "text": "Outstanding fee for my child",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9e55fb5-af07-48a9-8cec-9f01063f98a5",
+    "data": [
+      {
+        "text": "Check ",
+        "userDefined": false
+      },
+      {
+        "text": "tuition fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " bill",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30232a73-ca69-4942-9008-8df955c94d0e",
+    "data": [
+      {
+        "text": "School fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " inquiry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ba32869-27d2-468e-9ece-499fa2365dac",
+    "data": [
+      {
+        "text": "Fee status for student ",
+        "userDefined": false
+      },
+      {
+        "text": "as5425",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c6f2e38-e3e6-43f4-a5ae-c8ab4837287d",
+    "data": [
+      {
+        "text": "How much ",
+        "userDefined": false
+      },
+      {
+        "text": "Annual Charges",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " do I owe?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d141fd3-12a8-4970-8496-8ff89b647dac",
+    "data": [
+      {
+        "text": "Has my ",
+        "userDefined": false
+      },
+      {
+        "text": "Term Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " been cleared?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3f9447cb-9b4e-4f18-ba2a-c5763147f89f",
+    "data": [
+      {
+        "text": "Check fees for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b500ad1e-2e63-49d1-8b86-5ce352434e05",
+    "data": [
+      {
+        "text": "Fee balance for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU54321",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

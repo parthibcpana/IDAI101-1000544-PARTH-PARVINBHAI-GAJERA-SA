@@ -1,0 +1,9 @@
+{
+  "id": "54a05983-a45e-4d62-9dcc-124eb3081f8f",
+  "name": "Academic_Term",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

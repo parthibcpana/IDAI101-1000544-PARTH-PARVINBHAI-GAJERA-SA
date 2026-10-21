@@ -1,0 +1,267 @@
+[
+  {
+    "id": "1179817a-5b44-4fb6-a4d1-1716b509bc9d",
+    "data": [
+      {
+        "text": "I need to report an absence for my child",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "852c42dd-4b1b-4579-90a1-1b929036f1dd",
+    "data": [
+      {
+        "text": "My child is sick and cannot attend school ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1f260a9-3bb9-4f83-94e6-1c8bf8e6130b",
+    "data": [
+      {
+        "text": "Report student absence for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "07c7de58-00b1-4d08-b9b6-b1faccd20cec",
+    "data": [
+      {
+        "text": "My son will be absent ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a478a72-0c69-4109-8120-3a1c846b44c7",
+    "data": [
+      {
+        "text": "Log an absence for student ",
+        "userDefined": false
+      },
+      {
+        "text": "stu32543",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fcf4209e-c650-4e75-a553-12ce0d677f71",
+    "data": [
+      {
+        "text": "My daughter has fever and will miss school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b2f05d5f-73b6-404a-ad7d-6f878b680601",
+    "data": [
+      {
+        "text": "Report medical leave for ",
+        "userDefined": false
+      },
+      {
+        "text": "as5425",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a52409d-9748-423b-8195-0cbf428ecd68",
+    "data": [
+      {
+        "text": "Student Sick Leave notification",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09cbdd35-f1ad-4a70-82f9-689691466bf2",
+    "data": [
+      {
+        "text": "My child cannot come to school on ",
+        "userDefined": false
+      },
+      {
+        "text": "Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "28219b1f-ae80-4686-a07f-802ee85427e6",
+    "data": [
+      {
+        "text": "Reporting an absence for ",
+        "userDefined": false
+      },
+      {
+        "text": "STU10293",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef9d901d-e37c-48a2-afac-92d39e2d5cfc",
+    "data": [
+      {
+        "text": "Excuse absence for my kid ",
+        "userDefined": false
+      },
+      {
+        "text": "STU12345",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b24fbeab-64b7-4834-b41f-3356ff1a2093",
+    "data": [
+      {
+        "text": "Submit absence note for ",
+        "userDefined": false
+      },
+      {
+        "text": "stu54321",
+        "alias": "student_id",
+        "meta": "@Student_ID",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c695109d-e4c5-46d1-850c-062df75e50b2",
+    "data": [
+      {
+        "text": "Report absence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ad33390-2782-4e34-be77-610349d0de4e",
+    "data": [
+      {
+        "text": "My child is absent ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b18b7435-36b4-40ab-b176-1d69db05230a",
+    "data": [
+      {
+        "text": "Absent report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

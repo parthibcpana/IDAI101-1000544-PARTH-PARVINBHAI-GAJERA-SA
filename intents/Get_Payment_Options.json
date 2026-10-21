@@ -1,0 +1,75 @@
+{
+  "id": "7f6cf074-852b-4bfe-b0f5-2801dffab72c",
+  "name": "Get_Payment_Options",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_payment_options",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "082c2504-8a01-4665-98c1-2fb65b34129c",
+          "name": "fee_type",
+          "required": false,
+          "dataType": "@Fee_Type",
+          "value": "$fee_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3f2cba32-b0eb-457b-970a-5586d7db87ee",
+          "name": "payment_mode",
+          "required": false,
+          "dataType": "@Payment_Mode",
+          "value": "$payment_mode",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Super easy! Pay fees online via the Parent Portal (parents.schoolportal.edu), or instantly via UPI to schoolfees@bank (add your Student ID in remarks). In-person cashier desk is open Mon–Fri, 8:30 AM–3:00 PM.",
+            "Here are the payment ways: 1. Online Parent Portal with card/net banking. 2. Instant UPI to schoolfees@bank (mention Student ID). 3. Cash or demand draft at the campus accounts counter Mon–Fri 8:30 AM–3:00 PM.",
+            "You've got three options: Pay on the Parent Portal with card, scan & pay via UPI to schoolfees@bank with Student ID in notes, or drop by the accounts desk on campus Mon–Fri 8:30 AM–3:00 PM."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Choose payment mode:",
+          "replies": [
+            "UPI & QR Code",
+            "Online Portal",
+            "Bank Demand Draft",
+            "Cash Counter"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

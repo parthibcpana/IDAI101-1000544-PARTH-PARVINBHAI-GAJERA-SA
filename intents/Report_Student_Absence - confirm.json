@@ -1,0 +1,49 @@
+{
+  "id": "da6f5a58-5cfb-4140-ade5-3c150f492eb4",
+  "name": "Report_Student_Absence - confirm",
+  "auto": true,
+  "contexts": [
+    "Report_Student_Absence-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "report_student_absence_confirm",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "All set! The absence for student $student_id has been logged as excused and sent to the homeroom teacher. Hope they feel better soon!",
+            "Done deal! We've recorded the absence for student $student_id and alerted the teacher. Wishing them a super speedy recovery!",
+            "Confirmed! Absence successfully filed for student $student_id. Teachers are notified. Take care, and let us know if they need homework packets!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Next steps:",
+          "replies": [
+            "Check Attendance",
+            "Today's Homework",
+            "Cafeteria Menu"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": [],
+  "parentId": "e46b4908-9111-4698-918a-7cdbe7f45355",
+  "rootId": "e46b4908-9111-4698-918a-7cdbe7f45355"
+}

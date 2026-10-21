@@ -1,0 +1,372 @@
+[
+  {
+    "id": "73da26d4-9d91-4009-bd06-c82d30243905",
+    "data": [
+      {
+        "text": "When do the ",
+        "userDefined": false
+      },
+      {
+        "text": "Midterm Exam",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " start?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6b769ed-2cae-426e-be6e-3c5075c89ac9",
+    "data": [
+      {
+        "text": "Exam schedule",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7178bd7c-7afa-48bf-8efe-55966d43b8be",
+    "data": [
+      {
+        "text": "When is the ",
+        "userDefined": false
+      },
+      {
+        "text": "Term 1",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " examination?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91eb072c-c45e-4dbc-adc9-addfed2f1c4f",
+    "data": [
+      {
+        "text": "Date sheet",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Final Term",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " exams",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "025429c3-03ae-4b81-b307-5d862e882833",
+    "data": [
+      {
+        "text": "When are the ",
+        "userDefined": false
+      },
+      {
+        "text": "Midterm",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " exams?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b8e4d80-1830-42ae-bbb0-673eaa1e6f31",
+    "data": [
+      {
+        "text": "Midterm exam",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " timetable for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 9",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eca7fa88-22a4-4667-963e-c7b0293af0d1",
+    "data": [
+      {
+        "text": "Annual exam",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " dates for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4273618-4018-49b9-ab2d-6cd690bdaf5b",
+    "data": [
+      {
+        "text": "When do ",
+        "userDefined": false
+      },
+      {
+        "text": "final term",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " tests begin?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70c5f211-d277-4378-8d73-50e33fd2e8a9",
+    "data": [
+      {
+        "text": "Exam dates and timings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e08ee44-7e61-430d-9cd9-180fed6db541",
+    "data": [
+      {
+        "text": "When is the next ",
+        "userDefined": false
+      },
+      {
+        "text": "Unit Test",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " assessment period?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2575b5c5-b1f1-4295-a8f3-d462bb20fe35",
+    "data": [
+      {
+        "text": "Date sheet",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "Term 2",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      },
+      {
+        "text": " exams",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ca35739-11ce-49e5-9613-a1c248875db6",
+    "data": [
+      {
+        "text": "Where can I find the exam timetable?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39cb3a88-78e3-4cb6-877f-9c4593201105",
+    "data": [
+      {
+        "text": "Exam timetable for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 12",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Physics",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78938171-2327-4870-8e46-638cc8acd606",
+    "data": [
+      {
+        "text": "Schedule for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 11",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Chemistry",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Midterm",
+        "alias": "academic_term",
+        "meta": "@Academic_Term",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a83b3eb7-d732-4091-b694-25422cc2e393",
+    "data": [
+      {
+        "text": "Exam schedule",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "50a15024-6f61-4d43-8676-78f14fe6b043",
+    "data": [
+      {
+        "text": "When are exams?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

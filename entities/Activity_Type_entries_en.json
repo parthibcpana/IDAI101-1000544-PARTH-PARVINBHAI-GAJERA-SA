@@ -1,0 +1,147 @@
+[
+  {
+    "value": "Sports",
+    "synonyms": [
+      "Sports",
+      "sports",
+      "athletics",
+      "games",
+      "sports activities",
+      "physical education",
+      "team sports",
+      "outdoor games"
+    ]
+  },
+  {
+    "value": "Soccer / Football",
+    "synonyms": [
+      "Soccer / Football",
+      "soccer",
+      "football",
+      "soccer team",
+      "football team",
+      "soccer club"
+    ]
+  },
+  {
+    "value": "Basketball",
+    "synonyms": [
+      "Basketball",
+      "basketball",
+      "basketball team",
+      "basketball court",
+      "hoops"
+    ]
+  },
+  {
+    "value": "Swimming",
+    "synonyms": [
+      "Swimming",
+      "swimming",
+      "swimming pool",
+      "swim team",
+      "swimming lessons",
+      "aquatics"
+    ]
+  },
+  {
+    "value": "Cricket",
+    "synonyms": [
+      "Cricket",
+      "cricket",
+      "cricket team",
+      "cricket pitch",
+      "nets practice"
+    ]
+  },
+  {
+    "value": "Tennis / Badminton",
+    "synonyms": [
+      "Tennis / Badminton",
+      "tennis",
+      "badminton",
+      "lawn tennis",
+      "table tennis",
+      "racket sports"
+    ]
+  },
+  {
+    "value": "Track & Field",
+    "synonyms": [
+      "Track & Field",
+      "track and field",
+      "running",
+      "race",
+      "sprinting",
+      "athletics team"
+    ]
+  },
+  {
+    "value": "Robotics Club",
+    "synonyms": [
+      "Robotics Club",
+      "robotics",
+      "robotics club",
+      "STEM club",
+      "coding club",
+      "coding",
+      "AI club"
+    ]
+  },
+  {
+    "value": "Debate Society",
+    "synonyms": [
+      "Debate Society",
+      "debate",
+      "debate club",
+      "debating society",
+      "Model United Nations",
+      "MUN"
+    ]
+  },
+  {
+    "value": "Drama & Theatre",
+    "synonyms": [
+      "Drama & Theatre",
+      "drama",
+      "theater",
+      "theatre",
+      "drama club",
+      "acting",
+      "school play"
+    ]
+  },
+  {
+    "value": "Music & Choir",
+    "synonyms": [
+      "Music & Choir",
+      "music",
+      "music club",
+      "choir",
+      "singing",
+      "school band",
+      "orchestra"
+    ]
+  },
+  {
+    "value": "Art & Craft",
+    "synonyms": [
+      "Art & Craft",
+      "art",
+      "craft",
+      "visual arts",
+      "painting",
+      "sketch club",
+      "drawing"
+    ]
+  },
+  {
+    "value": "Chess Club",
+    "synonyms": [
+      "Chess Club",
+      "chess",
+      "chess club",
+      "board games"
+    ]
+  }
+]

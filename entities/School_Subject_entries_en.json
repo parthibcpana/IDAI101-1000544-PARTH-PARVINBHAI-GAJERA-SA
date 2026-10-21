@@ -1,0 +1,108 @@
+[
+  {
+    "value": "Mathematics",
+    "synonyms": [
+      "Mathematics",
+      "Math",
+      "Maths",
+      "Algebra",
+      "Geometry",
+      "Calculus"
+    ]
+  },
+  {
+    "value": "Science",
+    "synonyms": [
+      "Science",
+      "General Science",
+      "EVS",
+      "Natural Science"
+    ]
+  },
+  {
+    "value": "English",
+    "synonyms": [
+      "English",
+      "English Literature",
+      "English Language",
+      "Grammar"
+    ]
+  },
+  {
+    "value": "Social Studies",
+    "synonyms": [
+      "Social Studies",
+      "SST",
+      "Social Science",
+      "Civics"
+    ]
+  },
+  {
+    "value": "History",
+    "synonyms": [
+      "History",
+      "World History",
+      "Historical Studies"
+    ]
+  },
+  {
+    "value": "Geography",
+    "synonyms": [
+      "Geography",
+      "Geo",
+      "Earth Science"
+    ]
+  },
+  {
+    "value": "Physics",
+    "synonyms": [
+      "Physics",
+      "Phy"
+    ]
+  },
+  {
+    "value": "Chemistry",
+    "synonyms": [
+      "Chemistry",
+      "Chem"
+    ]
+  },
+  {
+    "value": "Biology",
+    "synonyms": [
+      "Biology",
+      "Bio",
+      "Life Sciences"
+    ]
+  },
+  {
+    "value": "Computer Science",
+    "synonyms": [
+      "Computer Science",
+      "CS",
+      "IT",
+      "Computers",
+      "Coding",
+      "Informatics"
+    ]
+  },
+  {
+    "value": "Physical Education",
+    "synonyms": [
+      "Physical Education",
+      "PE",
+      "Sports",
+      "Gym class"
+    ]
+  },
+  {
+    "value": "Art & Music",
+    "synonyms": [
+      "Art & Music",
+      "Art",
+      "Drawing",
+      "Music",
+      "Fine Arts"
+    ]
+  }
+]

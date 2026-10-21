@@ -1,0 +1,47 @@
+{
+  "id": "2b8dba05-f04a-4359-93b1-698d9ee4803f",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "default_fallback_intent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hmm, I didn't quite catch that! You can ask me about bus tracking, student attendance, daily homework, fee dues, or report an absence. What do you need?",
+            "Oops, not sure I got that! Try asking something like 'Where is Route 3 bus?' or 'Check fee for stu32543'. What can I check for you?",
+            "Sorry about that, my bad! Could you rephrase? Feel free to ask about grades, bus routes, school notices, or lunch menus."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Try asking about:",
+          "replies": [
+            "Check Attendance",
+            "Bus Route 3",
+            "Today's Lunch",
+            "School Hours",
+            "Sports & Clubs"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

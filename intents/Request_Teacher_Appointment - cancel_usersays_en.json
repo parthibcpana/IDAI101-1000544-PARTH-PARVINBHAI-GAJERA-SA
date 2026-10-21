@@ -1,0 +1,145 @@
+[
+  {
+    "id": "4b01670c-2864-4161-8b11-343adc9c1aa5",
+    "data": [
+      {
+        "text": "Cancel appointment request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39cc358a-c3c0-40cd-8b7f-d2220964e5b9",
+    "data": [
+      {
+        "text": "No don't book it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "be426cb0-e86b-49ff-89f0-93fcad54dcb4",
+    "data": [
+      {
+        "text": "Never mind",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "230f1ca8-3cab-47d6-9819-2ccd13140c24",
+    "data": [
+      {
+        "text": "Cancel meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "877a2846-8338-4d45-a0a7-2dbf6703b415",
+    "data": [
+      {
+        "text": "Stop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33123f03-5b5b-4aa6-bfce-5be03d232c0c",
+    "data": [
+      {
+        "text": "Don't send",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "90d79968-7bf7-44ac-b4c3-feba04f4d0b8",
+    "data": [
+      {
+        "text": "No cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "35237d03-184f-4039-a506-909623436c0d",
+    "data": [
+      {
+        "text": "Discard request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d9ea272f-badf-4780-ad45-8793281091fb",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2feb7dea-c359-4e31-a565-3181075df3aa",
+    "data": [
+      {
+        "text": "Abort",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74e79211-1b5f-4bfd-88c2-e3b582fa8082",
+    "data": [
+      {
+        "text": "Cancel booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,311 @@
+[
+  {
+    "id": "f29c19e1-293d-4ff7-9083-5a53be6e2810",
+    "data": [
+      {
+        "text": "What are the latest school announcements?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aae9ef28-c7cb-43d5-926a-4af5375f745f",
+    "data": [
+      {
+        "text": "Are there any upcoming ",
+        "userDefined": false
+      },
+      {
+        "text": "holidays",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e41d8ce8-ec56-4443-bbb1-811967b4db6f",
+    "data": [
+      {
+        "text": "Any circular regarding ",
+        "userDefined": false
+      },
+      {
+        "text": "Sports Day",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "77a278d1-14e6-4439-91ca-61a0f1f56436",
+    "data": [
+      {
+        "text": "Check school notice board",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "046cf131-60bf-41cd-a363-9d80605bf2eb",
+    "data": [
+      {
+        "text": "When is the next ",
+        "userDefined": false
+      },
+      {
+        "text": "Parent-Teacher Meeting",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1711d096-b995-4462-b071-9fc25224caf8",
+    "data": [
+      {
+        "text": "Any announcement about ",
+        "userDefined": false
+      },
+      {
+        "text": "Emergency Closure",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca48124d-4b81-4bab-82be-705abeec551b",
+    "data": [
+      {
+        "text": "Upcoming events and circulars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2467c84-4fca-470d-8a3b-b81cef276827",
+    "data": [
+      {
+        "text": "Field Trip Notice",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": " announcement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8988d1a-3c5c-49c3-a50b-e6f44bd40a3e",
+    "data": [
+      {
+        "text": "Latest circular from school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ec60bef-5301-4276-994a-fdce0707b5f9",
+    "data": [
+      {
+        "text": "When is the ",
+        "userDefined": false
+      },
+      {
+        "text": "PTM",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": " scheduled?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9aff027d-7a99-431e-b849-f8f38c76c98b",
+    "data": [
+      {
+        "text": "Any notice about ",
+        "userDefined": false
+      },
+      {
+        "text": "Summer Break",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d83b1938-418d-4ecb-9a5c-0f40deb6c66e",
+    "data": [
+      {
+        "text": "School event calendar updates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4d79a049-0fd3-4306-93db-42d9e681bf08",
+    "data": [
+      {
+        "text": "Circular about ",
+        "userDefined": false
+      },
+      {
+        "text": "Annual Function",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f00bee0-66eb-41f7-b48f-8414f2f829f1",
+    "data": [
+      {
+        "text": "Notice about ",
+        "userDefined": false
+      },
+      {
+        "text": "Holiday Notice",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc382bf0-f3d9-4259-abda-3f9a0e5e764a",
+    "data": [
+      {
+        "text": "School notices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b74d9a4-1f55-42f9-b464-2751d57d9714",
+    "data": [
+      {
+        "text": "Announcements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b9056885-4925-4c42-84e2-e551d5e87f25",
+    "data": [
+      {
+        "text": "Any new circulars?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

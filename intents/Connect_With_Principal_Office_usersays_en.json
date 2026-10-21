@@ -1,0 +1,194 @@
+[
+  {
+    "id": "e50a8396-6257-4d0e-885a-18a02662b353",
+    "data": [
+      {
+        "text": "How can I contact the Principal's office?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03137a9a-2ab0-4694-9c42-5d271e5b8ba0",
+    "data": [
+      {
+        "text": "Schedule an appointment with the School Principal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5b42c4d-09d1-4e25-a388-7be72390c434",
+    "data": [
+      {
+        "text": "I need to speak with the head of school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d36b9ebf-9a54-4ad2-9255-cfdfdce1b745",
+    "data": [
+      {
+        "text": "Principal office email and phone number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4330b51e-7c03-4a10-a301-c8a3b4867926",
+    "data": [
+      {
+        "text": "Can I meet the Principal ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8711684-3d02-4319-98cc-fcff8c600021",
+    "data": [
+      {
+        "text": "Escalate an issue to the school management",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2f85dd7f-1957-4328-a1cd-cb082cab1e23",
+    "data": [
+      {
+        "text": "Official contact for the Principal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ee1fa381-95fc-4606-84cd-bd102e676936",
+    "data": [
+      {
+        "text": "How to request a meeting with senior administration?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b4a4abe-f41d-4e23-8076-319937f7bc9c",
+    "data": [
+      {
+        "text": "Principal office visitor timings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02738fe1-6472-49c1-97a4-957fd5206980",
+    "data": [
+      {
+        "text": "Contact details for the Headmistress",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5e0d737-5fa2-432e-acae-9e82a7502814",
+    "data": [
+      {
+        "text": "Send an official letter to the Principal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a46e142-a8e5-4f47-bf14-b9cbda51c15f",
+    "data": [
+      {
+        "text": "Book an appointment with leadership",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cd72c3a7-4a24-402f-9769-5898fbe67230",
+    "data": [
+      {
+        "text": "When does the Principal meet parents?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3f5137eb-7358-4e07-a053-39d9777775d8",
+    "data": [
+      {
+        "text": "Meet principal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,440 @@
+[
+  {
+    "id": "e7d5b73b-69a7-4d6f-a6ce-0e8d7fcb2f30",
+    "data": [
+      {
+        "text": "What homework was assigned for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Mathematics",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64bc85a3-10be-4078-81b0-026c0a592781",
+    "data": [
+      {
+        "text": "Any homework for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 9",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Science",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "baa06cc1-14de-40b6-9a98-3cf6217079af",
+    "data": [
+      {
+        "text": "Check ",
+        "userDefined": false
+      },
+      {
+        "text": "English ",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": "homework for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 8",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b3dd0c82-5496-4174-bef2-efb1a3fe20cc",
+    "data": [
+      {
+        "text": "What is the homework for ",
+        "userDefined": false
+      },
+      {
+        "text": "Class 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cf1951e7-e09c-4910-ad57-2e2e1bdb41d8",
+    "data": [
+      {
+        "text": "Any ",
+        "userDefined": false
+      },
+      {
+        "text": "Maths",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " assignment given ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "61fe655d-a1ba-4bba-b12c-47743f539f84",
+    "data": [
+      {
+        "text": "Check daily homework for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 5",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f771e185-3c4c-41bb-81fb-46d3196a0030",
+    "data": [
+      {
+        "text": "Homework updates for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55834233-7287-4726-8800-9ac747a92c00",
+    "data": [
+      {
+        "text": "What do they have for homework in ",
+        "userDefined": false
+      },
+      {
+        "text": "Science",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45fca9f3-9976-43ad-924c-00498540833c",
+    "data": [
+      {
+        "text": "Homework deadline for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 9",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "English",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d4700396-ae90-4e3f-8ef5-100ab01e1d09",
+    "data": [
+      {
+        "text": "Show ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "'s homework for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Science",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91a0a0e9-e8af-46c8-bfc9-9401a888f2a9",
+    "data": [
+      {
+        "text": "Mathematics",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " homework for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba3abd12-7efa-4a54-9a2c-979d267fee54",
+    "data": [
+      {
+        "text": "Are there any projects due this week for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1e4ea5a3-8707-431d-be05-13b877a1f16c",
+    "data": [
+      {
+        "text": "Check ",
+        "userDefined": false
+      },
+      {
+        "text": "Physics",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " assignment for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 11",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ecdec1a0-71e4-4277-b9ae-1326d1e61810",
+    "data": [
+      {
+        "text": "Homework assigned for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 7",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Social Studies",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "104d7511-19be-45a9-adf6-64a158b72582",
+    "data": [
+      {
+        "text": "Homework ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5d9b46ab-a3f0-4d2e-ab4d-43f4874a01cd",
+    "data": [
+      {
+        "text": "Check homework",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

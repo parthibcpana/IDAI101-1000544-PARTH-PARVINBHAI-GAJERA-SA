@@ -1,0 +1,97 @@
+{
+  "id": "e46b4908-9111-4698-918a-7cdbe7f45355",
+  "name": "Report_Student_Absence",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "report_student_absence",
+      "affectedContexts": [
+        {
+          "name": "Report_Student_Absence-followup",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9b6f3e7a-9cea-41e7-a890-7c6961ea68c3",
+          "name": "student_id",
+          "required": true,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            "Gotcha! What's your child's Student ID? (e.g., stu32543, as5425, or STU10293)."
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "34f0c8d5-9876-42c2-8e05-ee7aa32f7e25",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            "What date will your child be absent?"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bcf49e4f-9559-4ce9-917b-8c1adeffb9dc",
+          "name": "reason",
+          "required": false,
+          "dataType": "@Appointment_Reason",
+          "value": "$reason",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Gotcha! I've drafted an absence report for Student ID $student_id on $date. Shall I go ahead and submit it to the office?",
+            "Alright, absence noted: Student $student_id on $date. Ready to submit this to the homeroom teacher? Hit Confirm below!",
+            "Understood! Ready to file the absence for $student_id on $date. Shall I confirm and notify the school desk?"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Submit absence?",
+          "replies": [
+            "Yes submit it",
+            "Cancel"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

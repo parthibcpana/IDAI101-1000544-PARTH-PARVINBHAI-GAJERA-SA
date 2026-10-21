@@ -1,0 +1,88 @@
+{
+  "id": "c540a462-8cfa-4a29-a55c-30cb6a76c3b4",
+  "name": "Get_Homework_Assignment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_homework_assignment",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "55b21eef-2b48-415f-9f0c-3e1803d5244f",
+          "name": "grade_level",
+          "required": false,
+          "dataType": "@Grade_Level",
+          "value": "$grade_level",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "df7b0470-691b-4c7c-9e34-d248c5fbb906",
+          "name": "school_subject",
+          "required": false,
+          "dataType": "@School_Subject",
+          "value": "$school_subject",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "294f3d16-b5b9-4f99-a636-a76e37f5cf08",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Today's homework for Grade 10 Math: Chapter 4 Exercises 1–8 on Quadratic Equations in the workbook. Due this Thursday at 8:30 AM on Google Classroom!",
+            "Got it! Grade 10 Math students have Exercises 1 to 8 on Quadratic Equations (Chapter 4) due Thursday morning at 8:30 AM. Worksheets are on Google Classroom!",
+            "Here's the assignment: Grade 10 Math has Chapter 4 workbook problems 1–8 on Quadratic Equations due Thursday at 8:30 AM. Check Google Classroom for notes!"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Other subjects:",
+          "replies": [
+            "Science Homework",
+            "English Homework",
+            "Social Studies"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

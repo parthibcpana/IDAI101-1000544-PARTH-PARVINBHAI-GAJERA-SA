@@ -1,0 +1,40 @@
+[
+  {
+    "value": "Online Portal",
+    "synonyms": [
+      "Online Portal",
+      "School Website",
+      "Net Banking",
+      "Debit Card",
+      "Credit Card"
+    ]
+  },
+  {
+    "value": "UPI & QR Code",
+    "synonyms": [
+      "UPI & QR Code",
+      "Google Pay",
+      "PhonePe",
+      "Paytm",
+      "UPI Transfer"
+    ]
+  },
+  {
+    "value": "Bank Demand Draft",
+    "synonyms": [
+      "Bank Demand Draft",
+      "DD",
+      "Cheque",
+      "Pay Order"
+    ]
+  },
+  {
+    "value": "Accounts Desk",
+    "synonyms": [
+      "Accounts Desk",
+      "Cash at School Counter",
+      "Fee Office",
+      "Cashier"
+    ]
+  }
+]

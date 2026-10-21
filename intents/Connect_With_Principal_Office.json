@@ -1,0 +1,60 @@
+{
+  "id": "76982edc-501b-4f3e-aaa7-657fa2d05d22",
+  "name": "Connect_With_Principal_Office",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "connect_with_principal_office",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4def7c32-0418-4d23-b6ca-5900a2ccb4fd",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "To meet the Principal, appointments are booked through the Executive Secretary at (555) 019-2805 or principaloffice@greenfieldschool.edu. Visiting hours: Tue & Thu, 2:00–4:00 PM.",
+            "Principal appointments run Tuesdays and Thursdays from 2:00 to 4:00 PM. Call (555) 019-2805 or email principaloffice@greenfieldschool.edu to schedule a discussion.",
+            "You can reach the Principal's office at (555) 019-2805 or principaloffice@greenfieldschool.edu. Parent meeting slots are Tue and Thu afternoons between 2:00 and 4:00 PM."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Office details:",
+          "replies": [
+            "Visiting Hours",
+            "Executive Secretary",
+            "Staff Directory"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

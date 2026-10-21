@@ -1,0 +1,111 @@
+{
+  "id": "bd7d91a4-d307-4b81-985a-25b58bb76ed0",
+  "name": "Request_Teacher_Appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "request_teacher_appointment",
+      "affectedContexts": [
+        {
+          "name": "Request_Teacher_Appointment-followup",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a08479af-a57d-4fd1-8baa-29b708b64a2d",
+          "name": "school_subject",
+          "required": true,
+          "dataType": "@School_Subject",
+          "value": "$school_subject",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            "Which subject teacher or staff member would you like to meet with?"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "45f28045-e4d0-442c-b9a2-d717ab0c4003",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            "What date works best for your appointment?"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ff4e45db-a29e-4bd8-b602-0c1c1cfa411c",
+          "name": "appointment_reason",
+          "required": false,
+          "dataType": "@Appointment_Reason",
+          "value": "$appointment_reason",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0ae346dd-9387-4f92-a4e6-7c8cc216cc0a",
+          "name": "grade_level",
+          "required": false,
+          "dataType": "@Grade_Level",
+          "value": "$grade_level",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Gotcha! Drafted your meeting request with the $school_subject teacher for $date. Shall I submit it to the faculty coordinator?",
+            "Alright! Meeting drafted for $school_subject teacher on $date. Ready for me to send this booking request?",
+            "Ready to book! Teacher conference for $school_subject on $date. Shall I confirm and send it over?"
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Confirm appointment?",
+          "replies": [
+            "Yes please confirm",
+            "Cancel"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

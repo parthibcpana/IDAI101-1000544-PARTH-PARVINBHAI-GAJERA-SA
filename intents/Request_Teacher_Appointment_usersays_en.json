@@ -1,0 +1,301 @@
+[
+  {
+    "id": "7ca1f6ae-be38-4098-ac74-1ed9db67bfb9",
+    "data": [
+      {
+        "text": "I want to meet the ",
+        "userDefined": false
+      },
+      {
+        "text": "Mathematics",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " teacher",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5975360-4dfd-4ead-8261-b2c8d68836cb",
+    "data": [
+      {
+        "text": "Can I schedule an appointment with the ",
+        "userDefined": false
+      },
+      {
+        "text": "Science",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " teacher?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5722866b-b394-4871-a145-bb12eecc933f",
+    "data": [
+      {
+        "text": "Book a meeting for ",
+        "userDefined": false
+      },
+      {
+        "text": "Academic Progress",
+        "alias": "appointment_reason",
+        "meta": "@Appointment_Reason",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17993daa-4c54-4034-8d9d-1aed67bee560",
+    "data": [
+      {
+        "text": "Request a teacher meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0737e128-5eb2-493c-b8db-c8e935ef8530",
+    "data": [
+      {
+        "text": "I need to talk to the ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 10",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "English ",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": "teacher",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4a0d3c9a-6e27-4a78-884c-b6da1d67f9ea",
+    "data": [
+      {
+        "text": "Schedule appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "Behavioral Concern",
+        "alias": "appointment_reason",
+        "meta": "@Appointment_Reason",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ba8f3c1-93ef-4273-9621-506c849227b4",
+    "data": [
+      {
+        "text": "Parent-teacher conference request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0627a612-052b-47b4-bf34-dc83bc7703c1",
+    "data": [
+      {
+        "text": "Meeting with ",
+        "userDefined": false
+      },
+      {
+        "text": "Maths",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " teacher on ",
+        "userDefined": false
+      },
+      {
+        "text": "Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1b2000a3-4b7b-46c1-873f-a5c6e741b29d",
+    "data": [
+      {
+        "text": "Book appointment with class teacher",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0bcd700-2375-4948-b621-46fc0897dbc0",
+    "data": [
+      {
+        "text": "I want to discuss my child's studies with the teacher",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6cbf6d76-3a72-48c9-9b91-4ec6af3f621c",
+    "data": [
+      {
+        "text": "Request a meeting with the ",
+        "userDefined": false
+      },
+      {
+        "text": "Physics",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      },
+      {
+        "text": " teacher",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efcfe082-f4b1-445e-a2b1-bf529f67e82f",
+    "data": [
+      {
+        "text": "Set up teacher conference for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 9",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Science",
+        "alias": "school_subject",
+        "meta": "@School_Subject",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "afbe337e-2464-45d8-904d-ce36a353f6f7",
+    "data": [
+      {
+        "text": "Can I meet the teacher for ",
+        "userDefined": false
+      },
+      {
+        "text": "Attendance Issues",
+        "alias": "appointment_reason",
+        "meta": "@Appointment_Reason",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ba187be-3d8a-4b22-9cb4-c5e5b0eac6b0",
+    "data": [
+      {
+        "text": "Teacher meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dedf777a-35dd-46fe-bdd6-3c0653826aff",
+    "data": [
+      {
+        "text": "Talk to teacher",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

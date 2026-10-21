@@ -1,0 +1,94 @@
+{
+  "id": "c9a476c8-1508-4807-b89d-bc3c45464b3c",
+  "name": "Get_Report_Card",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_report_card",
+      "affectedContexts": [
+        {
+          "name": "Get_Report_Card-asking_id",
+          "lifespan": 2,
+          "parameters": {}
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a5d2fd69-d223-4c83-9b23-46c5de6b884b",
+          "name": "student_id",
+          "required": false,
+          "dataType": "@Student_ID",
+          "value": "$student_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "61ad4311-b76d-4715-92e8-913d84937bc6",
+          "name": "academic_term",
+          "required": false,
+          "dataType": "@Academic_Term",
+          "value": "$academic_term",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5c653326-a96b-4d88-9ee6-149631555c0a",
+          "name": "document_type",
+          "required": false,
+          "dataType": "@Document_Type",
+          "value": "$document_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure thing! What's your child's Student ID? (e.g., stu32543, as5425, or STU10293).",
+            "Gotcha! Share their Student ID (like stu32543 or STU10293) and I'll fetch the latest report card.",
+            "Alright, let's grab those grades! Just give me the Student ID (e.g., as5425 or stu32543)."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Sample Student IDs:",
+          "replies": [
+            "stu32543",
+            "as5425",
+            "STU10293"
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalExecutionHandlers": []
+}

@@ -1,0 +1,240 @@
+[
+  {
+    "id": "adeb75e3-bf3e-4e72-9eb5-8113085f4073",
+    "data": [
+      {
+        "text": "How do I apply for school admission?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e100c521-136a-4fe8-a439-9a46ef2c093e",
+    "data": [
+      {
+        "text": "Admission process for next academic year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "75c55dca-9b1a-4a36-bf84-a9141ecd14eb",
+    "data": [
+      {
+        "text": "What is the age criteria for ",
+        "userDefined": false
+      },
+      {
+        "text": "Kindergarten",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": " admission?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6801b460-7414-411d-99a0-83cd5ee7e4a4",
+    "data": [
+      {
+        "text": "School ",
+        "userDefined": false
+      },
+      {
+        "text": "Admission Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " and documents needed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e31d49b-d27e-4060-a52b-11e80c4d577c",
+    "data": [
+      {
+        "text": "Is registration open for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 1",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d86e3ea-8878-482a-977b-abbe87155df6",
+    "data": [
+      {
+        "text": "How to enroll a new student?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ae5e8cd5-14ad-4815-acd2-f28f1a27502b",
+    "data": [
+      {
+        "text": "Admission ",
+        "userDefined": false
+      },
+      {
+        "text": "open house",
+        "alias": "notice_category",
+        "meta": "@Notice_Category",
+        "userDefined": true
+      },
+      {
+        "text": " dates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c65a9860-6969-4fc5-8e9c-7895aeb89360",
+    "data": [
+      {
+        "text": "What documents are required for new admission?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d9b6f956-1d64-4f18-aa26-820f72a05863",
+    "data": [
+      {
+        "text": "School tour and admission inquiry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "964d7cb1-20a8-434d-b411-e90895c83f49",
+    "data": [
+      {
+        "text": "How much is the ",
+        "userDefined": false
+      },
+      {
+        "text": "Admission Fee",
+        "alias": "fee_type",
+        "meta": "@Fee_Type",
+        "userDefined": true
+      },
+      {
+        "text": " for new students?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8948b48b-ca4d-4c82-a3f8-ee6d8acda1da",
+    "data": [
+      {
+        "text": "Application deadline for school admissions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b75dd5bb-976a-42fb-a3ab-62bdc15ebc9a",
+    "data": [
+      {
+        "text": "Can I schedule a school campus tour for admission?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b7e15074-2fbe-4aec-8ca3-6d02a0d05089",
+    "data": [
+      {
+        "text": "Enrollment for ",
+        "userDefined": false
+      },
+      {
+        "text": "Grade 6",
+        "alias": "grade_level",
+        "meta": "@Grade_Level",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74ac38ac-c8b1-4123-949b-86fbabffbeda",
+    "data": [
+      {
+        "text": "Admission details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
