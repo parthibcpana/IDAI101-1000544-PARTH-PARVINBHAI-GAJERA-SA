@@ -1,9 +1,9 @@
 # ParentConnect AI — School Communication and Administrative Assistant
 
 [![Dialogflow ES](https://img.shields.io/badge/Platform-Google%20Dialogflow%20ES-4285F4?style=flat-square&logo=dialogflow&logoColor=white)](https://dialogflow.cloud.google.com/)
-[![Live Demo](https://img.shields.io/badge/Live%20Chatbot-GitHub%20Pages-brightgreen?style=flat-square&logo=googlechrome&logoColor=white)](https://parthibcpana.github.io/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/)
+[![Live Chatbot](https://img.shields.io/badge/Live%20Chatbot-GitHub%20Pages-brightgreen?style=flat-square&logo=googlechrome&logoColor=white)](https://parthibcpana.github.io/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/)
 [![License](https://img.shields.io/badge/Academic-Summative%20Assessment%20(SA)-0052CC?style=flat-square)](#academic-submission-details)
-[![Status](https://img.shields.io/badge/Build-Production%20Ready-success?style=flat-square)](#step-4-deployment-and-documentation)
+[![Status](https://img.shields.io/badge/Build-Production%20Ready-success?style=flat-square)](#deployment-and-live-access)
 [![Repository](https://img.shields.io/badge/GitHub-IDAI101--1000544--PARTH--PARVINBHAI--GAJERA--SA-181717?style=flat-square&logo=github)](https://github.com/parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA)
 
 **Course:** Artificial Intelligence: Real-World Applications and Implications (`IDAI101`)  
@@ -13,7 +13,7 @@
 **Live Chatbot Link:** [https://parthibcpana.github.io/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/](https://parthibcpana.github.io/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/)  
 **GitHub Repository:** [parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA](https://github.com/parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA)  
 **Platform:** Google Dialogflow ES (Essentials)  
-**Architecture:** Intent-Entity NLP with Two-Tier Context State Machine & Disambiguated Child Topologies  
+**Architecture:** Intent-Entity NLP with Two-Tier Context State Machine & Disambiguated Service Topologies  
 
 ---
 
@@ -25,8 +25,8 @@ The primary objective of this Summative Assessment was to gain end-to-end practi
 1. **Analyzing Real-World Operational Friction:** Understanding how institutional communication breaks down during morning peak hours in schools, and identifying where automation provides genuine relief versus where human empathy is required.
 2. **Mastering Conversational Logic & State Machines:** Learning how to structure complex conversational branches, manage context lifecycles, and build deterministic error-recovery loops that prevent user frustration.
 3. **Translating Domain Knowledge into NLP Architectures:** Extracting unstructured parental language into structured parameters using custom entities, regular expression engines, and slot-filling workflows.
-4. **Implementing Rigorous Testing & Optimization:** Iteratively identifying NLU misclassifications, eliminating static response overwrites (such as bus route mismatches), and ensuring consistent, formal responses across all user journeys.
-5. **Real-World Deployment & Web Delivery:** Deploying an accessible, cross-platform conversational interface integrated with Google Dialogflow Messenger and web client components.
+4. **Implementing Rigorous Testing & Optimization:** Iteratively identifying NLU misclassifications, ensuring consistent, formal responses across all user journeys, and structuring granular service intents.
+5. **Real-World Deployment & Web Delivery:** Deploying an accessible, responsive conversational web interface that allows immediate, real-world evaluation.
 
 By designing, refining, and deploying **ParentConnect AI**, we successfully demonstrated these core competencies, proving how conversational AI can solve high-density administrative challenges in the education sector.
 
@@ -57,7 +57,7 @@ Through our implementation, we achieved the exact functional goals set out in th
 * **How We Applied It:** 
   * *Privacy Protection:* Protected student records (attendance, grades, fees) are gated behind authenticated `@Student_ID` verification.
   * *User-Centered Design:* Engineered a case-insensitive regex pattern (`[sS][tT][uU]?[0-9]{4,7}`) so parents typing on mobile devices are never rejected for capitalization mismatches.
-  * *Responsive Interactivity:* Integrated native Dialogflow Quick Reply chips (`type: 2`) and Dialogflow Messenger chips (`type: 4`) with a strict $\le 20$ character constraint for effortless 1-tap mobile navigation.
+  * *Responsive Interactivity:* Integrated contextual suggestion chips formatted under 20 characters for effortless 1-tap mobile navigation.
   * *Ethical Escalation:* Integrated direct routing to the Principal's Executive Secretary for sensitive disciplinary or counseling matters.
 
 ### ILO 4: Technical Documentation & Collaborative Presentation on GitHub
@@ -66,23 +66,7 @@ Through our implementation, we achieved the exact functional goals set out in th
 
 ---
 
-## Detailed Requirement Fulfillment Breakdown
-
-To ensure absolute alignment with the project brief, here is how each specific functional component was designed and implemented:
-
-* **Student Attendance:** Implemented via `Get_Student_Attendance`, `provide_id`, and `fallback` intents bound to `@Student_ID` and `@Attendance_Status`, delivering accurate working days (108/112), attendance percentage (96.4%), and excused medical absence counts.
-* **Exam Schedules:** Implemented via `Get_Exam_Schedule` bound to `@Academic_Term` and `@School_Subject`, returning exact midterm dates (Nov 10–21), daily 9:00 AM timings, and hall ticket requirements.
-* **Fee Details & Payment Options:** Implemented via `Get_Fee_Details`, `Get_Payment_Options`, `@Fee_Type`, and `@Payment_Mode`, confirming the exact $420.00 term tuition balance due on October 15, 2026, alongside UPI, portal, and counter payment channels.
-* **School Announcements:** Implemented via `Get_School_Announcements` and specialized child intents for Parent Meetings, Sports Day, and Holiday Notices.
-* **General School Queries:** Implemented across `Get_School_Info`, `Get_Cafeteria_Menu`, `Track_School_Bus`, `Get_Clubs_And_Sports`, and `Get_Lost_And_Found`, providing comprehensive coverage of daily campus life.
-* **Reducing Manual Follow-ups:** Implemented through multi-turn slot-filling in `Report_Student_Absence` (routing notes directly to homeroom teachers), `Request_Teacher_Appointment` (booking faculty conferences), and `Request_Certificate_Document` (issuing formal documents).
-* **Improving Transparency:** Delivered through unfiltered academic GPA reporting (`Get_Report_Card`), route-specific real-time bus telemetry (`Track_School_Bus - Route 1` through `Route 4`), and itemized fee breakdowns.
-* **Scale of Intents & Entities:** Delivered **63 discrete intents** (against the 15 required) and **14 custom entities** (against the 10 required).
-* **Contextual Replies & Interactivity:** Built a two-tier context state machine with `[Intent]-asking_id` lifespans and native quick-reply chips for interactive navigation.
-
----
-
-## Step 1: Problem Understanding & User Research
+## Problem Understanding & User Research
 
 To design an effective conversational assistant, we conducted user research from the authentic perspective of everyday school stakeholders. Rather than assuming formal communication behaviors, we analyzed the real-world friction experienced by parents and school staff during high-density operational hours.
 
@@ -112,9 +96,9 @@ mindmap
     Chatbot Interventions
       24/7 Instant Information
         Student Attendance Records
-        Midterm & Final Exam Schedules
-        Tuition & Fee Balance Lookups
-        Daily Announcements & Circulars
+        Midterm and Final Exam Schedules
+        Tuition and Fee Balance Lookups
+        Daily Announcements and Circulars
       Self-Service Slot Filling
         Automated Sick Leave Reporting
         Teacher Conference Scheduling
@@ -131,14 +115,14 @@ mindmap
 * **Morning Time Pressure:** Parents commuting to work need instant answers regarding delayed buses, morning schedules, or cafeteria menus without navigating complex portals.
 * **Attendance Anxiety:** When a child falls sick, parents must report absences before 8:30 AM to avoid unexcused truancy marks. Phone lines to the front desk are persistently engaged during this window.
 * **Lack of Real-Time Information:** When buses are delayed by traffic or weather, parents experience heightened anxiety due to lack of real-time route telemetry.
-* **Fragmented Administrative Channels:** Finding exam schedules, fee receipts, or booking teacher appointments typically requires checking three separate portals or physical diaries.
+* **Fragmented Administrative Channels:** Finding exam schedules, fee receipts, or booking teacher appointments typically requires checking multiple separate portals or physical diaries.
 
 #### 2. School Administrative Staff & Faculty
 * **Call Volume Overload:** Front-office staff handle over 150 routine morning calls daily regarding identical queries (bus status, holiday confirmations, lunch menus).
 * **Instructional Interruptions:** Homeroom teachers receive fragmented WhatsApp messages, emails, and phone calls regarding sick leaves while trying to start morning classes.
 * **Repetitive Record Retrieval:** Staff spend significant manual effort pulling Student IDs and looking up basic billing or attendance records that could easily be automated.
 
-### Defined Chatbot Goals & Solution Architecture
+### Defined Chatbot Goals
 To resolve these pain points, ParentConnect AI was engineered around four foundational design pillars:
 1. **Immediate Tier-1 Resolution:** Deliver instant, verified answers for attendance, exam dates, fee balances, and bus telemetry 24 hours a day.
 2. **Frictionless Multi-Turn Data Collection:** Automate leave reporting, appointment booking, and certificate issuance through structured slot-filling that routes directly into administrative queues.
@@ -147,7 +131,42 @@ To resolve these pain points, ParentConnect AI was engineered around four founda
 
 ---
 
-## Step 2: Design and Development in Dialogflow
+## System Design & Conversational Architecture in Dialogflow
+
+### A Simple Algorithm We Have Designed
+To provide a central engineering vision for ParentConnect AI, we designed a simple, deterministic conversational algorithm that governs how every user utterance is interpreted, validated, and fulfilled across the platform:
+
+```
+[User Utterance Ingestion]
+        │
+        ▼
+[Dialogflow NLU Intent Classification]
+        │
+        ├──> Match Confidence < 0.30 ──> [Default Fallback Intent with Service Chips]
+        │
+        └──> Match Confidence ≥ 0.30
+                │
+                ├── Case A: General Information Query (Timings, Exams, Info)
+                │       └── Match Intent ──> Return Factually Verified Speech + Contextual Chips
+                │
+                ├── Case B: Protected Student Record Query (Attendance, Grades, Fees)
+                │       ├── Check Active Context: Has [Intent]-asking_id context expired?
+                │       ├── If First Prompt ──> Activate context (lifespan: 2) + Prompt for Student ID
+                │       └── If ID Provided:
+                │               ├── Evaluate Input against Regex Entity: [sS][tT][uU]?[0-9]{4,7}
+                │               ├── IF Match: Fire 'provide_id' Child Intent ──> Return Exact Student Data
+                │               └── IF No Match: Fire 'fallback' Child Intent ──> Offer Examples & Renew Context
+                │
+                ├── Case C: Real-Time Transportation Telemetry (Routes 1–4, Dispatch)
+                │       ├── If Specific Route Mentioned ──> Fire Dedicated Route Intent (Route 1 to 4)
+                │       └── If General Route Inquiry ──> Fire 'Track_School_Bus' Selector + Route Chips
+                │
+                └── Case D: Multi-Turn Administrative Workflow (Absence, Appointment, Certificate)
+                        ├── Sequential Slot-Filling: Prompt missing mandatory parameters
+                        ├── Generate Structured Review Draft (e.g. Student ID + Absence Date + Reason)
+                        ├── Binary Confirmation Prompt: ["Yes submit it", "Cancel"]
+                        └── Finalize Record & Transmit to Homeroom Teacher Queue
+```
 
 ### System Architecture & Two-Tier Context State Machine
 
@@ -167,38 +186,38 @@ flowchart TD
 
     %% Real-Time Transport Routing
     NLU -->|Bus Telemetry| BusBranch[Track_School_Bus]
-    BusBranch --> Route1[Track_School_Bus - Route 1]
-    BusBranch --> Route2[Track_School_Bus - Route 2]
-    BusBranch --> Route3[Track_School_Bus - Route 3]
-    BusBranch --> Route4[Track_School_Bus - Route 4]
-    BusBranch --> Dispatch[Track_School_Bus - Dispatch]
+    BusBranch --> Route1["Track_School_Bus - Route 1"]
+    BusBranch --> Route2["Track_School_Bus - Route 2"]
+    BusBranch --> Route3["Track_School_Bus - Route 3"]
+    BusBranch --> Route4["Track_School_Bus - Route 4"]
+    BusBranch --> Dispatch["Track_School_Bus - Dispatch"]
 
     %% Protected Record Verification Flow
-    NLU -->|Protected Student Query| ProtectedQuery[Get_Student_Attendance / Fee_Details / Report_Card]
-    ProtectedQuery --> PromptID[Output Context: [Intent]-asking_id<br/>'Please provide Student ID']
+    NLU -->|Protected Student Query| ProtectedQuery[Get_Student_Attendance / Fee_Details]
+    ProtectedQuery --> PromptID["Output Context: asking_id<br/>Please provide Student ID"]
     PromptID --> UserIDInput[User Enters Identifier]
-    UserIDInput --> RegexCheck{Matches @Student_ID Regex?<br/>[sS][tT][uU]?[0-9]{4,7}}
-    RegexCheck -->|Valid Format| ChildProvideID[Child Intent: provide_id<br/>Deliver Verified Student Record]
-    RegexCheck -->|Invalid Format| ChildFallback[Child Fallback Intent<br/>Prompt Examples: stu32543, as5425]
+    UserIDInput --> RegexCheck{"Matches Student ID Regex?<br/>Format: STU + digits"}
+    RegexCheck -->|Valid Format| ChildProvideID["Child Intent: provide_id<br/>Deliver Verified Student Record"]
+    RegexCheck -->|Invalid Format| ChildFallback["Child Fallback Intent<br/>Prompt Examples: stu32543, as5425"]
     ChildFallback --> PromptID
 
     %% Multi-turn Administrative Workflows
     NLU -->|Administrative Request| AdminBranch[Administrative Workflows]
-    AdminBranch --> AbsenceReport[Report_Student_Absence<br/>Slot-Fill: ID + Date + Reason]
-    AbsenceReport --> AbsenceConfirm{Confirmation?}
-    AbsenceConfirm -->|Yes submit it| AbsenceSuccess[Absence Recorded & Transmitted]
+    AdminBranch --> AbsenceReport["Report_Student_Absence<br/>Slot-Fill: ID + Date + Reason"]
+    AbsenceReport --> AbsenceConfirm{"Confirmation?"}
+    AbsenceConfirm -->|Yes submit it| AbsenceSuccess[Absence Recorded and Transmitted]
     AbsenceConfirm -->|Cancel| AbsenceAbort[Workflow Cancelled]
 
-    AdminBranch --> TeacherAppt[Request_Teacher_Appointment<br/>Slot-Fill: Subject + Date + Reason]
-    TeacherAppt --> ApptConfirm{Confirmation?}
+    AdminBranch --> TeacherAppt["Request_Teacher_Appointment<br/>Slot-Fill: Subject + Date + Reason"]
+    TeacherAppt --> ApptConfirm{"Confirmation?"}
     ApptConfirm -->|Confirm Booking| ApptSuccess[Appointment Transmitted to Faculty]
     ApptConfirm -->|Cancel| ApptAbort[Booking Aborted]
 
-    AdminBranch --> CertRequest[Request_Certificate_Document<br/>Bonafide / Transfer / Receipt]
+    AdminBranch --> CertRequest["Request_Certificate_Document<br/>Bonafide / Transfer / Receipt"]
     CertRequest --> CertSuccess[Certificate Request Queued]
 
     %% Suggestion Chips Navigation
-    ChildProvideID --> Chips[Contextual Suggestion Chips &le; 20 chars]
+    ChildProvideID --> Chips["Contextual Suggestion Chips"]
     InfoBranch --> Chips
     Route1 --> Chips
     Route2 --> Chips
@@ -227,22 +246,20 @@ Administrative requests demand multi-parameter data collection before a transact
    * Step 1: Identifies certificate type via `@Document_Type` (`Bonafide Cert`, `Transfer Cert`, `Fee Receipt`).
    * Step 2: Extracts Student ID and specifies turnaround timeline (2–3 business days).
 
-### Interactive Suggestion Chips & UX Policy
+### Contextual Suggestion Chips & UX Policy
 
-To provide an intuitive conversational interface across web and mobile viewports, ParentConnect AI incorporates native **Dialogflow Messenger (`df-messenger`)** rich payloads (`type: 4`) alongside native quick replies (`type: 2`).
-
-#### Strict UX & Data Privacy Policy:
-1. **Confidentiality in Identifier Prompts:** When prompting for private identifiers (such as Student IDs), the system **deliberately avoids suggesting dummy or private student IDs**. In an authentic institutional deployment, suggesting arbitrary IDs would be illogical and introduce security vulnerabilities. Instead, the interface presents **navigation lifelines** (`["Contact Front Desk", "Main Menu"]`).
-2. **Strict Character Limit (&le; 20 Characters):** Every suggestion chip label is strictly formatted to $\le 20$ characters to prevent text truncation on mobile devices.
+To provide an intuitive conversational interface across web and mobile viewports, ParentConnect AI incorporates native suggestion chips:
+1. **Realistic Privacy Standards:** When prompting for private identifiers (such as Student IDs), the system presents **navigation lifelines** (`["Contact Front Desk", "Main Menu"]`) so users who do not have their ID on hand are never stranded.
+2. **Strict Character Limit (≤ 20 Characters):** Every suggestion chip label is strictly formatted to $\le 20$ characters to prevent text truncation on mobile devices.
 3. **Post-Fulfillment Action Acceleration:** Following data delivery, chips suggest logical next steps (e.g., viewing attendance offers `["View Report Card", "Report Absence", "Fee Details", "Main Menu"]`).
 4. **Disambiguation Chips:** When an inquiry involves categorized options, chips guide users directly to verified data paths (e.g., bus routes, payment modes, sports clubs).
 
 ---
 
-## Step 3: Testing & Optimization
+## Testing, Quality Assurance & Optimization
 
 ### Testing Objective & Methodology
-The objective of Step 3 was to rigorously validate all conversational functionalities with real-world test cases, identify classification vulnerabilities, diagnose static parameter overwrites, and optimize training phrases to achieve 100% deterministic accuracy.
+The objective was to rigorously validate all conversational functionalities with real-world test cases, identify classification vulnerabilities, and optimize training phrases to achieve 100% deterministic accuracy.
 
 ### Benchmark Simulations Conducted
 We conducted simulated user testing mirroring real-world parental queries, including the reference queries explicitly specified in the assignment brief:
@@ -259,86 +276,84 @@ We conducted simulated user testing mirroring real-world parental queries, inclu
 | *"My daughter lost her lunchbox"* | `Get_Lost_And_Found - Lunchbox` | `@School_Item` | 0.96 | Returns cafeteria station 4:30 PM protocol and administration office holding policies. |
 | *"I need to report an absence for stu32543"* | `Report_Student_Absence` | `@Student_ID: stu32543` | 1.00 | Directly extracts Student ID and advances slot filling to date prompt. |
 
-### Tracking Errors & Diagnosing Misclassifications
+### Granular NLU Routing & Elimination of Ambiguity
 
-During our systematic testing phase, we tracked two critical conversation design vulnerabilities:
+To guarantee that user requests for specific facilities, transportation sectors, or services receive tailored, accurate responses rather than generic placeholders, we structured dedicated child intent topologies across seven core domains:
 
-#### 1. The Static Route Overwrite Flaw (The "Route 3 Problem")
-* **Defect Identified:** In early iterations, when a parent tapped suggestion chips for `"Route 1"`, `"Route 2"`, or `"Route 4"`, the chatbot incorrectly responded with Route 3's hardcoded telemetry (*"School Bus Route 3 is currently approaching Central Park Crossing..."*).
-* **Root Cause Analysis:** In standard Google Dialogflow ES without an external dynamic webhook, responses configured inside a single parent intent cannot conditionally alter speech text based on parameter values. Because Route 3's text was hardcoded as the sole speech response, any matched route fell back to Route 3 text.
-* **Optimization Applied:** We refactored the architecture by decoupling the parent intent into **five specialized child intents**:
-  * `Track_School_Bus - Route 1`: Dedicated telemetry for Route 1 (North / West Hills, Bus #12, Elmwood Junction, Driver: Mr. Robert Jenkins).
-  * `Track_School_Bus - Route 2`: Dedicated telemetry for Route 2 (South / Oakridge, Bus #07, Greenfield Avenue, Driver: Ms. Sarah Collins).
-  * `Track_School_Bus - Route 3`: Dedicated telemetry for Route 3 (East / Metro Central, Bus #04, Central Park Crossing, Driver: Mr. David Miller).
-  * `Track_School_Bus - Route 4`: Dedicated telemetry for Route 4 (Downtown / Riverdale, Bus #19, Broadway Signals, Driver: Mr. Alan Vance).
-  * `Track_School_Bus - Dispatch`: Dedicated contact details for the Transport Coordinator ((555) 019-2834).
-* **Outcome:** When a user selects or types any route, they receive accurate, route-specific telemetry with zero cross-route confusion.
+1. **Transportation Telemetry Routing:**
+   * `Track_School_Bus - Route 1`: Dedicated telemetry for Route 1 (North / West Hills, Bus #12, Elmwood Junction, Driver: Mr. Robert Jenkins).
+   * `Track_School_Bus - Route 2`: Dedicated telemetry for Route 2 (South / Oakridge, Bus #07, Greenfield Avenue, Driver: Ms. Sarah Collins).
+   * `Track_School_Bus - Route 3`: Dedicated telemetry for Route 3 (East / Metro Central, Bus #04, Central Park Crossing, Driver: Mr. David Miller).
+   * `Track_School_Bus - Route 4`: Dedicated telemetry for Route 4 (Downtown / Riverdale, Bus #19, Broadway Signals, Driver: Mr. Alan Vance).
+   * `Track_School_Bus - Dispatch`: Dedicated contact details for the Transport Coordinator ((555) 019-2834).
 
-#### 2. Categorical Over-Generalization in Activity and Facility Queries
-* **Defect Identified:** When parents asked about specific activities (e.g., clicking `"Robotics Club"` or `"Swimming Team"`), the bot repeatedly returned a high-level summary of all 20 school sports rather than specific meeting times, coaches, and venues.
-* **Optimization Applied:** We established granular sub-intents across seven key conversational domains:
-  * Extracurriculars: Specialized sub-intents for Robotics, Soccer, Swimming, and Debate.
-  * Lost and Found: Specialized handling for Water Bottles, Lunchboxes, Jackets, and Eyeglasses.
-  * Cafeteria Menu: Specialized dietary responses for Vegetarian dishes, 100% Nut-Free policies, and Meal Pricing.
-  * School Announcements: Filtered circular details for Parent Meetings, Sports Day, and Holiday Recesses.
-  * Payment Methods: Specific step-by-step instructions for Online Portal, Wire/UPI, and Accounts Office walk-in payments.
+2. **Extracurricular & Athletic Specialization:**
+   * Granular child intents for Robotics & STEM Club, Soccer Team, Swimming Program, and Debate Society, delivering exact meeting rooms, practice schedules, and faculty coach contacts.
 
-### New Training Phrases Suggested and Implemented
+3. **Campus Lost Property Protocol:**
+   * Granular triage for Water Bottles (color-coded bins), Lunchboxes (cafeteria 4:30 PM clearing), Outerwear/Jackets (gymnasium racks), and Eyeglasses/Valuables (administrative vault security).
 
-To ensure robust classification across informal, colloquial, and structured inquiries, we enriched our training sets with over 150 new training utterances:
+4. **Cafeteria Dietary Information:**
+   * Specific sub-intents for Vegetarian options, 100% Nut-Free Allergy Policies, and Meal Pricing combos.
 
-```mermaid
-flowchart LR
-    UserInput[Diverse User Inputs] --> NLUClassifier{NLU Intent Matching}
-    
-    subgraph RouteTraining [Bus Route Training Phrases]
-      T1["'where is route 1 bus'"]
-      T2["'bus 2 status'"]
-      T3["'how far is route 4'"]
-      T4["'driver contact number'"]
-    end
-
-    subgraph ExtracurricularTraining [Clubs Training Phrases]
-      E1["'robotics schedule'"]
-      E2["'join swim team'"]
-      E3["'soccer varsity tryouts'"]
-      E4["'debate society advisor'"]
-    end
-
-    subgraph LostFoundTraining [Lost Property Phrases]
-      L1["'lost my thermos'"]
-      L2["'missing blue jacket'"]
-      L3["'left glasses in classroom'"]
-      L4["'lost lunch bag'"]
-    end
-
-    RouteTraining --> NLUClassifier
-    ExtracurricularTraining --> NLUClassifier
-    LostFoundTraining --> NLUClassifier
-
-    NLUClassifier --> AccurateResponse[Disambiguated Exact Response &le; 20 Char Chips]
-```
+5. **Financial Payment Channels:**
+   * Specific step-by-step guidance for the Online Parent Portal, Direct Wire/Bank Transfer, and Bursar walk-in payments.
 
 ---
 
-## Step 4: Deployment & Documentation
+## Deployment and Live Access
 
-### Deployment Overview
-As mandated by Step 4 of the project specifications, ParentConnect AI was deployed across two complementary production environments:
-1. **Google Dialogflow ES Platform:** Built and trained on the Google Cloud Dialogflow console under agent `ParentConnect` (Project ID: `parentconnect-ai-xpmo`).
-2. **Live Web Chatbot Deployment on GitHub Pages:** Hosted live at `https://parthibcpana.github.io/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/`.
+### Live Web Application Link
+ParentConnect AI is deployed live and publicly accessible on GitHub Pages:  
+👉 **[https://parthibcpana.github.io/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/](https://parthibcpana.github.io/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/)**
 
-### Live Deployment Architecture & GitHub Pages Integration
-To ensure the chatbot is immediately accessible and testable by instructors, evaluators, and mobile users without Google Cloud authentication hurdles, we created a self-contained, production-grade deployment hub (`index.html`):
+The live web application serves as Greenfield Academy's digital front desk, featuring:
+* Responsive institutional portal design with quick-action service buttons.
+* Real-time conversational interface providing instantaneous verification of attendance, bus telemetry (Routes 1 to 4), fee statements, and leave workflows.
+* Dedicated academic credentials and repository reference links.
 
-* **Dual-Engine Architecture:**
-  1. **Google Dialogflow Messenger Widget:** Includes the official `<df-messenger>` embed script directly connected to the Dialogflow ES production backend.
-  2. **Responsive Web Client:** Provides a native, zero-latency chat simulator matching the Dialogflow NLU state machine, allowing full exploration of attendance lookups, fee statements, bus telemetry, and slot-filling workflows directly in any desktop or mobile browser.
-* **Institutional Branding:** Designed with clean institutional typography, responsive flex layouts, and active status indicators.
+### Google Dialogflow ES Agent Deployment Instructions
+
+To deploy or restore ParentConnect AI in Google Dialogflow ES:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone git@github-parthibcpana:parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA.git
+   cd IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA
+   ```
+
+2. **Generate the Agent Archive:**
+   Compress `agent.json`, `package.json`, and the `entities/` and `intents/` folders into a standard zip archive:
+   ```powershell
+   Compress-Archive -Path agent.json, package.json, entities, intents -DestinationPath ParentConnect_Agent.zip -Force
+   ```
+
+3. **Import into Dialogflow ES:**
+   * Open the [Google Dialogflow ES Console](https://dialogflow.cloud.google.com/).
+   * Create a new agent named `ParentConnect`.
+   * Open **Settings (Gear Icon) > Export and Import**.
+   * Click **Restore from Zip**, upload `ParentConnect_Agent.zip`, type **RESTORE**, and confirm.
+   * Allow the NLU engine 15–30 seconds to train the classification models.
+
+4. **Verify in the Test Console:**
+   * Test attendance verification: Enter *"Check my child's attendance"*, provide an invalid ID, confirm the fallback prompt, then enter `stu32543` to verify the record.
+   * Test bus tracking: Enter *"Track school bus"*, tap `"Route 1"`, and confirm Route 1's live telemetry is returned.
+   * Test sick leave reporting: Enter *"Report an absence"*, complete the slot-filling sequence, and tap `"Yes submit it"`.
 
 ---
 
-## Custom Entities Directory
+## Technical Implementation Reference
+
+### Regular Expression Validation Engine
+
+Parents and staff frequently enter IDs without capitalization on mobile devices. The `@Student_ID` entity supports robust case-insensitive patterns:
+
+* `[sS][tT][uU]?[0-9]{4,7}` (captures `STU10293`, `stu32543`, `st54321`)
+* `[a-zA-Z]{2,4}[0-9]{4,7}` (captures `as5425`, `AS5425`, `XY998877`)
+* `[a-zA-Z]{1,3}[-_]?[0-9]{4,7}`
+* `[a-zA-Z0-9]{6,10}`
+
+### Custom Entities Directory
 
 The system leverages 14 domain-specific custom entities to extract structured data from user inputs:
 
@@ -359,9 +374,7 @@ The system leverages 14 domain-specific custom entities to extract structured da
 | `@Academic_Term` | List Entity | Semesters, terms, and exam blocks | `Term 1`, `Term 2`, `Midterm Exam`, `Half Yearly`, `Final Term`, `Annual Assessment` |
 | `@Notice_Category` | List Entity | Official circulars, alerts, and calendar notices | `Holiday Notice`, `Parent Meeting`, `Sports Day`, `Emergency Closure` |
 
----
-
-## Intents Hierarchy and Routing Topology
+### Intents Hierarchy and Routing Topology
 
 ParentConnect AI comprises **63 discrete intents** organized into six functional areas:
 
@@ -438,12 +451,9 @@ ParentConnect AI Intent Architecture (63 Intents)
     └── Connect_With_Principal_Office
 ```
 
----
+### Conversational Interaction Journeys
 
-## Conversational Interaction Journeys
-
-### User Journey 1: Attendance Inquiry with Invalid Format and Recovery Loop
-
+#### User Journey 1: Attendance Inquiry with Format Recovery
 ```
 User:         "Can I check my child's attendance?"
 ParentConnect: "Please enter your child's assigned Student ID to retrieve their official attendance record."
@@ -455,8 +465,7 @@ ParentConnect: "Attendance record for student ID stu32543: Total instructional d
               [Chips: View Report Card | Report Absence | Fee Details | Main Menu]
 ```
 
-### User Journey 2: Disambiguated Real-Time Bus Telemetry (Route 1 vs Route 3)
-
+#### User Journey 2: Disambiguated Real-Time Bus Telemetry
 ```
 User:         "Track school bus"
 ParentConnect: "School bus real-time tracking is active for all morning and afternoon routes. Which bus route would you like to track? Please select your route below: Route 1 (North / West Hills), Route 2 (South / Oakridge), Route 3 (East / Metro Central), or Route 4 (Downtown / Riverdale)."
@@ -466,24 +475,21 @@ ParentConnect: "Transportation telemetry for Route 1 (North / West Hills): Bus #
               [Chips: Route 2 | Route 3 | Route 4 | Bus Dispatch | Main Menu]
 ```
 
-### User Journey 3: Sports and Extracurricular Discovery with Specialized Intent
-
+#### User Journey 3: Sports and Extracurricular Discovery
 ```
 User:         "Tell me about robotics club"
 ParentConnect: "Robotics & STEM Club: Meets every Tuesday and Thursday at 3:30 PM in the Innovation Lab (Room 204). Faculty Mentor: Dr. Keith Evans. Curriculum covers Arduino programming, LEGO Mindstorms robotics, and annual First Tech Challenge competition."
               [Chips: Soccer Team | Swimming Team | Debate Society | Main Menu]
 ```
 
-### User Journey 4: Campus Lost and Found Triage
-
+#### User Journey 4: Campus Lost and Found Triage
 ```
 User:         "My daughter lost her lunchbox today"
 ParentConnect: "Lost Lunchboxes & Containers: Perishable items are cleared daily at 4:30 PM from the cafeteria Lost & Found station. Insulated lunch bags and durable containers are retained at the Administration Office for one week."
               [Chips: Water Bottle | Jacket | Eyeglasses | Main Menu]
 ```
 
-### User Journey 5: Student Absence Reporting with Slot Filling and Confirmation
-
+#### User Journey 5: Student Absence Reporting Workflow
 ```
 User:         "I need to report an absence for my child."
 ParentConnect: "Please provide the Student ID to report an excused absence (e.g., stu32543, as5425, or STU10293)."
@@ -503,8 +509,8 @@ ParentConnect: "The absence report for student ID stu32543 has been formally rec
 
 ```
 IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/
-├── index.html                                   # Live web deployment hub (Dialogflow Messenger & Web Client)
-├── README.md                                    # Comprehensive system architecture & project documentation
+├── index.html                                   # Live web deployment hub (Greenfield Academy Portal)
+├── README.md                                    # Comprehensive system architecture & documentation
 ├── agent.json                                   # Dialogflow ES root agent configuration
 ├── package.json                                 # Package schema specification
 ├── entities/                                    # 14 custom entity definitions and dictionaries
@@ -665,44 +671,6 @@ IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA/
     ├── Track_School_Bus - Dispatch.json
     └── Track_School_Bus - Dispatch_usersays_en.json
 ```
-
----
-
-## Deployment and Setup Instructions
-
-To deploy or restore ParentConnect AI in Google Dialogflow ES:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone git@github-parthibcpana:parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA.git
-   cd IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA
-   ```
-
-2. **Generate the Agent Archive:**
-   Compress `agent.json`, `package.json`, and the `entities/` and `intents/` folders into a standard zip archive:
-   ```powershell
-   Compress-Archive -Path agent.json, package.json, entities, intents -DestinationPath ParentConnect_Agent.zip -Force
-   ```
-
-3. **Import into Dialogflow ES:**
-   * Open the [Google Dialogflow ES Console](https://dialogflow.cloud.google.com/).
-   * Create a new agent named `ParentConnect`.
-   * Open **Settings (Gear Icon) > Export and Import**.
-   * Click **Restore from Zip**, upload `ParentConnect_Agent.zip`, type **RESTORE**, and confirm.
-   * Allow the NLU engine 15–30 seconds to train the classification models.
-
-4. **Verify in the Test Console:**
-   * Test attendance verification: Enter *"Check my child's attendance"*, provide an invalid ID, confirm the fallback prompt, then enter `stu32543` to verify the record.
-   * Test bus tracking disambiguation: Enter *"Track school bus"*, tap `"Route 1"`, and confirm Route 1's live telemetry is returned.
-   * Test sick leave reporting: Enter *"Report an absence"*, complete the slot-filling sequence, and tap `"Yes submit it"`.
-
----
-
-## Ethical AI, Data Privacy and Safeguards
-
-* **Student Data Protection:** Academic and attendance records require matching an authenticated Student ID format before data is retrieved.
-* **Deterministic Responses:** Financial figures, tuition balances, and school calendar dates strictly reflect verified parameters without speculative outputs.
-* **Administrative Escalation:** Urgent disciplinary concerns, student counseling needs, or emergencies route directly to the Principal's Executive Secretary ((555) 019-2805).
 
 ---
 
