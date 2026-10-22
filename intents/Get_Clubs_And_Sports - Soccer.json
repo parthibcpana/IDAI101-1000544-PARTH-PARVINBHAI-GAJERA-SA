@@ -1,0 +1,71 @@
+{
+  "id": "f665c111-2a58-43f7-ae48-ca9460b300aa",
+  "name": "Get_Clubs_And_Sports - Soccer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_clubs_and_sports___soccer",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "School Soccer Program: Team practices take place Monday, Wednesday, and Friday from 4:00 PM to 5:30 PM on the North Athletic Field. Head Coach: Marcus Taylor. Varsity tryouts are held in August, and junior development clinics run year-round."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Robotics Club",
+            "Swimming Team",
+            "Debate Society",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Robotics Club"
+                    },
+                    {
+                      "text": "Swimming Team"
+                    },
+                    {
+                      "text": "Debate Society"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

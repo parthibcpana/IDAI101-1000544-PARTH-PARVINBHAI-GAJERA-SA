@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-f76e6f796f",
+    "data": [
+      {
+        "text": "Nut-Free Policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-45e9e28f80",
+    "data": [
+      {
+        "text": "nut allergy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-1da2c6a04d",
+    "data": [
+      {
+        "text": "is cafeteria nut free",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-f9db76c419",
+    "data": [
+      {
+        "text": "allergy policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-bc04b87098",
+    "data": [
+      {
+        "text": "peanut allergy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

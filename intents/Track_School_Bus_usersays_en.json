@@ -1,57 +1,5 @@
 [
   {
-    "id": "chip-007843856",
-    "data": [
-      {
-        "text": "Route 4",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "chip-538799569",
-    "data": [
-      {
-        "text": "Route 2",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "chip-175306749",
-    "data": [
-      {
-        "text": "Route 1",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "chip-148597249",
-    "data": [
-      {
-        "text": "Bus Dispatch",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "chip-010918031",
     "data": [
       {

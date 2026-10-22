@@ -1,0 +1,76 @@
+{
+  "id": "456469d9-4c41-4a21-b4a5-9f1298c55298",
+  "name": "Track_School_Bus - Route 3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "track_school_bus___route_3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Transportation telemetry for Route 3 (East / Metro Central): Bus #04 is currently near Central Park Crossing, proceeding on schedule. Estimated arrival at next stop: 8–10 minutes. Driver: Mr. David Miller (Dispatch line: 555-019-2834).",
+            "Route 3 status update: Bus #04 is passing Central Park Crossing. All stops are on schedule with an estimated arrival of 8–10 minutes."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Route 1",
+            "Route 2",
+            "Route 4",
+            "Bus Dispatch",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Route 1"
+                    },
+                    {
+                      "text": "Route 2"
+                    },
+                    {
+                      "text": "Route 4"
+                    },
+                    {
+                      "text": "Bus Dispatch"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

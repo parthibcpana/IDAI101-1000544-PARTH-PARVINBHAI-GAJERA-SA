@@ -1,0 +1,80 @@
+[
+  {
+    "id": "phrase-c3b3a562df",
+    "data": [
+      {
+        "text": "Eyeglasses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-e62ff10e3e",
+    "data": [
+      {
+        "text": "lost eyeglasses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-04440f8d02",
+    "data": [
+      {
+        "text": "lost glasses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ea961a22e5",
+    "data": [
+      {
+        "text": "lost spectacles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-aae0498110",
+    "data": [
+      {
+        "text": "lost watch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-9389a42795",
+    "data": [
+      {
+        "text": "lost valuables",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

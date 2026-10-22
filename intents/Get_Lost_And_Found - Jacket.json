@@ -1,0 +1,71 @@
+{
+  "id": "dded4730-0ee9-451c-8c8a-e8e2431bc668",
+  "name": "Get_Lost_And_Found - Jacket",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_lost_and_found___jacket",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Lost Jackets, Blazers & Uniforms: Found outerwear is cataloged and hung on the Lost & Found clothing rack adjacent to the gymnasium entrance. Please inspect the rack between 8:00 AM and 4:00 PM on school days."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Water Bottle",
+            "Lunchbox",
+            "Eyeglasses",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Water Bottle"
+                    },
+                    {
+                      "text": "Lunchbox"
+                    },
+                    {
+                      "text": "Eyeglasses"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

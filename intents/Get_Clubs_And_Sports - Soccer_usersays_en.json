@@ -1,0 +1,93 @@
+[
+  {
+    "id": "phrase-fed1639bd0",
+    "data": [
+      {
+        "text": "Soccer Team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-62cc00e1ca",
+    "data": [
+      {
+        "text": "soccer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-502f992ce5",
+    "data": [
+      {
+        "text": "football team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-99041eea14",
+    "data": [
+      {
+        "text": "soccer practice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-de5ca15bc8",
+    "data": [
+      {
+        "text": "join soccer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-8f1bf97223",
+    "data": [
+      {
+        "text": "soccer tryouts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ed119de65b",
+    "data": [
+      {
+        "text": "tell me about soccer team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

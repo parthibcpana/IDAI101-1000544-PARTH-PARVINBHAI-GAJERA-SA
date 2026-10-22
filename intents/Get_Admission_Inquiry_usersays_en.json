@@ -1,31 +1,5 @@
 [
   {
-    "id": "chip-422922485",
-    "data": [
-      {
-        "text": "Admission Criteria",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "chip-686654839",
-    "data": [
-      {
-        "text": "Campus Tour",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "chip-252343943",
     "data": [
       {

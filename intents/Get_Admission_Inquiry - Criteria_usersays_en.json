@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-c540fe89f2",
+    "data": [
+      {
+        "text": "Admission Criteria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ec800e1b05",
+    "data": [
+      {
+        "text": "entry requirements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-1d73005989",
+    "data": [
+      {
+        "text": "admission eligibility",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-d2ef82ab2f",
+    "data": [
+      {
+        "text": "eligibility criteria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-8ca07a9b6e",
+    "data": [
+      {
+        "text": "how to apply",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

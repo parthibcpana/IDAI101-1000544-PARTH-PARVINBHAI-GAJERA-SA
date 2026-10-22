@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-25aecfd404",
+    "data": [
+      {
+        "text": "Vegetarian Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-4c598ee5ab",
+    "data": [
+      {
+        "text": "vegetarian lunch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-061dc7d93e",
+    "data": [
+      {
+        "text": "veg menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-2f7c7fddb0",
+    "data": [
+      {
+        "text": "vegetarian options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-7ca29e10af",
+    "data": [
+      {
+        "text": "is there vegetarian food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

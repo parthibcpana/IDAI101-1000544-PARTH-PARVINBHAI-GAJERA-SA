@@ -1,0 +1,80 @@
+[
+  {
+    "id": "phrase-df7ef1ca3b",
+    "data": [
+      {
+        "text": "Parent Meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-263f6a38d6",
+    "data": [
+      {
+        "text": "PTM",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-56953c3860",
+    "data": [
+      {
+        "text": "when is parent meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-538b353a92",
+    "data": [
+      {
+        "text": "parent teacher meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-640113ed44",
+    "data": [
+      {
+        "text": "ptm schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-df91f2651f",
+    "data": [
+      {
+        "text": "parent meeting date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "id": "0716e0a4-cc3a-4fdb-9304-a9931961cf2d",
+  "name": "Get_School_Info - Office Hours",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_school_info___office_hours",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Greenfield Academy Office Hours: Main Administration: Monday–Friday, 7:30 AM – 4:30 PM. Accounts & Bursar Desk: 8:00 AM – 3:30 PM. Academic Counseling: By appointment."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Campus Address",
+            "Staff Directory",
+            "School Timings",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Campus Address"
+                    },
+                    {
+                      "text": "Staff Directory"
+                    },
+                    {
+                      "text": "School Timings"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

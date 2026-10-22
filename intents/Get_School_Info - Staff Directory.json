@@ -1,0 +1,71 @@
+{
+  "id": "e9371393-175c-4a46-b190-b910e8e38c68",
+  "name": "Get_School_Info - Staff Directory",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_school_info___staff_directory",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Institutional Directory: Central Reception: (555) 019-2830 | Principal's Office: (555) 019-2831 | Health Clinic: (555) 019-2835 | General Inquiries: contact@greenfield.edu."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Office Hours",
+            "Campus Address",
+            "School Timings",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Office Hours"
+                    },
+                    {
+                      "text": "Campus Address"
+                    },
+                    {
+                      "text": "School Timings"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

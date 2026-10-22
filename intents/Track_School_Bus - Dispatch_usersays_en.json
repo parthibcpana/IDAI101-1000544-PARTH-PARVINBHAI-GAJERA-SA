@@ -1,0 +1,93 @@
+[
+  {
+    "id": "phrase-1faad60f51",
+    "data": [
+      {
+        "text": "Bus Dispatch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-e2daa4bc6a",
+    "data": [
+      {
+        "text": "transport dispatch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-391411c0f7",
+    "data": [
+      {
+        "text": "bus coordinator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-293028da56",
+    "data": [
+      {
+        "text": "driver contact number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-d466171e40",
+    "data": [
+      {
+        "text": "call bus driver",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-eb3716e81a",
+    "data": [
+      {
+        "text": "emergency transport contact",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-803711a318",
+    "data": [
+      {
+        "text": "transportation desk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

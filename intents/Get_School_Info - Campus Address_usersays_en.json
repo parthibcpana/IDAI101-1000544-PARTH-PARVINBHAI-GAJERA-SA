@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-8ce903af6c",
+    "data": [
+      {
+        "text": "Campus Address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-6bb3c65a9a",
+    "data": [
+      {
+        "text": "where is school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-5cbce31f6e",
+    "data": [
+      {
+        "text": "school address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-b0f3ea7c08",
+    "data": [
+      {
+        "text": "directions to school",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-7ee48403ae",
+    "data": [
+      {
+        "text": "campus location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

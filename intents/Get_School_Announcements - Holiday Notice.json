@@ -1,0 +1,71 @@
+{
+  "id": "096943d8-e8af-43b7-b09f-84bd39bae6ff",
+  "name": "Get_School_Announcements - Holiday Notice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_school_announcements___holiday_notice",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Upcoming School Recess: Greenfield Academy will remain closed from Thursday, November 23 through Sunday, November 26 for the Thanksgiving recess. Regular instructional schedules resume on Monday, November 27 at 8:00 AM."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Parent Meeting",
+            "Sports Day",
+            "School Timings",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Parent Meeting"
+                    },
+                    {
+                      "text": "Sports Day"
+                    },
+                    {
+                      "text": "School Timings"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

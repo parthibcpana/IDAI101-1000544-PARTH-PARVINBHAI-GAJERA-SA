@@ -1,0 +1,76 @@
+{
+  "id": "382cf746-9180-48c8-a8a2-f5d4403b8490",
+  "name": "Track_School_Bus - Route 4",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "track_school_bus___route_4",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Transportation telemetry for Route 4 (Downtown / Riverdale): Bus #19 is currently halted at Broadway Signals, on schedule. Estimated arrival at next stop: 15 minutes. Driver: Mr. Alan Vance (Dispatch line: 555-019-2834).",
+            "Route 4 update: Bus #19 is crossing Broadway Signals towards Riverdale. Running punctually on schedule; estimated arrival at next stop: 15 minutes."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Route 1",
+            "Route 2",
+            "Route 3",
+            "Bus Dispatch",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Route 1"
+                    },
+                    {
+                      "text": "Route 2"
+                    },
+                    {
+                      "text": "Route 3"
+                    },
+                    {
+                      "text": "Bus Dispatch"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

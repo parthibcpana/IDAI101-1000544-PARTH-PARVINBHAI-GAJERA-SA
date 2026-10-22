@@ -1,0 +1,76 @@
+{
+  "id": "48d80194-5e70-4f91-b6f1-3a2ac326b693",
+  "name": "Track_School_Bus - Route 2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "track_school_bus___route_2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Transportation telemetry for Route 2 (South / Oakridge): Bus #07 is currently approaching Greenfield Avenue, proceeding on schedule. Estimated arrival at next scheduled stop: 12 minutes. Driver: Ms. Sarah Collins (Dispatch line: 555-019-2834).",
+            "Route 2 transit update: Bus #07 is navigating Greenfield Avenue normally. Estimated arrival at next stop: 12 minutes."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Route 1",
+            "Route 3",
+            "Route 4",
+            "Bus Dispatch",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Route 1"
+                    },
+                    {
+                      "text": "Route 3"
+                    },
+                    {
+                      "text": "Route 4"
+                    },
+                    {
+                      "text": "Bus Dispatch"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

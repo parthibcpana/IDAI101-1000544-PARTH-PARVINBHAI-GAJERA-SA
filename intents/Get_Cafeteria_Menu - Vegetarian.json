@@ -1,0 +1,71 @@
+{
+  "id": "c2ee68a8-6dbb-410a-a11d-c7ba712f54bf",
+  "name": "Get_Cafeteria_Menu - Vegetarian",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_cafeteria_menu___vegetarian",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Vegetarian Dining Options: Today's fresh vegetarian selection features Spinach & Ricotta Ravioli with garlic bread, or Mediterranean Hummus Bowl with warm whole-wheat pita, steamed seasonal vegetables, and organic fresh fruit."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Nut-Free Policy",
+            "Meal Pricing",
+            "Cafeteria Menu",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Nut-Free Policy"
+                    },
+                    {
+                      "text": "Meal Pricing"
+                    },
+                    {
+                      "text": "Cafeteria Menu"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

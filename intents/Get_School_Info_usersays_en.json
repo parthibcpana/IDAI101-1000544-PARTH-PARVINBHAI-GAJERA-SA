@@ -13,45 +13,6 @@
     "updated": 0
   },
   {
-    "id": "chip-266970940",
-    "data": [
-      {
-        "text": "Staff Directory",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "chip-598102070",
-    "data": [
-      {
-        "text": "Campus Address",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "chip-265775994",
-    "data": [
-      {
-        "text": "Office Hours",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "chip-707483390",
     "data": [
       {

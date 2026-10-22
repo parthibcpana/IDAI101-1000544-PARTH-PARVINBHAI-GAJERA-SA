@@ -1,0 +1,80 @@
+[
+  {
+    "id": "phrase-8294dc68d5",
+    "data": [
+      {
+        "text": "Lunchbox",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-87f9341d13",
+    "data": [
+      {
+        "text": "lost lunchbox",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-2c138cc949",
+    "data": [
+      {
+        "text": "lost lunch bag",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-7898632b60",
+    "data": [
+      {
+        "text": "lost food container",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-1f7d852f79",
+    "data": [
+      {
+        "text": "lunchbox lost",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-3c87f127d7",
+    "data": [
+      {
+        "text": "tiffin box",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "id": "b3f0c670-7cf7-4989-a191-3e3304f542c1",
+  "name": "Get_Payment_Options - Office",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_payment_options___office",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Bursar & Accounts Office: Walk-in tuition payments via cash, check, or card are accepted Monday through Friday from 8:30 AM to 3:30 PM in Administration Building Room 102."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Online Portal",
+            "UPI / Wire",
+            "Fee Details",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Online Portal"
+                    },
+                    {
+                      "text": "UPI / Wire"
+                    },
+                    {
+                      "text": "Fee Details"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

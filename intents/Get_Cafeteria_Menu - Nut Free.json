@@ -1,0 +1,71 @@
+{
+  "id": "b6b12725-434e-4df1-afab-912fb8982101",
+  "name": "Get_Cafeteria_Menu - Nut Free",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_cafeteria_menu___nut_free",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Campus Allergy & Nutrition Policy: Greenfield Academy operates a strictly 100% Nut-Free kitchen and dining facility. Outside meals containing peanuts or tree nuts are strictly prohibited to ensure student safety."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Vegetarian Menu",
+            "Meal Pricing",
+            "Cafeteria Menu",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Vegetarian Menu"
+                    },
+                    {
+                      "text": "Meal Pricing"
+                    },
+                    {
+                      "text": "Cafeteria Menu"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

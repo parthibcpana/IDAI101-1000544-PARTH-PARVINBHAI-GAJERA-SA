@@ -1,0 +1,80 @@
+[
+  {
+    "id": "phrase-bf6e16964f",
+    "data": [
+      {
+        "text": "Meal Pricing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-d060537ac5",
+    "data": [
+      {
+        "text": "cafeteria pricing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-cf69d32770",
+    "data": [
+      {
+        "text": "how much is lunch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-d08076d8db",
+    "data": [
+      {
+        "text": "lunch cost",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-0d3cc07f0a",
+    "data": [
+      {
+        "text": "meal cost",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-919f98ecdb",
+    "data": [
+      {
+        "text": "cafeteria price",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

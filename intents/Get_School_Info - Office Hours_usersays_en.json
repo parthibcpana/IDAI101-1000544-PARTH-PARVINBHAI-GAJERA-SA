@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-ce73a1890f",
+    "data": [
+      {
+        "text": "Office Hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-eccc7255d7",
+    "data": [
+      {
+        "text": "school office hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-f225448120",
+    "data": [
+      {
+        "text": "admin hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-dab1781409",
+    "data": [
+      {
+        "text": "when is office open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-6c60537fa6",
+    "data": [
+      {
+        "text": "operating hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

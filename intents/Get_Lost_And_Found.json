@@ -29,14 +29,12 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Misplaced personal articles (including water bottles, lunchboxes, jackets, and eyeglasses) are cataloged at the Central Administration Helpdesk, open Monday through Friday, 8:00 AM to 3:30 PM. Items left on school transport are received daily from route drivers.",
-            "Lost and found protocol: Misplaced items are secured at the Central Administration Helpdesk during school hours (8:00 AM to 3:30 PM). Unclaimed belongings from school buses are delivered each afternoon.",
-            "Items found on campus are held at the administrative reception desk between 8:00 AM and 3:30 PM. Please visit the desk or contact campus security for item identification."
+            "Misplaced personal articles are cataloged daily at the Central Administration Office desk (open weekdays 8:00 AM – 4:00 PM). What item are you inquiring about? Select a category below or contact frontdesk@greenfield.edu."
           ]
         },
         {
           "type": 2,
-          "title": "Reported items:",
+          "title": "Select an option:",
           "replies": [
             "Water Bottle",
             "Lunchbox",

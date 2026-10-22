@@ -1,0 +1,71 @@
+{
+  "id": "0a915e90-fc9e-4d8c-96d6-3ce5137ddcb9",
+  "name": "Get_Lost_And_Found - Eyeglasses",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_lost_and_found___eyeglasses",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Lost Eyeglasses & Valuables: Eyeglasses, watches, electronics, and jewelry are stored securely in the Administrative Safe. To retrieve, please present a description or prescription verification to the Front Desk Coordinator."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Water Bottle",
+            "Lunchbox",
+            "Jacket",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Water Bottle"
+                    },
+                    {
+                      "text": "Lunchbox"
+                    },
+                    {
+                      "text": "Jacket"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

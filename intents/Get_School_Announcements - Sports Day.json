@@ -1,0 +1,71 @@
+{
+  "id": "a75a39c7-f86d-4612-bcc2-710f6f4b07c5",
+  "name": "Get_School_Announcements - Sports Day",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_school_announcements___sports_day",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Annual Inter-House Sports Day: Scheduled for Friday, December 8, at the Main Athletic Grounds. Opening ceremony and parade of houses commence at 8:30 AM, followed by track and field finals. Parent spectator badges will be distributed via email."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Parent Meeting",
+            "Holiday Notice",
+            "Clubs & Sports",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Parent Meeting"
+                    },
+                    {
+                      "text": "Holiday Notice"
+                    },
+                    {
+                      "text": "Clubs & Sports"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

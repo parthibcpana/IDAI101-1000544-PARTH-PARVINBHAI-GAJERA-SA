@@ -1,0 +1,93 @@
+[
+  {
+    "id": "phrase-d029a91e34",
+    "data": [
+      {
+        "text": "Jacket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-c9a68bc55f",
+    "data": [
+      {
+        "text": "lost jacket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-6bcb500365",
+    "data": [
+      {
+        "text": "lost sweater",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-0e43160b3a",
+    "data": [
+      {
+        "text": "lost blazer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-924577f000",
+    "data": [
+      {
+        "text": "lost uniform",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-e6e88d7664",
+    "data": [
+      {
+        "text": "lost hoodie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-2fdf245872",
+    "data": [
+      {
+        "text": "lost coat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

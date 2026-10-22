@@ -1,0 +1,93 @@
+[
+  {
+    "id": "phrase-24916e25cb",
+    "data": [
+      {
+        "text": "Swimming Team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-c214502642",
+    "data": [
+      {
+        "text": "swimming",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-6676caa339",
+    "data": [
+      {
+        "text": "swim team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-0ece01c5e4",
+    "data": [
+      {
+        "text": "swimming club",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-c5fdadfd13",
+    "data": [
+      {
+        "text": "swim practice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-e94ffeaa40",
+    "data": [
+      {
+        "text": "pool timings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-b7139f4482",
+    "data": [
+      {
+        "text": "tell me about swimming",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "phrase-3b6bd956f9",
+    "data": [
+      {
+        "text": "Water Bottle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-2556957cf3",
+    "data": [
+      {
+        "text": "lost water bottle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-826f0d8080",
+    "data": [
+      {
+        "text": "lost bottle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-a2d919cb8b",
+    "data": [
+      {
+        "text": "lost thermos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-36962715f6",
+    "data": [
+      {
+        "text": "lost flask",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-739743eb05",
+    "data": [
+      {
+        "text": "water bottle lost",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

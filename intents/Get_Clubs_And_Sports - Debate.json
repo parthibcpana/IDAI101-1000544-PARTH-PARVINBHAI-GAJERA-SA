@@ -1,0 +1,71 @@
+{
+  "id": "bbbcaeeb-5e33-44c1-ac48-e48878b85034",
+  "name": "Get_Clubs_And_Sports - Debate",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_clubs_and_sports___debate",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Debate & Forensics Society: Meets Wednesdays at 3:45 PM in the Lecture Hall. Focus areas include Parliamentary debate, competitive forensics, and Model UN delegation preparation. Faculty Advisor: Ms. Clara Higgins."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Robotics Club",
+            "Soccer Team",
+            "Swimming Team",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Robotics Club"
+                    },
+                    {
+                      "text": "Soccer Team"
+                    },
+                    {
+                      "text": "Swimming Team"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

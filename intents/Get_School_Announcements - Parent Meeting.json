@@ -1,0 +1,71 @@
+{
+  "id": "627440d7-25bf-473d-9372-fc1b12a253e4",
+  "name": "Get_School_Announcements - Parent Meeting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_school_announcements___parent_meeting",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Term Parent-Teacher Meeting (PTM): Scheduled for Saturday, November 18, from 9:00 AM to 1:00 PM in the Main Auditorium. Parents may reserve individual 10-minute faculty consultations via the Parent Portal or by saying 'Request Teacher Appointment'."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Sports Day",
+            "Holiday Notice",
+            "School Timings",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Sports Day"
+                    },
+                    {
+                      "text": "Holiday Notice"
+                    },
+                    {
+                      "text": "School Timings"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

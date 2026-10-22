@@ -1,0 +1,71 @@
+{
+  "id": "6cc2885c-9a7c-495a-8abd-ca2c94e3978f",
+  "name": "Get_Lost_And_Found - Lunchbox",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_lost_and_found___lunchbox",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Lost Lunchboxes & Containers: Perishable items are cleared daily at 4:30 PM from the cafeteria Lost & Found station. Insulated lunch bags and durable containers are retained at the Administration Office for one week."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Water Bottle",
+            "Jacket",
+            "Eyeglasses",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Water Bottle"
+                    },
+                    {
+                      "text": "Jacket"
+                    },
+                    {
+                      "text": "Eyeglasses"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

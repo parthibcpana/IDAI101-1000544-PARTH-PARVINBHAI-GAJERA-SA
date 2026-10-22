@@ -1,0 +1,71 @@
+{
+  "id": "1ce64475-a39f-4289-ad4f-1ed7c9d5cf38",
+  "name": "Get_Payment_Options - Wire",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_payment_options___wire",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Direct Wire & Electronic Transfer: Beneficiary: Greenfield Academy | Bank: Metro State Bank | Account: 9876543210 | IFSC / Routing: MSB0004123. Kindly include your child's Student ID in the payment reference note."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Online Portal",
+            "Accounts Office",
+            "Fee Details",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Online Portal"
+                    },
+                    {
+                      "text": "Accounts Office"
+                    },
+                    {
+                      "text": "Fee Details"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

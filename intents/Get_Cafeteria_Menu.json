@@ -43,14 +43,12 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Today's cafeteria menu offers balanced hot entrees: Grilled Chicken or Vegetarian Pasta with organic garden salad, seasonal fruit, and milk. Our kitchen maintains a certified 100% nut-free environment.",
-            "Daily cafeteria dining options: Hot lunch features grilled chicken or whole-wheat vegetarian pasta, steamed greens, and fresh fruit. Vegetarian, vegan, and nut-free dietary requirements are strictly observed.",
-            "Cafeteria meal update: Hot meal service includes pasta with marinara or grilled chicken breast, fresh seasonal fruit, and milk. The cafeteria is entirely nut-free."
+            "Today's cafeteria menu: Hot Entrees: Grilled Herb Chicken or Spinach & Ricotta Ravioli, accompanied by garden salad, steamed vegetables, and seasonal fruit. Service begins at 11:30 AM. Select an option below for dietary details."
           ]
         },
         {
           "type": 2,
-          "title": "Meal choices:",
+          "title": "Select an option:",
           "replies": [
             "Vegetarian Menu",
             "Nut-Free Policy",

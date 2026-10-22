@@ -1,0 +1,80 @@
+[
+  {
+    "id": "phrase-e4db4869c7",
+    "data": [
+      {
+        "text": "UPI / Wire",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-79863f4f10",
+    "data": [
+      {
+        "text": "bank transfer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-0374331e12",
+    "data": [
+      {
+        "text": "UPI payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-bc66b7df13",
+    "data": [
+      {
+        "text": "wire transfer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-79a2a4c954",
+    "data": [
+      {
+        "text": "pay by upi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ba1181af7c",
+    "data": [
+      {
+        "text": "neft transfer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

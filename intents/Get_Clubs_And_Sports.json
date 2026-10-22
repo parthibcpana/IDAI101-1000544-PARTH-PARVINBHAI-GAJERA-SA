@@ -29,14 +29,12 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "The institution offers 6 primary athletic sports (Basketball, Soccer, Swimming, Cricket, Tennis, Track & Field) and 5 extracurricular clubs (Robotics Club, Debate Society, Drama Guild, Art Studio, Chess League). Which program would you like to review?",
-            "Extracurricular programs include competitive athletics (Soccer, Basketball, Swimming, Cricket, Tennis) and academic enrichment clubs (Robotics, Debate, Drama, Chess). All activities are supervised by certified coaches and faculty.",
-            "Greenfield Academy provides diverse athletic and extracurricular offerings. Athletic disciplines include basketball, soccer, and swimming; enrichment societies include robotics and debate."
+            "Greenfield Academy offers 6 athletic disciplines (Basketball, Soccer, Swimming, Cricket, Tennis, Athletics) and 14 student clubs (Robotics, Model UN, Debate, Chess, Coding, Drama, Art). Select a program below for meeting times, coach details, and registration requirements."
           ]
         },
         {
           "type": 2,
-          "title": "Popular activities:",
+          "title": "Select an option:",
           "replies": [
             "Robotics Club",
             "Soccer Team",

@@ -1,0 +1,71 @@
+{
+  "id": "ec67bede-10d6-452f-9cde-d917a1817575",
+  "name": "Get_Clubs_And_Sports - Robotics",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_clubs_and_sports___robotics",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Robotics & STEM Club: Meets every Tuesday and Thursday at 3:30 PM in the Innovation Lab (Room 204). Faculty Mentor: Dr. Keith Evans. Curriculum covers Arduino programming, LEGO Mindstorms robotics, and annual First Tech Challenge competition."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Soccer Team",
+            "Swimming Team",
+            "Debate Society",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Soccer Team"
+                    },
+                    {
+                      "text": "Swimming Team"
+                    },
+                    {
+                      "text": "Debate Society"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

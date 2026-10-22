@@ -43,20 +43,19 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Transportation telemetry update: School Bus Route 3 is currently approaching Central Park Crossing and is estimated to arrive at the next scheduled stop in 8 to 10 minutes. For dispatch inquiries, contact (555) 019-2834.",
-            "Bus transit status: Route 3 is on schedule near Central Park Crossing, with an estimated arrival time of 8–10 minutes to the next stop. For direct driver dispatch, please call (555) 019-2834.",
-            "Current location update: Route 3 is navigating past Central Park Crossing (ETA: 8–10 minutes). Dispatch desk is available at (555) 019-2834."
+            "School bus real-time tracking is active for all morning and afternoon routes. Which bus route would you like to track? Please select your route below: Route 1 (North / West Hills), Route 2 (South / Oakridge), Route 3 (East / Metro Central), or Route 4 (Downtown / Riverdale).",
+            "Real-time transport tracking: Please choose your student's designated route (Route 1, Route 2, Route 3, or Route 4) or select Bus Dispatch for urgent supervisor inquiries."
           ]
         },
         {
           "type": 2,
-          "title": "Other bus routes:",
+          "title": "Select an option:",
           "replies": [
             "Route 1",
             "Route 2",
+            "Route 3",
             "Route 4",
-            "Bus Dispatch",
-            "Main Menu"
+            "Bus Dispatch"
           ],
           "lang": "en"
         },
@@ -75,13 +74,13 @@
                       "text": "Route 2"
                     },
                     {
+                      "text": "Route 3"
+                    },
+                    {
                       "text": "Route 4"
                     },
                     {
                       "text": "Bus Dispatch"
-                    },
-                    {
-                      "text": "Main Menu"
                     }
                   ]
                 }

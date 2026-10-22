@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-36d4f135c7",
+    "data": [
+      {
+        "text": "Sports Day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-b45ffbac1c",
+    "data": [
+      {
+        "text": "annual sports day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-18459e6984",
+    "data": [
+      {
+        "text": "sports day schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-4b1b06daff",
+    "data": [
+      {
+        "text": "athletic meet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-d7836a9213",
+    "data": [
+      {
+        "text": "when is sports day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

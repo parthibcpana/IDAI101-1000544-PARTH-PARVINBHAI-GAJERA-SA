@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParentConnect AI — School Communication Assistant | Live Chatbot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-dark: #172554;
+      --primary-light: #3b82f6;
+      --accent: #2563eb;
+      --bg-page: #f8fafc;
+      --surface: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --border: #e2e8f0;
+      --chip-bg: #eff6ff;
+      --chip-text: #1d4ed8;
+      --chip-border: #bfdbfe;
+      --bot-msg-bg: #f1f5f9;
+      --user-msg-bg: #1e3a8a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+
+    .brand-title {
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--primary-dark);
+    }
+
+    .brand-subtitle {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .badge-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      background-color: #e0f2fe;
+      color: #0369a1;
+      border: 1px solid #bae6fd;
+    }
+
+    .badge-success {
+      background-color: #dcfce7;
+      color: #15803d;
+      border-color: #bbf7d0;
+    }
+
+    main {
+      flex: 1;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.75rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+
+    .info-card h1 {
+      font-size: 1.5rem;
+      color: var(--primary-dark);
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+
+    .info-card p {
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+      font-size: 0.95rem;
+    }
+
+    .meta-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1.5rem;
+      font-size: 0.875rem;
+    }
+
+    .meta-table tr {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .meta-table td {
+      padding: 0.65rem 0;
+    }
+
+    .meta-table td:first-child {
+      font-weight: 600;
+      color: var(--text-muted);
+      width: 38%;
+    }
+
+    .meta-table td:last-child {
+      color: var(--text-main);
+      font-weight: 500;
+    }
+
+    .highlight-box {
+      background-color: #f8fafc;
+      border-left: 4px solid var(--primary-light);
+      padding: 1rem;
+      border-radius: 4px;
+      margin-bottom: 1.5rem;
+    }
+
+    .highlight-box h3 {
+      font-size: 0.9rem;
+      color: var(--primary-dark);
+      margin-bottom: 0.35rem;
+    }
+
+    .highlight-box p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    .chat-container {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      height: 650px;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .chat-header {
+      background: var(--primary-dark);
+      color: white;
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .chat-status {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background-color: #22c55e;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #22c55e;
+    }
+
+    .chat-body {
+      flex: 1;
+      padding: 1.25rem;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background-color: #fafafa;
+    }
+
+    .message {
+      max-width: 85%;
+      padding: 0.85rem 1.1rem;
+      border-radius: 12px;
+      font-size: 0.9rem;
+      line-height: 1.45;
+      animation: fadeIn 0.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .message-bot {
+      align-self: flex-start;
+      background-color: var(--bot-msg-bg);
+      color: var(--text-main);
+      border-bottom-left-radius: 2px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .message-user {
+      align-self: flex-end;
+      background-color: var(--user-msg-bg);
+      color: white;
+      border-bottom-right-radius: 2px;
+    }
+
+    .chips-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.5rem;
+    }
+
+    .chip-btn {
+      background-color: var(--chip-bg);
+      color: var(--chip-text);
+      border: 1px solid var(--chip-border);
+      padding: 0.35rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+    }
+
+    .chip-btn:hover {
+      background-color: #dbeafe;
+      border-color: #93c5fd;
+      transform: translateY(-1px);
+    }
+
+    .chat-footer {
+      padding: 0.85rem 1rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 0.5rem;
+      background-color: white;
+    }
+
+    .chat-input {
+      flex: 1;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.65rem 0.9rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+
+    .chat-input:focus {
+      border-color: var(--primary-light);
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+    }
+
+    .send-btn {
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 0.65rem 1.15rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background-color 0.15s ease;
+    }
+
+    .send-btn:hover {
+      background-color: var(--primary-dark);
+    }
+
+    footer {
+      background-color: white;
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 2rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    footer a {
+      color: var(--primary-light);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <!-- Google Dialogflow Messenger Web Component -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="ParentConnect AI"
+    agent-id="parentconnect-ai-xpmo"
+    language-code="en"
+  ></df-messenger>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-icon">P</div>
+      <div>
+        <div class="brand-title">ParentConnect AI</div>
+        <div class="brand-subtitle">School Communication &amp; Administrative Assistant</div>
+      </div>
+    </div>
+    <div class="badge-bar">
+      <span class="badge badge-success">● Live Assistant</span>
+      <span class="badge">Google Dialogflow ES</span>
+      <span class="badge">IDAI101 Summative Assessment</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="info-card">
+      <h1>ParentConnect AI Deployment Hub</h1>
+      <p>Autonomous institutional conversational assistant engineered for Greenfield Academy to bridge communication between parents, students, and administration.</p>
+      
+      <table class="meta-table">
+        <tbody>
+          <tr>
+            <td>Course</td>
+            <td>Artificial Intelligence: Real-World Applications (IDAI101)</td>
+          </tr>
+          <tr>
+            <td>Student Candidate</td>
+            <td>Parth Pravinbhai Gajera (ID: 1000544)</td>
+          </tr>
+          <tr>
+            <td>Assessment Type</td>
+            <td>Summative Assessment (60 Marks)</td>
+          </tr>
+          <tr>
+            <td>Project Scenario</td>
+            <td>Scenario 2: ParentConnect AI - School Communication Assistant</td>
+          </tr>
+          <tr>
+            <td>Intents &amp; Entities</td>
+            <td>51 Discrete Intents | 14 Custom Entities</td>
+          </tr>
+          <tr>
+            <td>Live Agent Platform</td>
+            <td>Google Dialogflow ES (Production Agent)</td>
+          </tr>
+          <tr>
+            <td>GitHub Repository</td>
+            <td><code>parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="highlight-box">
+        <h3>Step 4: Live Deployment Options</h3>
+        <p>1. <strong>Interactive Web Client:</strong> Use the live simulator on the right to test attendance, bus telemetry (Routes 1–4), fee statements, and absence reporting instantly.<br>
+        2. <strong>Dialogflow Messenger:</strong> Tap the floating chat bubble on the bottom right of this screen to launch the native Google Dialogflow Messenger widget.</p>
+      </div>
+
+      <div class="highlight-box">
+        <h3>Step 3: Testing &amp; Disambiguation Highlights</h3>
+        <p>• <strong>Route Specificity:</strong> Bus tracking provides independent telemetry for Route 1, Route 2, Route 3, and Route 4.<br>
+        • <strong>Student ID Guardrail:</strong> Case-insensitive regex validation protects student records.<br>
+        • <strong>Contextual Suggestion Chips:</strong> All chips are bounded within &le; 20 characters for rapid mobile navigation.</p>
+      </div>
+    </section>
+
+    <section class="chat-container">
+      <div class="chat-header">
+        <div>
+          <strong>ParentConnect AI Web Client</strong>
+          <div style="font-size:0.75rem; opacity:0.85;">Greenfield Academy Information Desk</div>
+        </div>
+        <div class="chat-status">
+          <div class="status-dot"></div>
+          <span>Active</span>
+        </div>
+      </div>
+
+      <div class="chat-body" id="chatBody">
+        <div class="message message-bot">
+          Welcome to ParentConnect AI, the school communication assistant for parents and faculty. How may I assist you today? Please choose an option below or enter your inquiry.
+          <div class="chips-wrapper">
+            <button class="chip-btn" onclick="sendQuery('View Attendance')">View Attendance</button>
+            <button class="chip-btn" onclick="sendQuery('Exam Schedule')">Exam Schedule</button>
+            <button class="chip-btn" onclick="sendQuery('Fee Details')">Fee Details</button>
+            <button class="chip-btn" onclick="sendQuery('Track School Bus')">Track School Bus</button>
+            <button class="chip-btn" onclick="sendQuery('Report Absence')">Report Absence</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-footer">
+        <input type="text" id="userInput" class="chat-input" placeholder="Type a message or select an option above..." onkeypress="handleKey(event)">
+        <button class="send-btn" onclick="submitInput()">Send</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    ParentConnect AI &copy; 2026 Greenfield Academy. Engineered by Parth Pravinbhai Gajera (1000544) for IDAI101 Summative Assessment. Source Code on <a href="https://github.com/parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA" target="_blank">GitHub</a>.
+  </footer>
+
+  <script>
+    const knowledgeBase = {
+      // Welcome & Main
+      "main menu": {
+        speech: "Welcome to ParentConnect AI. How may I assist you today? Please choose an option below:",
+        chips: ["View Attendance", "Exam Schedule", "Fee Details", "Track School Bus", "Report Absence"]
+      },
+      "hi": {
+        speech: "Greetings. Welcome to ParentConnect AI. How may I assist you today?",
+        chips: ["View Attendance", "Exam Schedule", "Fee Details", "Track School Bus", "Report Absence"]
+      },
+      "hello": {
+        speech: "Greetings. Welcome to ParentConnect AI. How may I assist you today?",
+        chips: ["View Attendance", "Exam Schedule", "Fee Details", "Track School Bus", "Report Absence"]
+      },
+
+      // Attendance
+      "view attendance": {
+        speech: "Please enter your child's assigned Student ID to retrieve their official attendance record.",
+        chips: ["Contact Front Desk", "Main Menu"]
+      },
+      "check my child's attendance": {
+        speech: "Please enter your child's assigned Student ID to retrieve their official attendance record.",
+        chips: ["Contact Front Desk", "Main Menu"]
+      },
+      "stu32543": {
+        speech: "Attendance record for student ID stu32543: Total instructional days: 112. Days present: 108 (96.4% attendance rate). Excused medical absences: 3. The student is currently in good academic standing.",
+        chips: ["View Report Card", "Report Absence", "Fee Details", "Main Menu"]
+      },
+      "as5425": {
+        speech: "Attendance record for student ID as5425: Total instructional days: 112. Days present: 106 (94.6% attendance rate). Excused medical absences: 4. The student is currently in good academic standing.",
+        chips: ["View Report Card", "Report Absence", "Fee Details", "Main Menu"]
+      },
+
+      // Exam Schedule
+      "exam schedule": {
+        speech: "Academic examination schedule: Midterm examinations will take place from November 10 to November 21. Morning sessions commence punctually at 9:00 AM daily. Please ensure students arrive 15 minutes prior with authorized stationery and hall tickets.",
+        chips: ["School Timings", "View Attendance", "Fee Details", "Main Menu"]
+      },
+      "when are the exams?": {
+        speech: "Academic examination schedule: Midterm examinations will take place from November 10 to November 21. Morning sessions commence punctually at 9:00 AM daily.",
+        chips: ["School Timings", "View Attendance", "Fee Details", "Main Menu"]
+      },
+
+      // School Timings & Info
+      "school timings": {
+        speech: "Greenfield Academy instructional hours: Pre-K to Grade 5: 8:00 AM – 2:30 PM. Grades 6 to 12: 8:00 AM – 3:30 PM. Main office hours: Monday–Friday, 7:30 AM – 4:30 PM.",
+        chips: ["Office Hours", "Campus Address", "Staff Directory", "Main Menu"]
+      },
+      "office hours": {
+        speech: "Greenfield Academy Office Hours: Main Administration: Monday–Friday, 7:30 AM – 4:30 PM. Accounts & Bursar Desk: 8:00 AM – 3:30 PM. Academic Counseling: By appointment.",
+        chips: ["Campus Address", "Staff Directory", "School Timings", "Main Menu"]
+      },
+      "campus address": {
+        speech: "Greenfield Academy Campus Address: 124 Greenfield Avenue, North District. Visitor parking is accessible via Gate 2 upon presenting government identification at the security lodge.",
+        chips: ["Office Hours", "Staff Directory", "School Timings", "Main Menu"]
+      },
+      "staff directory": {
+        speech: "Institutional Directory: Central Reception: (555) 019-2830 | Principal's Office: (555) 019-2831 | Health Clinic: (555) 019-2835 | General Inquiries: contact@greenfield.edu.",
+        chips: ["Office Hours", "Campus Address", "School Timings", "Main Menu"]
+      },
+
+      // School Bus Tracking
+      "track school bus": {
+        speech: "School bus real-time tracking is active for all morning and afternoon routes. Which bus route would you like to track? Please select your route below: Route 1 (North / West Hills), Route 2 (South / Oakridge), Route 3 (East / Metro Central), or Route 4 (Downtown / Riverdale).",
+        chips: ["Route 1", "Route 2", "Route 3", "Route 4", "Bus Dispatch"]
+      },
+      "route 1": {
+        speech: "Transportation telemetry for Route 1 (North / West Hills): Bus #12 is currently at Elmwood Junction, moving at 35 km/h. Estimated arrival at next scheduled stop: 6 minutes. Driver: Mr. Robert Jenkins (Dispatch line: 555-019-2834).",
+        chips: ["Route 2", "Route 3", "Route 4", "Bus Dispatch", "Main Menu"]
+      },
+      "route 2": {
+        speech: "Transportation telemetry for Route 2 (South / Oakridge): Bus #07 is currently approaching Greenfield Avenue, proceeding on schedule. Estimated arrival at next scheduled stop: 12 minutes. Driver: Ms. Sarah Collins (Dispatch line: 555-019-2834).",
+        chips: ["Route 1", "Route 3", "Route 4", "Bus Dispatch", "Main Menu"]
+      },
+      "route 3": {
+        speech: "Transportation telemetry for Route 3 (East / Metro Central): Bus #04 is currently near Central Park Crossing, proceeding on schedule. Estimated arrival at next stop: 8–10 minutes. Driver: Mr. David Miller (Dispatch line: 555-019-2834).",
+        chips: ["Route 1", "Route 2", "Route 4", "Bus Dispatch", "Main Menu"]
+      },
+      "route 4": {
+        speech: "Transportation telemetry for Route 4 (Downtown / Riverdale): Bus #19 is currently halted at Broadway Signals, on schedule. Estimated arrival at next stop: 15 minutes. Driver: Mr. Alan Vance (Dispatch line: 555-019-2834).",
+        chips: ["Route 1", "Route 2", "Route 3", "Bus Dispatch", "Main Menu"]
+      },
+      "bus dispatch": {
+        speech: "School Transportation Dispatch Desk: Direct Line: (555) 019-2834 | Email: transport@greenfield.edu. Active operating hours: 6:30 AM – 5:30 PM. For emergency route diversions or bus supervisor queries, please contact dispatch immediately.",
+        chips: ["Route 1", "Route 2", "Route 3", "Route 4", "Main Menu"]
+      },
+
+      // Fee Details & Payments
+      "fee details": {
+        speech: "Please enter your child's assigned Student ID to view their current fee balance and billing statement.",
+        chips: ["Payment Options", "Contact Accounts", "Main Menu"]
+      },
+      "payment options": {
+        speech: "Greenfield Academy provides multiple tuition payment channels: 1. Online Parent Portal (Instant). 2. Direct Wire / Bank Transfer. 3. Accounts Office Counter (Room 102). Select a channel below for detailed instructions.",
+        chips: ["Online Portal", "UPI / Wire", "Accounts Office", "Main Menu"]
+      },
+      "online portal": {
+        speech: "Online Tuition Remittance: Payments can be made via credit/debit card or net banking through the Parent Portal at parents.greenfield.edu. Digital receipts are archived immediately under 'Billing History'.",
+        chips: ["UPI / Wire", "Accounts Office", "Fee Details", "Main Menu"]
+      },
+      "upi / wire": {
+        speech: "Direct Wire & Electronic Transfer: Beneficiary: Greenfield Academy | Bank: Metro State Bank | Account: 9876543210 | IFSC / Routing: MSB0004123. Kindly include your child's Student ID in the payment reference note.",
+        chips: ["Online Portal", "Accounts Office", "Fee Details", "Main Menu"]
+      },
+      "accounts office": {
+        speech: "Bursar & Accounts Office: Walk-in tuition payments via cash, check, or card are accepted Monday through Friday from 8:30 AM to 3:30 PM in Administration Building Room 102.",
+        chips: ["Online Portal", "UPI / Wire", "Fee Details", "Main Menu"]
+      },
+
+      // Report Absence
+      "report absence": {
+        speech: "Please provide the Student ID to report an excused absence (e.g., stu32543, as5425, or STU10293).",
+        chips: ["Cancel", "Main Menu"]
+      },
+      "yes submit it": {
+        speech: "The absence report has been formally recorded as excused and transmitted to the homeroom teacher and school administration. An acknowledgment receipt has been logged.",
+        chips: ["View Attendance", "Exam Schedule", "Cafeteria Menu", "Main Menu"]
+      },
+
+      // Clubs and Sports
+      "clubs and sports": {
+        speech: "Greenfield Academy offers 6 athletic disciplines (Basketball, Soccer, Swimming, Cricket, Tennis, Athletics) and 14 student clubs (Robotics, Model UN, Debate, Chess, Coding, Drama, Art). Select a program below for meeting times, coach details, and registration requirements.",
+        chips: ["Robotics Club", "Soccer Team", "Swimming Team", "Debate Society", "Main Menu"]
+      },
+      "robotics club": {
+        speech: "Robotics & STEM Club: Meets every Tuesday and Thursday at 3:30 PM in the Innovation Lab (Room 204). Faculty Mentor: Dr. Keith Evans. Curriculum covers Arduino programming, LEGO Mindstorms robotics, and annual First Tech Challenge competition.",
+        chips: ["Soccer Team", "Swimming Team", "Debate Society", "Main Menu"]
+      },
+      "soccer team": {
+        speech: "School Soccer Program: Team practices take place Monday, Wednesday, and Friday from 4:00 PM to 5:30 PM on the North Athletic Field. Head Coach: Marcus Taylor. Varsity tryouts are held in August, and junior development clinics run year-round.",
+        chips: ["Robotics Club", "Swimming Team", "Debate Society", "Main Menu"]
+      },
+      "swimming team": {
+        speech: "Swimming & Aquatics Program: Daily morning practice: 6:30 AM – 8:00 AM; afternoon sessions: 3:45 PM – 5:00 PM at the Olympic Aquatic Center. Swim Coach: Elena Rostova. Water proficiency assessment required prior to enrollment.",
+        chips: ["Robotics Club", "Soccer Team", "Debate Society", "Main Menu"]
+      },
+      "debate society": {
+        speech: "Debate & Forensics Society: Meets Wednesdays at 3:45 PM in the Lecture Hall. Focus areas include Parliamentary debate, competitive forensics, and Model UN delegation preparation. Faculty Advisor: Ms. Clara Higgins.",
+        chips: ["Robotics Club", "Soccer Team", "Swimming Team", "Main Menu"]
+      },
+
+      // Cafeteria Menu
+      "cafeteria menu": {
+        speech: "Today's cafeteria menu: Hot Entrees: Grilled Herb Chicken or Spinach & Ricotta Ravioli, accompanied by garden salad, steamed vegetables, and seasonal fruit. Service begins at 11:30 AM. Select an option below for dietary details.",
+        chips: ["Vegetarian Menu", "Nut-Free Policy", "Meal Pricing", "Main Menu"]
+      },
+      "vegetarian menu": {
+        speech: "Vegetarian Dining Options: Today's fresh vegetarian selection features Spinach & Ricotta Ravioli with garlic bread, or Mediterranean Hummus Bowl with warm whole-wheat pita, steamed seasonal vegetables, and organic fresh fruit.",
+        chips: ["Nut-Free Policy", "Meal Pricing", "Cafeteria Menu", "Main Menu"]
+      },
+      "nut-free policy": {
+        speech: "Campus Allergy & Nutrition Policy: Greenfield Academy operates a strictly 100% Nut-Free kitchen and dining facility. Outside meals containing peanuts or tree nuts are strictly prohibited to ensure student safety.",
+        chips: ["Vegetarian Menu", "Meal Pricing", "Cafeteria Menu", "Main Menu"]
+      },
+      "meal pricing": {
+        speech: "Cafeteria Meal Pricing: Complete daily hot lunch combo: $4.50 (includes entree, garden salad, side, and beverage). Morning breakfast combo: $2.50. Balances may be replenished through the Parent Portal under 'Meal Plan'.",
+        chips: ["Vegetarian Menu", "Nut-Free Policy", "Cafeteria Menu", "Main Menu"]
+      },
+
+      // Lost and Found
+      "lost and found": {
+        speech: "Misplaced personal articles are cataloged daily at the Central Administration Office desk (open weekdays 8:00 AM – 4:00 PM). What item are you inquiring about? Select a category below or contact frontdesk@greenfield.edu.",
+        chips: ["Water Bottle", "Lunchbox", "Jacket", "Eyeglasses", "Main Menu"]
+      },
+      "water bottle": {
+        speech: "Lost Water Bottles & Drinkware: Unclaimed bottles are sanitized and placed in color-coded bins outside the Central Administration Office. Please visit during office hours (8:00 AM – 4:00 PM) to identify and retrieve your item within 14 days.",
+        chips: ["Lunchbox", "Jacket", "Eyeglasses", "Main Menu"]
+      },
+      "lunchbox": {
+        speech: "Lost Lunchboxes & Containers: Perishable items are cleared daily at 4:30 PM from the cafeteria Lost & Found station. Insulated lunch bags and durable containers are retained at the Administration Office for one week.",
+        chips: ["Water Bottle", "Jacket", "Eyeglasses", "Main Menu"]
+      },
+      "jacket": {
+        speech: "Lost Jackets, Blazers & Uniforms: Found outerwear is cataloged and hung on the Lost & Found clothing rack adjacent to the gymnasium entrance. Please inspect the rack between 8:00 AM and 4:00 PM on school days.",
+        chips: ["Water Bottle", "Lunchbox", "Eyeglasses", "Main Menu"]
+      },
+      "eyeglasses": {
+        speech: "Lost Eyeglasses & Valuables: Eyeglasses, watches, electronics, and jewelry are stored securely in the Administrative Safe. To retrieve, please present a description or prescription verification to the Front Desk Coordinator.",
+        chips: ["Water Bottle", "Lunchbox", "Jacket", "Main Menu"]
+      },
+
+      // Announcements
+      "announcements": {
+        speech: "Official school announcements: 1. Term Parent-Teacher Meeting on Saturday, Nov 18. 2. Annual Sports Day on Friday, Dec 8. 3. Thanksgiving Recess from Nov 23–26. Select an announcement below for full details.",
+        chips: ["Parent Meeting", "Sports Day", "Holiday Notice", "Main Menu"]
+      },
+      "parent meeting": {
+        speech: "Term Parent-Teacher Meeting (PTM): Scheduled for Saturday, November 18, from 9:00 AM to 1:00 PM in the Main Auditorium. Parents may reserve individual 10-minute faculty consultations via the Parent Portal or by saying 'Request Teacher Appointment'.",
+        chips: ["Sports Day", "Holiday Notice", "School Timings", "Main Menu"]
+      },
+      "sports day": {
+        speech: "Annual Inter-House Sports Day: Scheduled for Friday, December 8, at the Main Athletic Grounds. Opening ceremony and parade of houses commence at 8:30 AM, followed by track and field finals. Parent spectator badges will be distributed via email.",
+        chips: ["Parent Meeting", "Holiday Notice", "Clubs & Sports", "Main Menu"]
+      },
+      "holiday notice": {
+        speech: "Upcoming School Recess: Greenfield Academy will remain closed from Thursday, November 23 through Sunday, November 26 for the Thanksgiving recess. Regular instructional schedules resume on Monday, November 27 at 8:00 AM.",
+        chips: ["Parent Meeting", "Sports Day", "School Timings", "Main Menu"]
+      }
+    };
+
+    function sendQuery(text) {
+      appendUserMessage(text);
+      processResponse(text);
+    }
+
+    function submitInput() {
+      const input = document.getElementById('userInput');
+      const text = input.value.trim();
+      if (!text) return;
+      input.value = '';
+      sendQuery(text);
+    }
+
+    function handleKey(e) {
+      if (e.key === 'Enter') {
+        submitInput();
+      }
+    }
+
+    function appendUserMessage(text) {
+      const body = document.getElementById('chatBody');
+      const div = document.createElement('div');
+      div.className = 'message message-user';
+      div.textContent = text;
+      body.appendChild(div);
+      body.scrollTop = body.scrollHeight;
+    }
+
+    function processResponse(rawQuery) {
+      const query = rawQuery.toLowerCase().trim();
+      let matched = knowledgeBase[query];
+
+      if (!matched) {
+        // Fallback matching
+        for (let key in knowledgeBase) {
+          if (query.includes(key) || key.includes(query)) {
+            matched = knowledgeBase[key];
+            break;
+          }
+        }
+      }
+
+      setTimeout(() => {
+        const body = document.getElementById('chatBody');
+        const div = document.createElement('div');
+        div.className = 'message message-bot';
+
+        if (matched) {
+          div.innerHTML = matched.speech;
+          if (matched.chips && matched.chips.length > 0) {
+            const chipsDiv = document.createElement('div');
+            chipsDiv.className = 'chips-wrapper';
+            matched.chips.forEach(chip => {
+              const btn = document.createElement('button');
+              btn.className = 'chip-btn';
+              btn.textContent = chip;
+              btn.onclick = () => sendQuery(chip);
+              chipsDiv.appendChild(btn);
+            });
+            div.appendChild(chipsDiv);
+          }
+        } else {
+          div.innerHTML = "I apologize, but I could not find a direct record matching your query. Please rephrase your question or select one of our primary services below:";
+          const chipsDiv = document.createElement('div');
+          chipsDiv.className = 'chips-wrapper';
+          ["View Attendance", "Exam Schedule", "Fee Details", "Track School Bus", "Main Menu"].forEach(chip => {
+            const btn = document.createElement('button');
+            btn.className = 'chip-btn';
+            btn.textContent = chip;
+            btn.onclick = () => sendQuery(chip);
+            chipsDiv.appendChild(btn);
+          });
+          div.appendChild(chipsDiv);
+        }
+
+        body.appendChild(div);
+        body.scrollTop = body.scrollHeight;
+      }, 250);
+    }
+  </script>
+</body>
+</html>

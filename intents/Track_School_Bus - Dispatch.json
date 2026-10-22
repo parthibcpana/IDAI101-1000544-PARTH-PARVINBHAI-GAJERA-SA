@@ -1,0 +1,75 @@
+{
+  "id": "d746570d-6465-4809-8b08-d524f84ef893",
+  "name": "Track_School_Bus - Dispatch",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "track_school_bus___dispatch",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "School Transportation Dispatch Desk: Direct Line: (555) 019-2834 | Email: transport@greenfield.edu. Active operating hours: 6:30 AM – 5:30 PM. For emergency route diversions or bus supervisor queries, please contact dispatch immediately."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Route 1",
+            "Route 2",
+            "Route 3",
+            "Route 4",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Route 1"
+                    },
+                    {
+                      "text": "Route 2"
+                    },
+                    {
+                      "text": "Route 3"
+                    },
+                    {
+                      "text": "Route 4"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

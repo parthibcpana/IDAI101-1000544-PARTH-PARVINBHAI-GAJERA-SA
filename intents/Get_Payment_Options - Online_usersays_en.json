@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-b143198308",
+    "data": [
+      {
+        "text": "Online Portal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-6e7ac7049e",
+    "data": [
+      {
+        "text": "pay online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-244ddbf216",
+    "data": [
+      {
+        "text": "parent portal payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-f2acb95a32",
+    "data": [
+      {
+        "text": "credit card payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-0b1b088fba",
+    "data": [
+      {
+        "text": "online fee payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

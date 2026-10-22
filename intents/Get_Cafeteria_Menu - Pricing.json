@@ -1,0 +1,71 @@
+{
+  "id": "13c76a65-a5b8-4f80-8fc9-5d75078527bc",
+  "name": "Get_Cafeteria_Menu - Pricing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_cafeteria_menu___pricing",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Cafeteria Meal Pricing: Complete daily hot lunch combo: $4.50 (includes entree, garden salad, side, and beverage). Morning breakfast combo: $2.50. Balances may be replenished through the Parent Portal under 'Meal Plan'."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Vegetarian Menu",
+            "Nut-Free Policy",
+            "Cafeteria Menu",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Vegetarian Menu"
+                    },
+                    {
+                      "text": "Nut-Free Policy"
+                    },
+                    {
+                      "text": "Cafeteria Menu"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

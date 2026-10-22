@@ -47,14 +47,12 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Formal document request initiated. Please specify the required certificate: Bonafide Certificate, Transfer Certificate, or Official Fee Receipt. Standard institutional turnaround is 2 to 3 business days.",
-            "Certificate request service: We process Bonafide Certificates, Transfer Certificates, and Fee Receipts within 2–3 business days. Please choose the document type below.",
-            "Official certificate requests require 2 to 3 school days for administrative verification and registrar signature. Please select the certificate type below."
+            "Formal institutional document service: Which document do you require? Please select Bonafide Certificate, Transfer Certificate, or Official Fee Receipt below."
           ]
         },
         {
           "type": 2,
-          "title": "Select document:",
+          "title": "Select an option:",
           "replies": [
             "Bonafide Cert",
             "Transfer Cert",

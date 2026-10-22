@@ -13,32 +13,6 @@
     "updated": 0
   },
   {
-    "id": "chip-958610942",
-    "data": [
-      {
-        "text": "Transfer Cert",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "chip-421083431",
-    "data": [
-      {
-        "text": "Bonafide Cert",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "56d6a461-5945-4d0b-93ad-476e47dd89e4",
     "data": [
       {

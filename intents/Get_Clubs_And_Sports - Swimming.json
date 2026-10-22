@@ -1,0 +1,71 @@
+{
+  "id": "613b52cd-2b05-4603-b3e0-c8b53e6e5738",
+  "name": "Get_Clubs_And_Sports - Swimming",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_clubs_and_sports___swimming",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Swimming & Aquatics Program: Daily morning practice: 6:30 AM – 8:00 AM; afternoon sessions: 3:45 PM – 5:00 PM at the Olympic Aquatic Center. Swim Coach: Elena Rostova. Water proficiency assessment required prior to enrollment."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Robotics Club",
+            "Soccer Team",
+            "Debate Society",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Robotics Club"
+                    },
+                    {
+                      "text": "Soccer Team"
+                    },
+                    {
+                      "text": "Debate Society"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

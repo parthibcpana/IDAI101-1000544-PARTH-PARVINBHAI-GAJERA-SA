@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-c8312325ed",
+    "data": [
+      {
+        "text": "Bonafide Cert",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-5c0296f4db",
+    "data": [
+      {
+        "text": "bonafide certificate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-8eadcda521",
+    "data": [
+      {
+        "text": "study certificate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-0b64f8bc34",
+    "data": [
+      {
+        "text": "proof of enrollment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ff3761012c",
+    "data": [
+      {
+        "text": "bonafide letter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

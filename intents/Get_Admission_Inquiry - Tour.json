@@ -1,0 +1,67 @@
+{
+  "id": "7233e44d-334b-41ca-b3e0-b276669eaacb",
+  "name": "Get_Admission_Inquiry - Tour",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_admission_inquiry___tour",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Campus Guided Tours: Guided walking tours are conducted every Tuesday and Thursday at 10:00 AM. Advance reservations are required at least 48 hours prior via email to admissions@greenfield.edu or phone (555) 019-2830."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Admission Criteria",
+            "Tuition Fees",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Admission Criteria"
+                    },
+                    {
+                      "text": "Tuition Fees"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -43,17 +43,16 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "School fees may be remitted online via the official Parent Portal (parents.schoolportal.edu), via instant UPI to schoolfees@bank (specifying Student ID in remarks), or in person at the campus accounts counter Monday through Friday, 8:30 AM to 3:00 PM.",
-            "Available fee payment methods: 1. Online Parent Portal with credit card, debit card, or net banking. 2. Direct UPI transfer to schoolfees@bank with Student ID. 3. Campus cashier desk operating Monday–Friday, 8:30 AM to 3:00 PM.",
-            "Tuition payments can be processed through the secure Parent Portal, via UPI transfer to schoolfees@bank, or directly at the institutional accounts office during regular business hours."
+            "Greenfield Academy provides multiple tuition payment channels: 1. Online Parent Portal (Instant). 2. Direct Wire / Bank Transfer. 3. Accounts Office Counter (Room 102). Select a channel below for detailed instructions."
           ]
         },
         {
           "type": 2,
-          "title": "Choose payment mode:",
+          "title": "Select an option:",
           "replies": [
-            "Fee Details",
-            "Accounts Hours",
+            "Online Portal",
+            "UPI / Wire",
+            "Accounts Office",
             "Main Menu"
           ],
           "lang": "en"
@@ -67,10 +66,13 @@
                   "type": "chips",
                   "options": [
                     {
-                      "text": "Fee Details"
+                      "text": "Online Portal"
                     },
                     {
-                      "text": "Accounts Hours"
+                      "text": "UPI / Wire"
+                    },
+                    {
+                      "text": "Accounts Office"
                     },
                     {
                       "text": "Main Menu"

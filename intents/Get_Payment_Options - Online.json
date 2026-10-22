@@ -1,0 +1,71 @@
+{
+  "id": "d799d974-83a2-4823-87f8-e43fc5ee7e0c",
+  "name": "Get_Payment_Options - Online",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_payment_options___online",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Online Tuition Remittance: Payments can be made via credit/debit card or net banking through the Parent Portal at parents.greenfield.edu. Digital receipts are archived immediately under 'Billing History'."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "UPI / Wire",
+            "Accounts Office",
+            "Fee Details",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "UPI / Wire"
+                    },
+                    {
+                      "text": "Accounts Office"
+                    },
+                    {
+                      "text": "Fee Details"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

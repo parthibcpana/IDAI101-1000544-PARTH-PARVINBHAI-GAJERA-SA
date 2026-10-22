@@ -1,0 +1,67 @@
+{
+  "id": "4d7a75c5-d3dd-4684-bf91-d4a7455c280c",
+  "name": "Request_Certificate_Document - Transfer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "request_certificate_document___transfer",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Transfer Certificate (TC) Protocol: TC issuance requires 5 business days and comprehensive clearance from the Library, Science Laboratories, and Accounts Office. Formal application can be submitted at the Registrar desk."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Bonafide Cert",
+            "Fee Receipt",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Bonafide Cert"
+                    },
+                    {
+                      "text": "Fee Receipt"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

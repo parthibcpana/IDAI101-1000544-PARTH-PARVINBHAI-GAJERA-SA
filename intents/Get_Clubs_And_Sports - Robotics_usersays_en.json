@@ -1,0 +1,93 @@
+[
+  {
+    "id": "phrase-106c742c53",
+    "data": [
+      {
+        "text": "Robotics Club",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-2f5a17f3c7",
+    "data": [
+      {
+        "text": "robotics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-a53b3cfd7c",
+    "data": [
+      {
+        "text": "STEM club",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-b5501b322b",
+    "data": [
+      {
+        "text": "robotics team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-87e239d650",
+    "data": [
+      {
+        "text": "join robotics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-4e76df14f1",
+    "data": [
+      {
+        "text": "robotics schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-bcbbe81b79",
+    "data": [
+      {
+        "text": "tell me about robotics club",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

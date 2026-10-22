@@ -1,0 +1,80 @@
+[
+  {
+    "id": "phrase-927a1a9b66",
+    "data": [
+      {
+        "text": "Holiday Notice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-0af973157a",
+    "data": [
+      {
+        "text": "school holidays",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-2b779b7cbc",
+    "data": [
+      {
+        "text": "upcoming holidays",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-e22e8066b2",
+    "data": [
+      {
+        "text": "thanksgiving break",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-3a2a0c2dd3",
+    "data": [
+      {
+        "text": "when is school closed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-404ad78984",
+    "data": [
+      {
+        "text": "holiday schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

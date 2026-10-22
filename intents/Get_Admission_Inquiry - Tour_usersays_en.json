@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-82e7236694",
+    "data": [
+      {
+        "text": "Campus Tour",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-dfdb316d11",
+    "data": [
+      {
+        "text": "schedule tour",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ac00b06103",
+    "data": [
+      {
+        "text": "visit campus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-2ace59b6c2",
+    "data": [
+      {
+        "text": "school visit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-c199f5d3cc",
+    "data": [
+      {
+        "text": "book a tour",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

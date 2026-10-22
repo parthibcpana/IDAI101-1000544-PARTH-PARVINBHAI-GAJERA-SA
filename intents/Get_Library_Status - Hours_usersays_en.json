@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-f9a869c5b6",
+    "data": [
+      {
+        "text": "Library Hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ad9d08b95b",
+    "data": [
+      {
+        "text": "when does library open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-e20a26a499",
+    "data": [
+      {
+        "text": "library schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ee79a5fc20",
+    "data": [
+      {
+        "text": "library timing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-fb8f1b5401",
+    "data": [
+      {
+        "text": "library opening hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-7b35ee09ee",
+    "data": [
+      {
+        "text": "Transfer Cert",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-caa1f8e820",
+    "data": [
+      {
+        "text": "transfer certificate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-fe46a50633",
+    "data": [
+      {
+        "text": "TC request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-6b5c22c1f7",
+    "data": [
+      {
+        "text": "school leaving certificate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-c7d3f26567",
+    "data": [
+      {
+        "text": "apply for tc",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

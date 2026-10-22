@@ -1,0 +1,67 @@
+{
+  "id": "85abebe9-9679-4867-a4ad-591c4ef52e37",
+  "name": "Get_Admission_Inquiry - Criteria",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_admission_inquiry___criteria",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Admission Eligibility Criteria: Kindergarten entrants must be 5 years of age by September 1. Grade 1–12 applicants require transcripts from the prior two academic years and must complete a baseline assessment in Mathematics and English."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Campus Tour",
+            "Tuition Fees",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Campus Tour"
+                    },
+                    {
+                      "text": "Tuition Fees"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

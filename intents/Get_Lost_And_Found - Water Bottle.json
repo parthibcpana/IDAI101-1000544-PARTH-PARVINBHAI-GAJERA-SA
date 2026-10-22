@@ -1,0 +1,71 @@
+{
+  "id": "6e2049db-8ed2-4990-8108-30470cb3497e",
+  "name": "Get_Lost_And_Found - Water Bottle",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_lost_and_found___water_bottle",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Lost Water Bottles & Drinkware: Unclaimed bottles are sanitized and placed in color-coded bins outside the Central Administration Office. Please visit during office hours (8:00 AM – 4:00 PM) to identify and retrieve your item within 14 days."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Lunchbox",
+            "Jacket",
+            "Eyeglasses",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Lunchbox"
+                    },
+                    {
+                      "text": "Jacket"
+                    },
+                    {
+                      "text": "Eyeglasses"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

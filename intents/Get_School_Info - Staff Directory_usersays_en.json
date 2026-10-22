@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-4cd750c1cc",
+    "data": [
+      {
+        "text": "Staff Directory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-a284233f15",
+    "data": [
+      {
+        "text": "contact staff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-7efbeb95ce",
+    "data": [
+      {
+        "text": "staff phone numbers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-382b20286e",
+    "data": [
+      {
+        "text": "school directory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-5b9117e0f8",
+    "data": [
+      {
+        "text": "faculty contact",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-b0be63426e",
+    "data": [
+      {
+        "text": "Accounts Office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-1fd393ed78",
+    "data": [
+      {
+        "text": "in person payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-83e0788750",
+    "data": [
+      {
+        "text": "cash payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-492a11ad28",
+    "data": [
+      {
+        "text": "bursar desk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-daff36bf9e",
+    "data": [
+      {
+        "text": "pay in office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

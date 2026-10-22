@@ -1,0 +1,76 @@
+{
+  "id": "dbedb497-d068-4c0f-adeb-57d56d51d372",
+  "name": "Track_School_Bus - Route 1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "track_school_bus___route_1",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Transportation telemetry for Route 1 (North / West Hills): Bus #12 is currently at Elmwood Junction, moving at 35 km/h. Estimated arrival at next scheduled stop: 6 minutes. Driver: Mr. Robert Jenkins (Dispatch line: 555-019-2834).",
+            "Route 1 update: Bus #12 has departed Elmwood Junction on schedule towards West Hills. Estimated arrival time: 6 minutes."
+          ]
+        },
+        {
+          "type": 2,
+          "title": "Select an option:",
+          "replies": [
+            "Route 2",
+            "Route 3",
+            "Route 4",
+            "Bus Dispatch",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Route 2"
+                    },
+                    {
+                      "text": "Route 3"
+                    },
+                    {
+                      "text": "Route 4"
+                    },
+                    {
+                      "text": "Bus Dispatch"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

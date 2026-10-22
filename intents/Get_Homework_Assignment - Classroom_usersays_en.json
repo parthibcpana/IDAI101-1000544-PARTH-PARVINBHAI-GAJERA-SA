@@ -1,0 +1,67 @@
+[
+  {
+    "id": "phrase-30104c6f56",
+    "data": [
+      {
+        "text": "Google Classroom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-8e58a7e454",
+    "data": [
+      {
+        "text": "classroom link",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-ea227ccd42",
+    "data": [
+      {
+        "text": "online homework",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-c680292529",
+    "data": [
+      {
+        "text": "access classroom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "phrase-05d7e95e04",
+    "data": [
+      {
+        "text": "google classroom portal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
