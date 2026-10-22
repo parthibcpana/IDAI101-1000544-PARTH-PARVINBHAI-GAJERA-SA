@@ -3,30 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Greenfield Academy — ParentConnect AI School Assistant</title>
+  <title>ParentConnect AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --primary: #1e3a8a;
       --primary-dark: #0f172a;
-      --accent: #2563eb;
-      --accent-gold: #c29b38;
-      --bg-page: #f8fafc;
-      --surface: #ffffff;
-      --text-main: #1e293b;
-      --text-muted: #64748b;
-      --border: #e2e8f0;
       --chat-bot-bg: #f1f5f9;
       --chat-user-bg: #1e3a8a;
       --chip-bg: #eff6ff;
       --chip-border: #bfdbfe;
       --chip-text: #1d4ed8;
-      --radius: 12px;
-      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
-      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.06);
-      --shadow-lg: 0 10px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.08);
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --bg: #f8fafc;
     }
 
     * {
@@ -37,364 +30,126 @@
 
     body {
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-      background-color: var(--bg-page);
+      background-color: var(--bg);
       color: var(--text-main);
-      line-height: 1.6;
-      min-height: 100vh;
+      height: 100vh;
       display: flex;
       flex-direction: column;
+      overflow: hidden;
     }
 
-    /* Top Notice Bar */
-    .top-bar {
-      background-color: #0f172a;
-      color: #94a3b8;
-      font-size: 0.8rem;
-      padding: 0.5rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #1e293b;
-    }
-
-    .top-bar-notice {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .notice-pill {
-      background-color: #2563eb;
-      color: white;
-      font-size: 0.68rem;
-      font-weight: 700;
-      padding: 0.15rem 0.5rem;
-      border-radius: 4px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .top-bar-links a {
-      color: #cbd5e1;
-      text-decoration: none;
-      margin-left: 1.25rem;
-      transition: color 0.15s ease;
-    }
-
-    .top-bar-links a:hover {
-      color: white;
-    }
-
-    /* Main Institutional Header */
+    /* Top Bar: Just ParentConnect AI */
     header {
-      background-color: var(--surface);
+      background-color: #ffffff;
       border-bottom: 1px solid var(--border);
-      padding: 1.1rem 2rem;
-      position: sticky;
-      top: 0;
-      z-index: 40;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .header-container {
-      max-width: 1200px;
-      margin: 0 auto;
+      padding: 0.85rem 1.5rem;
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      align-items: center;
+      flex-shrink: 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
     }
 
-    .school-identity {
+    .header-left {
       display: flex;
       align-items: center;
-      gap: 1rem;
-      text-decoration: none;
+      gap: 0.75rem;
     }
 
-    .school-crest {
-      width: 46px;
-      height: 46px;
-      background: linear-gradient(135deg, #1e3a8a, #1d4ed8);
-      border: 2px solid #c29b38;
-      border-radius: 8px;
+    .header-avatar {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: white;
+      border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: white;
-      font-family: 'Merriweather', serif;
       font-weight: 700;
-      font-size: 1.4rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      font-size: 1.1rem;
     }
 
-    .school-name-block h1 {
-      font-size: 1.25rem;
-      font-weight: 800;
+    .header-title-block h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
       color: #0f172a;
-      letter-spacing: -0.3px;
       line-height: 1.2;
     }
 
-    .school-name-block p {
-      font-size: 0.78rem;
-      color: var(--text-muted);
-      font-weight: 500;
-    }
-
-    .header-badge {
-      display: inline-flex;
+    .header-status {
+      display: flex;
       align-items: center;
       gap: 0.4rem;
-      background: #eff6ff;
-      border: 1px solid #bfdbfe;
-      color: #1e40af;
-      padding: 0.35rem 0.85rem;
-      border-radius: 9999px;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
+      color: #15803d;
       font-weight: 600;
     }
 
-    .header-badge .dot {
-      width: 8px;
-      height: 8px;
+    .status-dot {
+      width: 7px;
+      height: 7px;
       background-color: #22c55e;
       border-radius: 50%;
       box-shadow: 0 0 6px rgba(34, 197, 94, 0.6);
     }
 
-    /* Main Container */
-    main {
-      flex: 1;
-      max-width: 1200px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-      display: grid;
-      grid-template-columns: 1fr 1.15fr;
-      gap: 2rem;
-      align-items: start;
-    }
-
-    @media (max-width: 960px) {
-      main {
-        grid-template-columns: 1fr;
-      }
-      .top-bar-links {
-        display: none;
-      }
-    }
-
-    /* Portal Information Side */
-    .portal-info {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-
-    .welcome-card {
-      background: var(--surface);
+    .restart-btn {
+      background: none;
       border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.75rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .welcome-card h2 {
-      font-size: 1.45rem;
-      color: #0f172a;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-      line-height: 1.3;
-    }
-
-    .welcome-card p {
-      font-size: 0.92rem;
       color: var(--text-muted);
-      margin-bottom: 1rem;
-    }
-
-    /* Quick Action Grid */
-    .services-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: var(--text-muted);
-      margin-bottom: 0.75rem;
-    }
-
-    .services-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.75rem;
-      margin-bottom: 1.25rem;
-    }
-
-    .service-btn {
-      background: #ffffff;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 0.85rem 1rem;
-      text-align: left;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      display: flex;
-      flex-direction: column;
-      gap: 0.2rem;
-      box-shadow: var(--shadow-sm);
-    }
-
-    .service-btn:hover {
-      border-color: #3b82f6;
-      background-color: #f8fafc;
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md);
-    }
-
-    .service-btn strong {
-      font-size: 0.88rem;
-      color: #0f172a;
-    }
-
-    .service-btn span {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-    }
-
-    /* Academic Metadata Card */
-    .academic-meta-card {
-      background: #f8fafc;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.25rem;
-    }
-
-    .academic-meta-card h3 {
-      font-size: 0.88rem;
-      font-weight: 700;
-      color: #0f172a;
-      margin-bottom: 0.75rem;
-    }
-
-    .meta-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.45rem;
-      font-size: 0.82rem;
-    }
-
-    .meta-row {
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 1px dashed #e2e8f0;
-      padding-bottom: 0.35rem;
-    }
-
-    .meta-row:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-
-    .meta-label {
-      color: var(--text-muted);
-      font-weight: 500;
-    }
-
-    .meta-val {
-      color: #0f172a;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.78rem;
       font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.15s ease;
     }
 
-    /* Live Chat Interface Container */
-    .chat-section {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-lg);
-      display: flex;
-      flex-direction: column;
-      height: 640px;
-      overflow: hidden;
-      position: sticky;
-      top: 5rem;
+    .restart-btn:hover {
+      background-color: #f1f5f9;
+      color: var(--text-main);
     }
 
-    .chat-header {
-      background: #1e3a8a;
-      color: white;
-      padding: 1rem 1.25rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid #172554;
-    }
-
-    .chat-header-info {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-
-    .bot-avatar {
-      width: 36px;
-      height: 36px;
-      background-color: #ffffff;
-      color: #1e3a8a;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 0.95rem;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-    }
-
-    .bot-details h3 {
-      font-size: 0.92rem;
-      font-weight: 700;
-      line-height: 1.2;
-    }
-
-    .bot-details p {
-      font-size: 0.72rem;
-      opacity: 0.85;
-    }
-
-    .chat-body {
+    /* Full-Screen Scrollable Chat Messages */
+    .chat-messages {
       flex: 1;
-      padding: 1.25rem;
+      padding: 1.5rem;
       overflow-y: auto;
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      background-color: #fafcff;
+      background-color: #ffffff;
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
     }
 
     .msg {
-      max-width: 82%;
-      padding: 0.85rem 1rem;
-      border-radius: 12px;
-      font-size: 0.88rem;
-      line-height: 1.45;
-      animation: msgPop 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      max-width: 80%;
+      padding: 0.85rem 1.1rem;
+      border-radius: 14px;
+      font-size: 0.92rem;
+      line-height: 1.5;
+      animation: fadeIn 0.2s ease-in-out;
     }
 
-    @keyframes msgPop {
-      from { opacity: 0; transform: translateY(6px); }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
     .msg-bot {
       align-self: flex-start;
-      background-color: #f1f5f9;
-      color: #0f172a;
+      background-color: var(--chat-bot-bg);
+      color: var(--text-main);
       border-bottom-left-radius: 3px;
       border: 1px solid #e2e8f0;
     }
 
     .msg-user {
       align-self: flex-end;
-      background-color: #1e3a8a;
+      background-color: var(--chat-user-bg);
       color: white;
       border-bottom-right-radius: 3px;
     }
@@ -402,17 +157,17 @@
     .chips-group {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem;
-      margin-top: 0.6rem;
+      gap: 0.45rem;
+      margin-top: 0.75rem;
     }
 
     .chip {
-      background-color: #eff6ff;
-      color: #1d4ed8;
-      border: 1px solid #bfdbfe;
-      padding: 0.3rem 0.7rem;
+      background-color: var(--chip-bg);
+      color: var(--chip-text);
+      border: 1px solid var(--chip-border);
+      padding: 0.35rem 0.8rem;
       border-radius: 9999px;
-      font-size: 0.78rem;
+      font-size: 0.82rem;
       font-weight: 600;
       cursor: pointer;
       transition: all 0.15s ease;
@@ -425,249 +180,120 @@
       transform: translateY(-1px);
     }
 
-    .chat-input-area {
-      padding: 0.85rem 1rem;
-      background-color: white;
+    /* Bottom Input Bar */
+    .chat-input-container {
+      background-color: #ffffff;
       border-top: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .chat-input-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
       display: flex;
-      gap: 0.5rem;
+      gap: 0.65rem;
       align-items: center;
     }
 
-    .chat-input-box {
+    .chat-input {
       flex: 1;
       border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 0.65rem 0.85rem;
-      font-size: 0.88rem;
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+      font-size: 0.92rem;
       outline: none;
       font-family: inherit;
-      transition: border-color 0.15s ease;
+      background-color: #f8fafc;
+      transition: all 0.15s ease;
     }
 
-    .chat-input-box:focus {
+    .chat-input:focus {
       border-color: #3b82f6;
-      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+      background-color: #ffffff;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
     }
 
-    .chat-send-btn {
-      background-color: #1e3a8a;
+    .send-btn {
+      background-color: var(--primary);
       color: white;
       border: none;
-      border-radius: 8px;
-      padding: 0.65rem 1.1rem;
-      font-size: 0.88rem;
+      border-radius: 10px;
+      padding: 0.75rem 1.4rem;
+      font-size: 0.92rem;
       font-weight: 600;
       cursor: pointer;
       font-family: inherit;
       transition: background-color 0.15s ease;
     }
 
-    .chat-send-btn:hover {
+    .send-btn:hover {
       background-color: #172554;
     }
 
-    /* Floating Chat Bubble Launcher */
-    .floating-launcher {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      width: 54px;
-      height: 54px;
-      background: linear-gradient(135deg, #1e3a8a, #2563eb);
-      color: white;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 14px rgba(30, 58, 138, 0.4);
-      cursor: pointer;
-      z-index: 99;
-      transition: transform 0.2s ease;
-      border: 2px solid white;
-    }
-
-    .floating-launcher:hover {
-      transform: scale(1.08);
-    }
-
-    /* Footer */
+    /* Minimal Bottom Footer */
     footer {
-      background-color: #0f172a;
-      color: #94a3b8;
-      border-top: 1px solid #1e293b;
-      padding: 2rem;
-      margin-top: 3rem;
-      font-size: 0.82rem;
+      background-color: #ffffff;
+      padding: 0.4rem 1.5rem 0.6rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      border-top: 1px solid #f1f5f9;
+      flex-shrink: 0;
     }
 
-    .footer-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    .footer-content a {
-      color: #60a5fa;
+    footer a {
+      color: #2563eb;
       text-decoration: none;
     }
 
-    .footer-content a:hover {
+    footer a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-  <!-- Top Announcement Bar -->
-  <div class="top-bar">
-    <div class="top-bar-notice">
-      <span class="notice-pill">Announcement</span>
-      <span>Term Midterm Examinations commence Nov 10. Parent-Teacher Meeting on Saturday, Nov 18.</span>
-    </div>
-    <div class="top-bar-links">
-      <a href="#chat">Chat with Assistant</a>
-      <a href="https://github.com/parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA" target="_blank">GitHub Repository</a>
-    </div>
-  </div>
-
-  <!-- School Header -->
+  <!-- Top Header: Just ParentConnect AI -->
   <header>
-    <div class="header-container">
-      <div class="school-identity">
-        <div class="school-crest">G</div>
-        <div class="school-name-block">
-          <h1>Greenfield Academy</h1>
-          <p>Excellence in Education &bull; ParentConnect AI Portal</p>
+    <div class="header-left">
+      <div class="header-avatar">P</div>
+      <div class="header-title-block">
+        <h1>ParentConnect AI</h1>
+        <div class="header-status">
+          <span class="status-dot"></span>
+          <span>Online</span>
         </div>
       </div>
-      <div class="header-badge">
-        <span class="dot"></span>
-        <span>Assistant Online &bull; 24/7 Desk</span>
-      </div>
     </div>
+    <button class="restart-btn" onclick="sendQuery('Main Menu')">Restart</button>
   </header>
 
-  <!-- Main Body Grid -->
-  <main>
-    <!-- Left Column: School Services & Quick Actions -->
-    <div class="portal-info">
-      <div class="welcome-card">
-        <h2>ParentConnect AI Assistant</h2>
-        <p>Welcome to Greenfield Academy's communication assistant. Designed to support parents, guardians, and faculty with rapid answers regarding student attendance, exam schedules, transportation telemetry, and administrative services.</p>
-        
-        <div class="services-title">Quick Inquiries &amp; Self-Service</div>
-        <div class="services-grid">
-          <button class="service-btn" onclick="triggerQuery('View Attendance')">
-            <strong>📋 Check Attendance</strong>
-            <span>Verify student attendance records</span>
-          </button>
-          <button class="service-btn" onclick="triggerQuery('Track School Bus')">
-            <strong>🚌 Bus Telemetry</strong>
-            <span>Live status for Routes 1 to 4</span>
-          </button>
-          <button class="service-btn" onclick="triggerQuery('Exam Schedule')">
-            <strong>📅 Examination Dates</strong>
-            <span>Midterms &amp; hall ticket rules</span>
-          </button>
-          <button class="service-btn" onclick="triggerQuery('Fee Details')">
-            <strong>💳 Fee Statements</strong>
-            <span>Term tuition balances &amp; UPI</span>
-          </button>
-          <button class="service-btn" onclick="triggerQuery('Cafeteria Menu')">
-            <strong>🍲 Cafeteria Menu</strong>
-            <span>Daily entrees &amp; nut-free policy</span>
-          </button>
-          <button class="service-btn" onclick="triggerQuery('Report Absence')">
-            <strong>📝 Report Absence</strong>
-            <span>Excused sick leave submission</span>
-          </button>
-        </div>
-      </div>
-
-      <div class="academic-meta-card">
-        <h3>Project &amp; Institutional Credentials</h3>
-        <div class="meta-list">
-          <div class="meta-row">
-            <span class="meta-label">Course</span>
-            <span class="meta-val">AI: Real-World Applications (IDAI101)</span>
-          </div>
-          <div class="meta-row">
-            <span class="meta-label">Student Candidate</span>
-            <span class="meta-val">Parth Pravinbhai Gajera (ID: 1000544)</span>
-          </div>
-          <div class="meta-row">
-            <span class="meta-label">Assessment</span>
-            <span class="meta-val">Summative Assessment (SA - 60 Marks)</span>
-          </div>
-          <div class="meta-row">
-            <span class="meta-label">Assigned Scenario</span>
-            <span class="meta-val">Scenario 2: School Communication Assistant</span>
-          </div>
-          <div class="meta-row">
-            <span class="meta-label">NLU Architecture</span>
-            <span class="meta-val">Google Dialogflow ES (63 Intents, 14 Entities)</span>
-          </div>
-          <div class="meta-row">
-            <span class="meta-label">Main Administration</span>
-            <span class="meta-val">(555) 019-2800 &bull; contact@greenfield.edu</span>
-          </div>
-        </div>
+  <!-- Full-Screen Chat Messages Area -->
+  <div class="chat-messages" id="chatMessages">
+    <div class="msg msg-bot">
+      Welcome to ParentConnect AI, the school communication assistant for parents and faculty. How may I assist you today? Please choose an option below or type your inquiry.
+      <div class="chips-group">
+        <button class="chip" onclick="sendQuery('View Attendance')">View Attendance</button>
+        <button class="chip" onclick="sendQuery('Exam Schedule')">Exam Schedule</button>
+        <button class="chip" onclick="sendQuery('Fee Details')">Fee Details</button>
+        <button class="chip" onclick="sendQuery('Track School Bus')">Track School Bus</button>
+        <button class="chip" onclick="sendQuery('Report Absence')">Report Absence</button>
       </div>
     </div>
-
-    <!-- Right Column: Interactive Chat Interface -->
-    <div class="chat-section" id="chat">
-      <div class="chat-header">
-        <div class="chat-header-info">
-          <div class="bot-avatar">P</div>
-          <div class="bot-details">
-            <h3>ParentConnect AI</h3>
-            <p>Greenfield Academy Institutional Assistant</p>
-          </div>
-        </div>
-        <button class="chip" style="background:#2563eb; color:white; border:none;" onclick="triggerQuery('Main Menu')">Restart</button>
-      </div>
-
-      <div class="chat-body" id="chatMessages">
-        <div class="msg msg-bot">
-          Welcome to ParentConnect AI, the school communication assistant for parents and faculty. How may I assist you today? Please choose an option below or type your inquiry.
-          <div class="chips-group">
-            <button class="chip" onclick="triggerQuery('View Attendance')">View Attendance</button>
-            <button class="chip" onclick="triggerQuery('Exam Schedule')">Exam Schedule</button>
-            <button class="chip" onclick="triggerQuery('Fee Details')">Fee Details</button>
-            <button class="chip" onclick="triggerQuery('Track School Bus')">Track School Bus</button>
-            <button class="chip" onclick="triggerQuery('Report Absence')">Report Absence</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="chat-input-area">
-        <input type="text" id="chatInput" class="chat-input-box" placeholder="Type your inquiry or choose an option above..." onkeypress="onInputKey(event)">
-        <button class="chat-send-btn" onclick="sendInputText()">Send</button>
-      </div>
-    </div>
-  </main>
-
-  <!-- Floating Launcher Icon -->
-  <div class="floating-launcher" onclick="scrollToChat()" title="Chat with ParentConnect AI">
-    💬
   </div>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-content">
-      <div>
-        <strong>Greenfield Academy</strong> &bull; 124 Greenfield Avenue, North District. Front Office: (555) 019-2800.
-      </div>
-      <div>
-        Engineered by <strong>Parth Pravinbhai Gajera</strong> (1000544) &bull; <a href="https://github.com/parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA" target="_blank">View GitHub Repository</a>
-      </div>
+  <!-- Bottom Input Bar -->
+  <div class="chat-input-container">
+    <div class="chat-input-wrapper">
+      <input type="text" id="userInput" class="chat-input" placeholder="Type a message or select an option above..." onkeypress="onKeyPress(event)" autofocus>
+      <button class="send-btn" onclick="submitMessage()">Send</button>
     </div>
+  </div>
+
+  <!-- Minimal Details Footer -->
+  <footer>
+    Parth Pravinbhai Gajera (1000544) &bull; IDAI101 &bull; <a href="https://github.com/parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA" target="_blank">GitHub Repository</a>
   </footer>
 
   <script>
@@ -891,31 +517,26 @@
       }
     };
 
-    function triggerQuery(text) {
-      appendMessage(text, 'user');
-      handleBotReply(text);
+    function sendQuery(text) {
+      appendChatMessage(text, 'user');
+      processBotResponse(text);
     }
 
-    function sendInputText() {
-      const input = document.getElementById('chatInput');
+    function submitMessage() {
+      const input = document.getElementById('userInput');
       const text = input.value.trim();
       if (!text) return;
       input.value = '';
-      triggerQuery(text);
+      sendQuery(text);
     }
 
-    function onInputKey(e) {
+    function onKeyPress(e) {
       if (e.key === 'Enter') {
-        sendInputText();
+        submitMessage();
       }
     }
 
-    function scrollToChat() {
-      document.getElementById('chat').scrollIntoView({ behavior: 'smooth' });
-      document.getElementById('chatInput').focus();
-    }
-
-    function appendMessage(text, sender) {
+    function appendChatMessage(text, sender) {
       const container = document.getElementById('chatMessages');
       const div = document.createElement('div');
       div.className = sender === 'bot' ? 'msg msg-bot' : 'msg msg-user';
@@ -924,7 +545,7 @@
       container.scrollTop = container.scrollHeight;
     }
 
-    function handleBotReply(rawQuery) {
+    function processBotResponse(rawQuery) {
       const q = rawQuery.toLowerCase().trim();
       let match = knowledgeCatalog[q];
 
@@ -951,7 +572,7 @@
               const b = document.createElement('button');
               b.className = 'chip';
               b.textContent = c;
-              b.onclick = () => triggerQuery(c);
+              b.onclick = () => sendQuery(c);
               chipWrap.appendChild(b);
             });
             div.appendChild(chipWrap);
@@ -964,7 +585,7 @@
             const b = document.createElement('button');
             b.className = 'chip';
             b.textContent = c;
-            b.onclick = () => triggerQuery(c);
+            b.onclick = () => sendQuery(c);
             chipWrap.appendChild(b);
           });
           div.appendChild(chipWrap);
@@ -972,7 +593,7 @@
 
         container.appendChild(div);
         container.scrollTop = container.scrollHeight;
-      }, 200);
+      }, 150);
     }
   </script>
 </body>
