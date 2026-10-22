@@ -49,18 +49,18 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Please provide the Student ID to retrieve the current tuition and fee statement (e.g., stu32543, as5425, or STU10293).",
+            "Please enter your child's assigned Student ID to view their current fee balance and billing statement (e.g., stu32543, as5425, or STU10293).",
             "Kindly enter the Student ID (e.g., stu32543 or STU10293) to view the outstanding fee balance.",
-            "Please input the assigned Student ID to access the current student billing records."
+            "Please input the assigned Student ID to access current student billing records."
           ]
         },
         {
           "type": 2,
           "title": "Sample Student IDs:",
           "replies": [
-            "stu32543",
-            "as5425",
-            "STU10293"
+            "Payment Options",
+            "Contact Accounts",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -73,13 +73,13 @@
                   "type": "chips",
                   "options": [
                     {
-                      "text": "stu32543"
+                      "text": "Payment Options"
                     },
                     {
-                      "text": "as5425"
+                      "text": "Contact Accounts"
                     },
                     {
-                      "text": "STU10293"
+                      "text": "Main Menu"
                     }
                   ]
                 }

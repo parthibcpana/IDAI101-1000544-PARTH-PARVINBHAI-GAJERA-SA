@@ -29,19 +29,47 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "To meet the Principal, appointments are booked through the Executive Secretary at (555) 019-2805 or principaloffice@greenfieldschool.edu. Visiting hours: Tue & Thu, 2:00–4:00 PM.",
-            "Principal appointments run Tuesdays and Thursdays from 2:00 to 4:00 PM. Call (555) 019-2805 or email principaloffice@greenfieldschool.edu to schedule a discussion.",
-            "You can reach the Principal's office at (555) 019-2805 or principaloffice@greenfieldschool.edu. Parent meeting slots are Tue and Thu afternoons between 2:00 and 4:00 PM."
+            "To schedule a meeting with the Principal or submit a formal institutional inquiry, please contact the Principal's Executive Secretary at (555) 019-2805 or via email at principal@greenfieldschool.edu. Office hours for executive consultations are Tuesday and Thursday from 2:00 PM to 4:00 PM.",
+            "Principal's Office contact details: Executive consultations are arranged through the administrative secretariat ((555) 019-2805, principal@greenfieldschool.edu). Walk-in hours are Tuesday & Thursday, 2:00 PM–4:00 PM.",
+            "Office of the Principal: For formal appointments and administrative escalations, please contact the secretary at (555) 019-2805 or email principal@greenfieldschool.edu."
           ]
         },
         {
           "type": 2,
           "title": "Office details:",
           "replies": [
-            "Visiting Hours",
-            "Executive Secretary",
-            "Staff Directory"
+            "Office Hours",
+            "Campus Address",
+            "Staff Directory",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Office Hours"
+                    },
+                    {
+                      "text": "Campus Address"
+                    },
+                    {
+                      "text": "Staff Directory"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

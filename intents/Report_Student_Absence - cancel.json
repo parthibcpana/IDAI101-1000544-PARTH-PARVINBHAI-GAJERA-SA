@@ -22,6 +22,16 @@
           ]
         },
         {
+          "type": 2,
+          "title": "Quick choices:",
+          "replies": [
+            "View Attendance",
+            "Exam Schedule",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
           "type": 4,
           "payload": {
             "richContent": [
@@ -36,7 +46,7 @@
                       "text": "Exam Schedule"
                     },
                     {
-                      "text": "School Notices"
+                      "text": "Main Menu"
                     }
                   ]
                 }

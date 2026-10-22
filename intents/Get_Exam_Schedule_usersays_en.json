@@ -1,5 +1,31 @@
 [
   {
+    "id": "chip-252132801",
+    "data": [
+      {
+        "text": "Subject Syllabus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-069450672",
+    "data": [
+      {
+        "text": "Exam Hall Ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "e4444444-bbbb-4444-8888-444444444444",
     "data": [
       {

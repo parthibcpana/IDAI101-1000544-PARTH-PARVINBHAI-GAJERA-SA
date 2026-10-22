@@ -80,9 +80,10 @@
           "type": 2,
           "title": "Select Term:",
           "replies": [
-            "Midterm Exam",
-            "Final Term",
-            "Unit Test"
+            "School Timings",
+            "View Attendance",
+            "Fee Details",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -95,13 +96,16 @@
                   "type": "chips",
                   "options": [
                     {
+                      "text": "School Timings"
+                    },
+                    {
                       "text": "View Attendance"
                     },
                     {
                       "text": "Fee Details"
                     },
                     {
-                      "text": "School Notices"
+                      "text": "Main Menu"
                     }
                   ]
                 }

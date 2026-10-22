@@ -57,20 +57,47 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Admissions are open for Kindergarten through Grade 11! Apply online at admissions.greenfieldschool.edu. Campus tours run every Saturday at 10:00 AM.",
-            "We're currently enrolling for Kindergarten to Grade 11! Fill out the form at admissions.greenfieldschool.edu or join our campus open house Saturdays at 10 AM.",
-            "Admissions are live! Apply on admissions.greenfieldschool.edu for KG to Grade 11. Guided campus tours happen every Saturday morning at 10:00 AM."
+            "Greenfield Academy admissions for the upcoming academic session are now open for Pre-K through Grade 11. Application packages, criteria, and documentation checklists are accessible online, and guided campus tours are held every Tuesday at 10:00 AM.",
+            "Admissions overview: Applications are accepted for Kindergarten through High School. Prospective families are invited to attend our weekly campus walkthrough every Tuesday at 10:00 AM.",
+            "Enrollment information: Registration packages and admission guidelines are downloadable from the school portal. Campus tour bookings are available every Tuesday."
           ]
         },
         {
           "type": 2,
           "title": "Inquire about:",
           "replies": [
-            "Kindergarten",
-            "Grade 1",
-            "Grade 6",
-            "Campus Tour"
+            "Admission Info",
+            "Campus Tour",
+            "Tuition Fees",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Admission Info"
+                    },
+                    {
+                      "text": "Campus Tour"
+                    },
+                    {
+                      "text": "Tuition Fees"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

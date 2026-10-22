@@ -25,9 +25,10 @@
           "type": 2,
           "title": "Next steps:",
           "replies": [
-            "Check Attendance",
-            "Today's Homework",
-            "Cafeteria Menu"
+            "View Attendance",
+            "Homework Update",
+            "Cafeteria Menu",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -43,10 +44,13 @@
                       "text": "View Attendance"
                     },
                     {
-                      "text": "Exam Schedule"
+                      "text": "Homework Update"
                     },
                     {
                       "text": "Cafeteria Menu"
+                    },
+                    {
+                      "text": "Main Menu"
                     }
                   ]
                 }

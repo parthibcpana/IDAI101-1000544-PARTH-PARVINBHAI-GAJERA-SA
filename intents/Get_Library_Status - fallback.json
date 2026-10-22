@@ -22,19 +22,38 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Hmm, that doesn't look like a valid library ID! Please enter a format like stu32543, as5425, or STU10293.",
-            "Oops, couldn't find that ID on the library system! It should look like stu32543 or STU10293. Mind double-checking?",
-            "That ID format isn't clicking! Please check the student card and enter an ID like stu32543 or as5425."
+            "The Student ID format entered was invalid. Please re-enter the valid Student ID or contact the library desk.",
+            "Invalid Student ID. Please re-enter your child's Student ID."
           ]
         },
         {
           "type": 2,
           "title": "Try format:",
           "replies": [
-            "stu32543",
-            "as5425",
-            "STU10293"
+            "Library Hours",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Library Hours"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

@@ -49,18 +49,17 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Please provide the Student ID to retrieve official attendance records (e.g., stu32543, as5425, or STU10293).",
-            "Kindly enter the assigned Student ID (e.g., stu32543 or STU10293) to verify current attendance standing.",
-            "Understood. Please enter the valid Student ID to look up your child's attendance record."
+            "Please enter your child's assigned Student ID to retrieve their official attendance record (e.g., stu32543, as5425, or STU10293). If you do not have the ID, you may contact the front desk.",
+            "To retrieve attendance details, kindly enter the valid Student ID (e.g., stu32543 or STU10293).",
+            "Understood. Please enter the assigned Student ID to verify current attendance records."
           ]
         },
         {
           "type": 2,
           "title": "Sample Student IDs:",
           "replies": [
-            "stu32543",
-            "as5425",
-            "STU10293"
+            "Contact Front Desk",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -73,13 +72,10 @@
                   "type": "chips",
                   "options": [
                     {
-                      "text": "stu32543"
+                      "text": "Contact Front Desk"
                     },
                     {
-                      "text": "as5425"
-                    },
-                    {
-                      "text": "STU10293"
+                      "text": "Main Menu"
                     }
                   ]
                 }

@@ -14,21 +14,51 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Hmm, I didn't quite catch that! You can ask me about bus tracking, student attendance, daily homework, fee dues, or report an absence. What do you need?",
-            "Oops, not sure I got that! Try asking something like 'Where is Route 3 bus?' or 'Check fee for stu32543'. What can I check for you?",
-            "Sorry about that, my bad! Could you rephrase? Feel free to ask about grades, bus routes, school notices, or lunch menus."
+            "I apologize, but I did not understand that inquiry. You may choose an option below or rephrase your question regarding school operations, attendance, or fees.",
+            "I could not match your inquiry to an official service. Please select a common service below or type your question in different words.",
+            "I am unable to interpret that request. Please select an option from the menu below or contact the school office directly."
           ]
         },
         {
           "type": 2,
           "title": "Try asking about:",
           "replies": [
-            "Check Attendance",
-            "Bus Route 3",
-            "Today's Lunch",
-            "School Hours",
-            "Sports & Clubs"
+            "View Attendance",
+            "Exam Schedule",
+            "Fee Details",
+            "School Info",
+            "Contact Office"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "View Attendance"
+                    },
+                    {
+                      "text": "Exam Schedule"
+                    },
+                    {
+                      "text": "Fee Details"
+                    },
+                    {
+                      "text": "School Info"
+                    },
+                    {
+                      "text": "Contact Office"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

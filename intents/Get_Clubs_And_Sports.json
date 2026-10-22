@@ -38,11 +38,11 @@
           "type": 2,
           "title": "Popular activities:",
           "replies": [
-            "Basketball",
-            "Soccer",
-            "Swimming",
             "Robotics Club",
-            "Debate Society"
+            "Soccer Team",
+            "Swimming Team",
+            "Debate Society",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -55,19 +55,19 @@
                   "type": "chips",
                   "options": [
                     {
-                      "text": "Basketball"
-                    },
-                    {
-                      "text": "Soccer"
-                    },
-                    {
-                      "text": "Swimming"
-                    },
-                    {
                       "text": "Robotics Club"
                     },
                     {
+                      "text": "Soccer Team"
+                    },
+                    {
+                      "text": "Swimming Team"
+                    },
+                    {
                       "text": "Debate Society"
+                    },
+                    {
+                      "text": "Main Menu"
                     }
                   ]
                 }

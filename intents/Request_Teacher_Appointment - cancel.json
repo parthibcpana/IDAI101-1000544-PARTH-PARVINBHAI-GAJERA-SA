@@ -16,10 +16,40 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "No worries at all! Cancelled the appointment request. Nothing was booked.",
-            "Got it, cancelled! No meeting was scheduled. Feel free to request one whenever you're ready.",
-            "No problem! Discarded the meeting draft. What else can I help you with?"
+            "The appointment booking has been cancelled. Please let me know if you wish to reschedule for an alternative date.",
+            "Conference booking cancelled. No meeting was scheduled.",
+            "Appointment request discarded. Please let me know if I can assist with anything else."
           ]
+        },
+        {
+          "type": 2,
+          "title": "Quick choices:",
+          "replies": [
+            "Office Hours",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Office Hours"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
         }
       ],
       "defaultResponsePlatforms": {},

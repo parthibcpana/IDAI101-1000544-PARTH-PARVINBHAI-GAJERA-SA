@@ -31,7 +31,7 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Current billing statement for student ID $student_id: The term tuition balance is $420.00, payable by October 15, 2026. All ancillary transportation and laboratory dues are cleared.",
+            "Current billing statement for student ID $student_id: The term tuition balance is $420.00, payable by October 15, 2026. All ancillary transportation and laboratory charges are cleared.",
             "Fee breakdown for student $student_id: Current outstanding balance is $420.00 for Term Tuition, due on October 15, 2026. No overdue penalties are assessed on this account.",
             "Account statement for student $student_id: The pending tuition amount is $420.00, due October 15, 2026. Previous term dues are completely cleared."
           ]
@@ -40,9 +40,10 @@
           "type": 2,
           "title": "Payment choices:",
           "replies": [
-            "Pay via UPI",
             "Online Portal",
-            "Fee Receipt"
+            "Pay via UPI",
+            "Fee Receipt",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -55,13 +56,16 @@
                   "type": "chips",
                   "options": [
                     {
-                      "text": "Pay via UPI"
-                    },
-                    {
                       "text": "Online Portal"
                     },
                     {
+                      "text": "Pay via UPI"
+                    },
+                    {
                       "text": "Fee Receipt"
+                    },
+                    {
+                      "text": "Main Menu"
                     }
                   ]
                 }

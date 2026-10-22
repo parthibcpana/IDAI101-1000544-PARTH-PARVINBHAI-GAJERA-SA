@@ -31,19 +31,43 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Library status for student $student_id: 2 books checked out ('To Kill a Mockingbird' due Oct 10, 'General Science' due Oct 14). Zero overdue fines!",
-            "All good for $student_id: Currently has 2 books issued (due Oct 10 and Oct 14), with $0 in late fines. You can renew them online anytime!",
-            "Checked $student_id: 2 books borrowed, due next week on Oct 10 and Oct 14. Zero pending library fines on file!"
+            "Library account record for student ID $student_id: Currently borrowed items: 2 books ('Fundamentals of Physics', due Oct 10; 'World History Atlas', due Oct 14). Outstanding library fines: $0.00.",
+            "Library circulation status for student $student_id: 2 books on active loan. Due dates: Oct 10 and Oct 14. Total overdue fines: $0.00. Account is in good standing.",
+            "Library status for student $student_id: 2 items checked out. Zero overdue penalties recorded. Books may be renewed online or at the library circulation desk."
           ]
         },
         {
           "type": 2,
           "title": "Quick options:",
           "replies": [
-            "Book Renewal",
-            "Attendance Check",
-            "Fee Details"
+            "Library Hours",
+            "View Report Card",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Library Hours"
+                    },
+                    {
+                      "text": "View Report Card"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

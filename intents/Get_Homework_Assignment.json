@@ -57,19 +57,47 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Today's homework for Grade 10 Math: Chapter 4 Exercises 1–8 on Quadratic Equations in the workbook. Due this Thursday at 8:30 AM on Google Classroom!",
-            "Got it! Grade 10 Math students have Exercises 1 to 8 on Quadratic Equations (Chapter 4) due Thursday morning at 8:30 AM. Worksheets are on Google Classroom!",
-            "Here's the assignment: Grade 10 Math has Chapter 4 workbook problems 1–8 on Quadratic Equations due Thursday at 8:30 AM. Check Google Classroom for notes!"
+            "Current academic assignments: Mathematics: Chapter 4 practice exercises (due tomorrow). Science: Lab report on photosynthesis (due Friday). English: Reading chapter 6 of the novel. Detailed assignment guidelines are updated daily on Google Classroom.",
+            "Homework summary: Mathematics problem set due tomorrow; Science laboratory notes due Friday; English reading comprehension due Monday. Please consult Google Classroom for attachments.",
+            "Daily homework schedule: Math homework due tomorrow; Science project due Friday. Homework resources and submission links are published on Google Classroom."
           ]
         },
         {
           "type": 2,
           "title": "Other subjects:",
           "replies": [
-            "Science Homework",
-            "English Homework",
-            "Social Studies"
+            "Google Classroom",
+            "Exam Schedule",
+            "School Timings",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Google Classroom"
+                    },
+                    {
+                      "text": "Exam Schedule"
+                    },
+                    {
+                      "text": "School Timings"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

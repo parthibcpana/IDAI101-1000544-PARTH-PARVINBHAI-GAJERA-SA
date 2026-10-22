@@ -1,5 +1,57 @@
 [
   {
+    "id": "chip-062443937",
+    "data": [
+      {
+        "text": "Holiday Notice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-567568263",
+    "data": [
+      {
+        "text": "Sports Day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-369831006",
+    "data": [
+      {
+        "text": "Parent Meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-093988819",
+    "data": [
+      {
+        "text": "School Announcements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "f29c19e1-293d-4ff7-9083-5a53be6e2810",
     "data": [
       {

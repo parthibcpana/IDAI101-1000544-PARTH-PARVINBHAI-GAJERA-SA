@@ -1,5 +1,44 @@
 [
   {
+    "id": "chip-969170569",
+    "data": [
+      {
+        "text": "Meal Pricing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-878778548",
+    "data": [
+      {
+        "text": "Nut-Free Policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-322600509",
+    "data": [
+      {
+        "text": "Vegetarian Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "ba08d4fd-fee5-4045-93bf-07730a7b8e1d",
     "data": [
       {

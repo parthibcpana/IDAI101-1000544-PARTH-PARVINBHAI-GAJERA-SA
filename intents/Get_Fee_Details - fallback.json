@@ -22,19 +22,42 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Hmm, that ID doesn't match our billing records! Please enter a valid ID like stu32543, as5425, or STU10293.",
-            "Oops, couldn't find that ID! Make sure it looks like stu32543 or as5425. Could you check your fee slip and re-enter?",
-            "That format isn't recognized! It should be letters followed by digits (e.g., stu32543 or STU10293). Give it one more try!"
+            "The identifier entered does not match the Student ID format. Please verify the number on your fee slip or ID card and re-enter, or contact the accounts desk.",
+            "Invalid Student ID format for fee inquiry. Please verify and re-enter your Student ID."
           ]
         },
         {
           "type": 2,
           "title": "Try format:",
           "replies": [
-            "stu32543",
-            "as5425",
-            "STU10293"
+            "Payment Options",
+            "Contact Accounts",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Payment Options"
+                    },
+                    {
+                      "text": "Contact Accounts"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

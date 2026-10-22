@@ -16,10 +16,44 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Boom, submitted! The teacher will confirm the exact time slot via email/SMS within 24 hours. Have a great discussion!",
-            "All set! Booking request sent to the faculty coordinator. You'll get an email invite with the room details shortly.",
-            "Confirmed! Meeting request sent to the teacher. Look out for a confirmation email with your slot by tomorrow morning!"
+            "The consultation request with the $school_subject faculty coordinator for $date has been submitted. The academic office will issue a calendar confirmation to your registered email.",
+            "Confirmed. Your appointment request for $school_subject on $date has been forwarded to the faculty coordinator.",
+            "Meeting scheduled: The request for $school_subject on $date has been routed to the department. Confirmation will follow shortly."
           ]
+        },
+        {
+          "type": 2,
+          "title": "Quick choices:",
+          "replies": [
+            "View Attendance",
+            "Exam Schedule",
+            "Main Menu"
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "View Attendance"
+                    },
+                    {
+                      "text": "Exam Schedule"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "lang": "en"
         }
       ],
       "defaultResponsePlatforms": {},

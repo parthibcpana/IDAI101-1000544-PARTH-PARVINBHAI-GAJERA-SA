@@ -40,8 +40,9 @@
           "replies": [
             "Water Bottle",
             "Lunchbox",
-            "Jacket / Sweater",
-            "Eyeglasses"
+            "Jacket",
+            "Eyeglasses",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -64,6 +65,9 @@
                     },
                     {
                       "text": "Eyeglasses"
+                    },
+                    {
+                      "text": "Main Menu"
                     }
                   ]
                 }

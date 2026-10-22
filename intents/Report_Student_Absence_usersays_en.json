@@ -1,5 +1,18 @@
 [
   {
+    "id": "chip-782874505",
+    "data": [
+      {
+        "text": "Report an Absence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "1179817a-5b44-4fb6-a4d1-1716b509bc9d",
     "data": [
       {

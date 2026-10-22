@@ -52,10 +52,9 @@
           "type": 2,
           "title": "Choose payment mode:",
           "replies": [
-            "UPI & QR Code",
-            "Online Portal",
-            "Bank Demand Draft",
-            "Cash Counter"
+            "Fee Details",
+            "Accounts Hours",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -68,13 +67,13 @@
                   "type": "chips",
                   "options": [
                     {
-                      "text": "UPI & QR Code"
+                      "text": "Fee Details"
                     },
                     {
-                      "text": "Online Portal"
+                      "text": "Accounts Hours"
                     },
                     {
-                      "text": "Cash Counter"
+                      "text": "Main Menu"
                     }
                   ]
                 }

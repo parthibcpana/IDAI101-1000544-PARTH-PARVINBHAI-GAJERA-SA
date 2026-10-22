@@ -22,19 +22,38 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Hmm, that ID doesn't look quite right! It should be 2–3 letters followed by 4–6 digits (like stu32543, as5425, or STU10293). Mind checking the ID card and trying again?",
-            "Oops, couldn't match that ID! Make sure it looks like stu32543 or as5425. Could you double-check and send it once more?",
-            "That doesn't match our school ID format! It needs to look like stu32543, as5425, or STU10293. Give it another shot!"
+            "The identifier entered does not match our Student ID criteria. Official IDs consist of 2–3 letters followed by 4–6 digits (such as stu32543, as5425, or STU10293). Please re-enter the valid Student ID or contact the front desk.",
+            "Invalid Student ID format. Please verify the ID card and enter a valid identifier (e.g., stu32543 or STU10293)."
           ]
         },
         {
           "type": 2,
           "title": "Try format:",
           "replies": [
-            "stu32543",
-            "as5425",
-            "STU10293"
+            "Contact Front Desk",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Contact Front Desk"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

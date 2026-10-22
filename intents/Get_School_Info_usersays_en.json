@@ -1,5 +1,83 @@
 [
   {
+    "id": "chip-233416871",
+    "data": [
+      {
+        "text": "Campus Directions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-266970940",
+    "data": [
+      {
+        "text": "Staff Directory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-598102070",
+    "data": [
+      {
+        "text": "Campus Address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-265775994",
+    "data": [
+      {
+        "text": "Office Hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-707483390",
+    "data": [
+      {
+        "text": "Contact Office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-702467430",
+    "data": [
+      {
+        "text": "Contact Front Desk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "e7777777-cccc-4444-8888-777777777777",
     "data": [
       {

@@ -229,10 +229,18 @@ During iterative system testing and verification, we incorporated the assignment
 
 To provide an intuitive, modern conversational interface across web portals and mobile screens, ParentConnect AI incorporates native **Dialogflow Messenger (`df-messenger`)** rich payloads (`type: 4`) alongside standard text responses.
 
-#### Engineering Justifications for Suggestion Chips
-1. **Effortless Mobile User Experience:** Parents accessing the system during busy morning hours can tap options (`"View Attendance"`, `"Exam Schedule"`, `"Fee Details"`, `"Track School Bus"`) with a single touch, eliminating the need to type lengthy text on mobile touchscreen keyboards.
-2. **Demonstrated Conversational UI Effort:** Integrating interactive suggestion chips shows intentional dialogue design, demonstrating to the assessment evaluator that the interface was built to modern conversational UI/UX standards rather than basic text-only chatbots.
-3. **Deterministic Reliability & Anti-Hallucination Guardrail:** From a machine learning perspective, open-ended conversational models are vulnerable to out-of-domain drift and intent confusion when users provide ambiguous or unparseable input. By offering clear, clickable options at each conversational junction, the chatbot actively steers the interaction along pre-validated golden paths. This drastically narrows the input probability space, ensures zero classification errors, and guarantees dependable, deterministic outputs.
+#### Intelligent Suggestion Chip Strategy: When and How Chips Are Used
+
+Rather than mechanically attaching suggestion chips at every conversational turn, our design follows a strict, thoughtful UX policy:
+
+1. **Privacy & Reality in Identifier Collection:** When the system prompts for a private identifier (such as a Student ID), it **deliberately does not suggest dummy or sample IDs**. In a real-world institutional setting, each student holds a unique, confidential identifier; suggesting arbitrary IDs would be illogical and introduce security flaws. Instead, when an ID is requested, the interface surfaces **navigation lifelines** (e.g., `["Contact Front Desk", "Main Menu"]`) so users who do not have their ID on hand are never stranded.
+2. **Post-Fulfillment Next-Step Acceleration:** Immediately after displaying requested data (such as attendance or fee balance), suggestion chips anticipate the user's natural follow-up questions. For instance, after viewing attendance, parents are offered `["View Report Card", "Report Absence", "Fee Details", "Main Menu"]`.
+3. **Categorical Selection & Disambiguation:** When an inquiry involves predefined options (such as payment modes, bus routes, or certificate types), suggestion chips eliminate typing friction:
+   * Transportation: `["Route 1", "Route 2", "Route 4", "Bus Dispatch", "Main Menu"]`
+   * Extracurriculars: `["Robotics Club", "Soccer Team", "Swimming Team", "Debate Society", "Main Menu"]`
+   * Documents: `["Bonafide Cert", "Transfer Cert", "Fee Receipt", "Cancel"]`
+   * Confirmations: `["Yes submit it", "Cancel"]`
+4. **Deterministic Reliability & Anti-Hallucination Guardrail:** By offering structured, verified choice chips at every decision point, the chatbot actively steers user interactions along validated golden paths. This eliminates out-of-domain conversational drift, prevents ambiguous phrasing, and ensures zero NLU misclassification.
 
 #### Integration Architecture: Web Demo vs. Dialogflow Messenger
 When enabling web chat integration under the Dialogflow console:
@@ -243,10 +251,10 @@ When enabling web chat integration under the Dialogflow console:
   * **Structured Description Cards:** `"type": "description"` itemizing multi-line event schedules.
 
 * **Welcome Menu Chips:** `["View Attendance", "Exam Schedule", "Fee Details", "Track School Bus", "Report Absence"]`
-* **Confirmation Chips:** `["Yes submit it", "Cancel"]`
-* **Extracurricular & Club Chips:** `["Basketball", "Soccer", "Swimming", "Robotics Club", "Debate Society"]`
-* **Payment Method Chips:** `["UPI & QR Code", "Online Portal", "Cash Counter"]`
-* **Lost & Found Chips:** `["Water Bottle", "Lunchbox", "Jacket", "Eyeglasses"]`
+* **Attendance Follow-Up Chips:** `["View Report Card", "Report Absence", "Fee Details", "Main Menu"]`
+* **Fee Follow-Up Chips:** `["Online Portal", "Pay via UPI", "Fee Receipt", "Main Menu"]`
+* **Notice Filter Chips:** `["Parent Meeting", "Sports Day", "Holiday Notice", "Main Menu"]`
+* **Navigation Lifelines:** `["Contact Front Desk", "Main Menu"]` (displayed during ID prompts)
 
 ### Simple Media Responses & Announcement Cards
 
@@ -346,12 +354,12 @@ ParentConnect AI Intent Architecture
 ```
 User:         "Can I check my child's attendance?"
 ParentConnect: "Please provide the Student ID to retrieve official attendance records (e.g., stu32543, as5425, or STU10293)."
-              [Chips: stu32543 | as5425 | STU10293]
+              [Chips: Contact Front Desk | Main Menu]
 User:         "Roll 24 in 10th standard"
 ParentConnect: "That format does not match our Student ID criteria. Official IDs consist of 2–3 letters followed by 4–6 digits (such as stu32543, as5425, or STU10293). Please re-enter the valid Student ID."
 User:         "stu32543"
 ParentConnect: "Attendance record for student ID stu32543: Total instructional days: 112. Days present: 108 (96.4% attendance rate). Excused medical absences: 3. The student is currently in good academic standing."
-              [Chips: Exam Schedule | Fee Details | School Notices]
+              [Chips: View Report Card | Report Absence | Fee Details | Main Menu]
 ```
 
 ### User Journey 2: Sports and Extracurricular Activity Discovery

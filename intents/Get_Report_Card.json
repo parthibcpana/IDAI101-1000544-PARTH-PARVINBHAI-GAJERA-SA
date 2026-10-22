@@ -63,19 +63,43 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Sure thing! What's your child's Student ID? (e.g., stu32543, as5425, or STU10293).",
-            "Gotcha! Share their Student ID (like stu32543 or STU10293) and I'll fetch the latest report card.",
-            "Alright, let's grab those grades! Just give me the Student ID (e.g., as5425 or stu32543)."
+            "Please enter your child's assigned Student ID to retrieve their official academic report card and term grades.",
+            "Kindly enter the Student ID to view cumulative academic evaluations and subject scores.",
+            "Understood. Please provide the Student ID to access the student report card."
           ]
         },
         {
           "type": 2,
           "title": "Sample Student IDs:",
           "replies": [
-            "stu32543",
-            "as5425",
-            "STU10293"
+            "Exam Schedule",
+            "Contact Principal",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Exam Schedule"
+                    },
+                    {
+                      "text": "Contact Principal"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

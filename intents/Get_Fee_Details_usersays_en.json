@@ -1,5 +1,57 @@
 [
   {
+    "id": "chip-229217187",
+    "data": [
+      {
+        "text": "Tuition Fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-229813185",
+    "data": [
+      {
+        "text": "Check Fee Balance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-098373728",
+    "data": [
+      {
+        "text": "Fee Details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-552528067",
+    "data": [
+      {
+        "text": "Contact Accounts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "9dc15812-40d3-4fc5-8b7e-5a0555c0fb47",
     "data": [
       {

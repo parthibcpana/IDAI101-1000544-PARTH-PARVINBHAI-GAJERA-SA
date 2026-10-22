@@ -40,9 +40,10 @@
           "type": 2,
           "title": "Check more:",
           "replies": [
-            "Report Card",
+            "View Report Card",
+            "Report Absence",
             "Fee Details",
-            "Today's Homework"
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -55,13 +56,16 @@
                   "type": "chips",
                   "options": [
                     {
-                      "text": "Exam Schedule"
+                      "text": "View Report Card"
+                    },
+                    {
+                      "text": "Report Absence"
                     },
                     {
                       "text": "Fee Details"
                     },
                     {
-                      "text": "School Notices"
+                      "text": "Main Menu"
                     }
                   ]
                 }

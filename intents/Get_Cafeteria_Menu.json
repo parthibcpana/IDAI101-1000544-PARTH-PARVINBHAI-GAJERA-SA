@@ -43,20 +43,47 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Today's lunch menu: Grilled chicken with brown rice or Vegetarian pasta with roasted veggies, plus a salad bowl and fresh fruit. 100% nut-free!",
-            "What's cooking today: Choice of grilled chicken with brown rice or Vegetarian pasta with veggies, served with salad and fresh fruit. Completely nut-free!",
-            "Here's lunch today: Grilled chicken with brown rice, or a Vegetarian pasta with roasted veggies, with side salad and fresh fruit. Strictly nut-free!"
+            "Today's cafeteria menu offers balanced hot entrees: Grilled Chicken or Vegetarian Pasta with organic garden salad, seasonal fruit, and milk. Our kitchen maintains a certified 100% nut-free environment.",
+            "Daily cafeteria dining options: Hot lunch features grilled chicken or whole-wheat vegetarian pasta, steamed greens, and fresh fruit. Vegetarian, vegan, and nut-free dietary requirements are strictly observed.",
+            "Cafeteria meal update: Hot meal service includes pasta with marinara or grilled chicken breast, fresh seasonal fruit, and milk. The cafeteria is entirely nut-free."
           ]
         },
         {
           "type": 2,
           "title": "Meal choices:",
           "replies": [
-            "Standard Lunch",
-            "Vegetarian Meal",
-            "Breakfast Menu",
-            "Snack Menu"
+            "Vegetarian Menu",
+            "Nut-Free Policy",
+            "Meal Pricing",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Vegetarian Menu"
+                    },
+                    {
+                      "text": "Nut-Free Policy"
+                    },
+                    {
+                      "text": "Meal Pricing"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

@@ -22,19 +22,42 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Hmm, that doesn't look like a valid school ID! Please use format stu32543, as5425, or STU10293. Mind double-checking?",
-            "Oops, that ID format isn't clicking! Double-check the school badge for an ID like stu32543 or as5425 and try again.",
-            "That ID looks off! Our school IDs look like stu32543, as5425, or STU10293. Let's give it another try!"
+            "The Student ID entered could not be verified. Please check the ID format and re-enter, or contact the academic registrar.",
+            "Invalid Student ID format for report card lookup. Please re-enter a valid identifier."
           ]
         },
         {
           "type": 2,
           "title": "Try format:",
           "replies": [
-            "stu32543",
-            "as5425",
-            "STU10293"
+            "Exam Schedule",
+            "Contact Office",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Exam Schedule"
+                    },
+                    {
+                      "text": "Contact Office"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

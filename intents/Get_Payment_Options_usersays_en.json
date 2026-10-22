@@ -1,5 +1,83 @@
 [
   {
+    "id": "chip-716858690",
+    "data": [
+      {
+        "text": "Cash Counter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-513501781",
+    "data": [
+      {
+        "text": "Fee Receipt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-535373351",
+    "data": [
+      {
+        "text": "UPI Payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-503507540",
+    "data": [
+      {
+        "text": "Pay via UPI",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-640347779",
+    "data": [
+      {
+        "text": "Pay Online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-838054850",
+    "data": [
+      {
+        "text": "Payment Options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "6d63c7a8-1cb0-40a3-9f81-85774a066b0e",
     "data": [
       {

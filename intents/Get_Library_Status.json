@@ -49,19 +49,43 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Gotcha! What's your child's Student ID? (e.g., stu32543, as5425, or STU10293).",
-            "Sure thing! Share the Student ID (like stu32543 or STU10293) and I'll check borrowed books.",
-            "Alright, checking the library! What's the Student ID? (e.g., as5425 or stu32543)."
+            "Please enter your child's Student ID to check their library account and borrowed books.",
+            "Kindly provide the Student ID to view active library loans and due dates.",
+            "Please input the assigned Student ID to verify current library holdings."
           ]
         },
         {
           "type": 2,
           "title": "Sample Student IDs:",
           "replies": [
-            "stu32543",
-            "as5425",
-            "STU10293"
+            "Library Hours",
+            "Contact Library",
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Library Hours"
+                    },
+                    {
+                      "text": "Contact Library"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

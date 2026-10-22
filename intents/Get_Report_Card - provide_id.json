@@ -31,19 +31,47 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Awesome news for student $student_id! Overall GPA is 3.8 / 4.0 (A Grade), with top marks in Math (94%) and Science (91%). Full PDF is downloadable on the parent portal!",
-            "Got the results for $student_id: Term GPA is 3.8 / 4.0 (A Grade), led by Math at 94% and Science at 91%. Grab the full signed report card on the parent portal!",
-            "Here's how $student_id did: Overall GPA is 3.8 / 4.0 (Grade A)! Math scored 94% and Science scored 91%. You can view the full report card on the parent portal."
+            "Academic transcript for student ID $student_id: Cumulative GPA stands at 3.8 / 4.0. Top performances: Mathematics (94%, Grade A), Science (91%, Grade A), English (88%, Grade B+). Official signed PDF reports are downloadable from the parent portal.",
+            "Grade report for student $student_id: Current Term GPA: 3.8. Mathematics: 94%, Science: 91%, Social Studies: 89%. All subjects meet honors criteria. Digital report cards are accessible on the portal.",
+            "Official term evaluation for student $student_id: Current GPA: 3.8 / 4.0. Academic performance is commendable. Signed transcripts can be downloaded through the official school portal."
           ]
         },
         {
           "type": 2,
           "title": "Actions:",
           "replies": [
+            "View Attendance",
+            "Fee Details",
             "Teacher Meeting",
-            "Attendance Check",
-            "Fee Details"
+            "Main Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "View Attendance"
+                    },
+                    {
+                      "text": "Fee Details"
+                    },
+                    {
+                      "text": "Teacher Meeting"
+                    },
+                    {
+                      "text": "Main Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

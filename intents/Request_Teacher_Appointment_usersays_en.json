@@ -1,5 +1,31 @@
 [
   {
+    "id": "chip-318365259",
+    "data": [
+      {
+        "text": "Book Appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-166643223",
+    "data": [
+      {
+        "text": "Teacher Conference",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "7ca1f6ae-be38-4098-ac74-1ed9db67bfb9",
     "data": [
       {

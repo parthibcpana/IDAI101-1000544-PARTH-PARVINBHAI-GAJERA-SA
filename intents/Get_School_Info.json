@@ -14,7 +14,7 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "The main school campus is located at 124 Greenfield Avenue. Administrative office hours are Monday through Friday, from 8:00 AM to 4:00 PM. Front desk contact: (555) 019-2800 or office@greenfieldschool.edu.",
+            "The main school campus is located at 124 Greenfield Avenue. Administrative office hours are Monday through Friday, from 8:00 AM to 4:00 PM. The front desk may be reached by telephone at (555) 019-2800 or via email at office@greenfieldschool.edu.",
             "Institutional information: Greenfield Academy is situated at 124 Greenfield Avenue. The administration office operates weekdays from 8:00 AM to 4:00 PM. Inquiries may be directed to (555) 019-2800.",
             "Campus address and timings: 124 Greenfield Avenue. Regular office hours are Monday through Friday, 8:00 AM to 4:00 PM. General inquiries: office@greenfieldschool.edu."
           ]
@@ -25,7 +25,8 @@
           "replies": [
             "Office Hours",
             "Campus Address",
-            "Staff Directory"
+            "Staff Directory",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -45,6 +46,9 @@
                     },
                     {
                       "text": "Staff Directory"
+                    },
+                    {
+                      "text": "Main Menu"
                     }
                   ]
                 }

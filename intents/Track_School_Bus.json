@@ -43,7 +43,7 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Transportation telemetry update: School Bus Route 3 is currently approaching Central Park Crossing, approximately 8 to 10 minutes from the next scheduled stop. For dispatch inquiries, contact (555) 019-2834.",
+            "Transportation telemetry update: School Bus Route 3 is currently approaching Central Park Crossing and is estimated to arrive at the next scheduled stop in 8 to 10 minutes. For dispatch inquiries, contact (555) 019-2834.",
             "Bus transit status: Route 3 is on schedule near Central Park Crossing, with an estimated arrival time of 8–10 minutes to the next stop. For direct driver dispatch, please call (555) 019-2834.",
             "Current location update: Route 3 is navigating past Central Park Crossing (ETA: 8–10 minutes). Dispatch desk is available at (555) 019-2834."
           ]
@@ -55,7 +55,8 @@
             "Route 1",
             "Route 2",
             "Route 4",
-            "Call Dispatch"
+            "Bus Dispatch",
+            "Main Menu"
           ],
           "lang": "en"
         },
@@ -74,7 +75,13 @@
                       "text": "Route 2"
                     },
                     {
-                      "text": "Route 3"
+                      "text": "Route 4"
+                    },
+                    {
+                      "text": "Bus Dispatch"
+                    },
+                    {
+                      "text": "Main Menu"
                     }
                   ]
                 }

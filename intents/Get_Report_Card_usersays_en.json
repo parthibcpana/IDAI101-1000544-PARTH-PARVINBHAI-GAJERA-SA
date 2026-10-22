@@ -1,5 +1,57 @@
 [
   {
+    "id": "chip-427988013",
+    "data": [
+      {
+        "text": "Download PDF",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-534202688",
+    "data": [
+      {
+        "text": "Academic Report Card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-285631112",
+    "data": [
+      {
+        "text": "Report Card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "chip-448118437",
+    "data": [
+      {
+        "text": "View Report Card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "1e093e11-f3fb-4bd1-856d-c3dda9c853d6",
     "data": [
       {
