@@ -154,7 +154,7 @@ Based on our user research findings, we established clear, measurable goals for 
 
 ## Design and Development in Dialogflow
 
-### System Architecture and Context State Machine
+### SMALL ALOGORITHM DESIGNED : System Architecture and Context State Machine
 
 The conversational architecture is built on Google Dialogflow ES, combining custom entity recognition, hierarchical context lifecycles, and nested child fallback handling.
 
