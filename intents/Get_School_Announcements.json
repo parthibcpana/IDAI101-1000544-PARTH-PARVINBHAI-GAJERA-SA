@@ -43,9 +43,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Top announcements: 1. Parent-Teacher Meeting (PTM) is Saturday, Oct 24 (9 AM–1 PM). 2. Sports Day trials start next Wednesday. 3. Campus holiday on Friday, Oct 30.",
-            "Here's what's happening: PTM on Saturday, Oct 24 (9:00 AM–1:00 PM), Sports Day trials kick off next Wednesday, and school is closed for holiday on Friday, Oct 30!",
-            "Latest circulars: 1. Term PTM on Saturday, Oct 24. 2. Annual Sports Day trials start next Wednesday. 3. School holiday on Friday, Oct 30. Check the portal for full PDFs!"
+            "Official school announcements: 1. The Term Parent-Teacher Meeting is scheduled for Saturday, October 24 (9:00 AM to 1:00 PM). 2. Annual Sports Day trials commence on Wednesday, October 28. 3. The campus will remain closed on Friday, October 30 for the holiday.",
+            "Current institutional circulars: Parent-Teacher Meeting on Saturday, October 24; Sports Day qualifications starting Wednesday, October 28; Mid-term school holiday on Friday, October 30.",
+            "Latest school notices: 1. Parent-Teacher Meeting on Saturday, Oct 24. 2. Sports Day trials start Wednesday, Oct 28. 3. Campus holiday on Friday, Oct 30. Full circulars are available on the portal."
           ]
         },
         {
@@ -56,6 +56,38 @@
             "Sports Day",
             "Holiday Notice"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "info",
+                  "title": "Official School Announcements",
+                  "subtitle": "PTM: Saturday, Oct 24 (9 AM-1 PM) | Sports Trials: Oct 28 | Campus Holiday: Oct 30",
+                  "actionLink": "https://parents.schoolportal.edu"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Parent Meeting"
+                    },
+                    {
+                      "text": "Sports Day"
+                    },
+                    {
+                      "text": "Holiday Notice"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

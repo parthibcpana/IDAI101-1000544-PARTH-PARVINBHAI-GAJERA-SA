@@ -29,9 +29,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "We offer 6 major sports (Basketball, Soccer, Swimming, Cricket, Tennis, Track & Field) and 5 popular clubs (Robotics, Debate, Drama, Art, Chess). Which one would you like to explore?",
-            "Here are our activities: Sports include Basketball, Soccer, Swimming, Cricket, Tennis, and Track & Field. Clubs include Robotics, Debate, Drama, Art, and Chess. Want details on trials?",
-            "Lots to do here! We have Basketball, Soccer, Swimming, Cricket, Tennis, and Track & Field for sports, plus Robotics, Debate, Drama, Art, and Chess clubs. What catches your eye?"
+            "The institution offers 6 primary athletic sports (Basketball, Soccer, Swimming, Cricket, Tennis, Track & Field) and 5 extracurricular clubs (Robotics Club, Debate Society, Drama Guild, Art Studio, Chess League). Which program would you like to review?",
+            "Extracurricular programs include competitive athletics (Soccer, Basketball, Swimming, Cricket, Tennis) and academic enrichment clubs (Robotics, Debate, Drama, Chess). All activities are supervised by certified coaches and faculty.",
+            "Greenfield Academy provides diverse athletic and extracurricular offerings. Athletic disciplines include basketball, soccer, and swimming; enrichment societies include robotics and debate."
           ]
         },
         {
@@ -44,6 +44,36 @@
             "Robotics Club",
             "Debate Society"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Basketball"
+                    },
+                    {
+                      "text": "Soccer"
+                    },
+                    {
+                      "text": "Swimming"
+                    },
+                    {
+                      "text": "Robotics Club"
+                    },
+                    {
+                      "text": "Debate Society"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

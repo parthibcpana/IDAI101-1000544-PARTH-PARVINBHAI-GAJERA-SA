@@ -31,9 +31,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Here's the breakdown for student $student_id: Current Term Tuition Fee due is $420.00, payable by October 15, 2026. All bus and lab dues are cleared. Want the online payment link?",
-            "Got it! Account for $student_id shows $420.00 pending for Term Tuition Fee, due October 15, 2026. No overdue fines on file. Need help paying via UPI or portal?",
-            "Found it for $student_id: You have $420.00 due for Term Tuition Fee by October 15, 2026. Prior dues are 100% cleared. Let me know if you want the payment link!"
+            "Current billing statement for student ID $student_id: The term tuition balance is $420.00, payable by October 15, 2026. All ancillary transportation and laboratory dues are cleared.",
+            "Fee breakdown for student $student_id: Current outstanding balance is $420.00 for Term Tuition, due on October 15, 2026. No overdue penalties are assessed on this account.",
+            "Account statement for student $student_id: The pending tuition amount is $420.00, due October 15, 2026. Previous term dues are completely cleared."
           ]
         },
         {
@@ -44,6 +44,30 @@
             "Online Portal",
             "Fee Receipt"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Pay via UPI"
+                    },
+                    {
+                      "text": "Online Portal"
+                    },
+                    {
+                      "text": "Fee Receipt"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

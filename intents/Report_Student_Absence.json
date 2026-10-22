@@ -67,9 +67,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Gotcha! I've drafted an absence report for Student ID $student_id on $date. Shall I go ahead and submit it to the office?",
-            "Alright, absence noted: Student $student_id on $date. Ready to submit this to the homeroom teacher? Hit Confirm below!",
-            "Understood! Ready to file the absence for $student_id on $date. Shall I confirm and notify the school desk?"
+            "An absence notice has been drafted for Student ID $student_id for the date of $date. Would you like to confirm and submit this excused absence report to the administration and homeroom teacher?",
+            "Please confirm submission: An excused absence for Student ID $student_id on $date will be formally recorded in the school attendance register.",
+            "Absence draft prepared for student ID $student_id on $date. Please select Confirm below to submit or Cancel to discard."
           ]
         },
         {
@@ -79,6 +79,27 @@
             "Yes submit it",
             "Cancel"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes submit it"
+                    },
+                    {
+                      "text": "Cancel"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

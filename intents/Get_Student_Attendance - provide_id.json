@@ -31,9 +31,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Got it! For student $student_id: Total school days: 112. Days present: 108 (96.4% attendance). Excused medical absences: 3. Looking great and in good standing!",
-            "Alright, pulled up $student_id: 108 days present out of 112 (96.4% attendance), with 3 excused absences. Well above the required 85% mark!",
-            "Here's the scoop for student $student_id: Attendance stands at 96.4% (108 out of 112 days attended, 3 excused absences). All clear and doing awesome!"
+            "Attendance record for student ID $student_id: Total instructional days: 112. Days present: 108 (96.4% attendance rate). Excused medical absences: 3. The student is currently in good academic standing.",
+            "Attendance summary for student $student_id: 108 of 112 instructional days attended (96.4%). Documented excused absences: 3. Institutional attendance requirements are fully satisfied.",
+            "Official attendance verification for student $student_id: The recorded attendance rate is 96.4% over 112 academic days, with 3 excused absences on file."
           ]
         },
         {
@@ -44,6 +44,30 @@
             "Fee Details",
             "Today's Homework"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Exam Schedule"
+                    },
+                    {
+                      "text": "Fee Details"
+                    },
+                    {
+                      "text": "School Notices"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

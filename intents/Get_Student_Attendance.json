@@ -49,9 +49,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Gotcha! What's your child's Student ID? (e.g., stu32543, as5425, or STU10293).",
-            "Sure thing! Drop your child's Student ID right here (like stu32543 or STU10293) and I'll pull up the records.",
-            "Alright, let's check that attendance! Could you share their Student ID? (e.g., as5425 or stu32543)."
+            "Please provide the Student ID to retrieve official attendance records (e.g., stu32543, as5425, or STU10293).",
+            "Kindly enter the assigned Student ID (e.g., stu32543 or STU10293) to verify current attendance standing.",
+            "Understood. Please enter the valid Student ID to look up your child's attendance record."
           ]
         },
         {
@@ -62,6 +62,30 @@
             "as5425",
             "STU10293"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "stu32543"
+                    },
+                    {
+                      "text": "as5425"
+                    },
+                    {
+                      "text": "STU10293"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

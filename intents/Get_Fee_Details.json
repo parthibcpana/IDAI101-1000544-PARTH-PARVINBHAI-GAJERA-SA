@@ -49,9 +49,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Sure thing! What's your child's Student ID? (e.g., stu32543, as5425, or STU10293).",
-            "Gotcha! Send over their Student ID (like stu32543 or STU10293) and I'll look up the fee balance.",
-            "Alright, let me check the account! What's the Student ID? (e.g., as5425 or stu32543)."
+            "Please provide the Student ID to retrieve the current tuition and fee statement (e.g., stu32543, as5425, or STU10293).",
+            "Kindly enter the Student ID (e.g., stu32543 or STU10293) to view the outstanding fee balance.",
+            "Please input the assigned Student ID to access the current student billing records."
           ]
         },
         {
@@ -62,6 +62,30 @@
             "as5425",
             "STU10293"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "stu32543"
+                    },
+                    {
+                      "text": "as5425"
+                    },
+                    {
+                      "text": "STU10293"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

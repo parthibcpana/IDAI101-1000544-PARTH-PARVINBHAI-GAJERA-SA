@@ -16,9 +16,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "All set! The absence for student $student_id has been logged as excused and sent to the homeroom teacher. Hope they feel better soon!",
-            "Done deal! We've recorded the absence for student $student_id and alerted the teacher. Wishing them a super speedy recovery!",
-            "Confirmed! Absence successfully filed for student $student_id. Teachers are notified. Take care, and let us know if they need homework packets!"
+            "The absence report for student ID $student_id has been formally recorded as excused and transmitted to the homeroom teacher and school administration.",
+            "Confirmed. The excused absence for student ID $student_id has been logged in the official institutional attendance register.",
+            "The absence notification for student ID $student_id has been successfully filed with the school office."
           ]
         },
         {
@@ -29,6 +29,30 @@
             "Today's Homework",
             "Cafeteria Menu"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "View Attendance"
+                    },
+                    {
+                      "text": "Exam Schedule"
+                    },
+                    {
+                      "text": "Cafeteria Menu"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

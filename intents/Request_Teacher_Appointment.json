@@ -81,9 +81,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Gotcha! Drafted your meeting request with the $school_subject teacher for $date. Shall I submit it to the faculty coordinator?",
-            "Alright! Meeting drafted for $school_subject teacher on $date. Ready for me to send this booking request?",
-            "Ready to book! Teacher conference for $school_subject on $date. Shall I confirm and send it over?"
+            "A parent-teacher conference request has been drafted for the $school_subject department on $date. Would you like to submit this appointment request to the faculty coordinator?",
+            "Please confirm the consultation request: An appointment with the $school_subject faculty member for $date will be scheduled with the academic office.",
+            "Appointment request prepared for $school_subject on $date. Please select an option below to confirm or cancel the booking."
           ]
         },
         {
@@ -93,6 +93,27 @@
             "Yes please confirm",
             "Cancel"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Confirm Booking"
+                    },
+                    {
+                      "text": "Cancel"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

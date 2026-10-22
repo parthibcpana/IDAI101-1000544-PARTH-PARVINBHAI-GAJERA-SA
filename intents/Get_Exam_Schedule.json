@@ -71,9 +71,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Midterm Exams run from Monday, Nov 10 to Friday, Nov 21. Exam sessions start at 9:00 AM daily (reporting time 8:40 AM). Full timetable is on the portal!",
-            "Mark your calendar! Midterm Exams are scheduled Nov 10–21, starting at 9:00 AM every morning. Full date sheet is ready on the school portal.",
-            "Midterms kick off Monday, Nov 10 and wrap up Friday, Nov 21. Daily exams start promptly at 9:00 AM. Grab the complete timetable from the portal!"
+            "Academic examination schedule: Midterm examinations will take place from November 10 to November 21, commencing daily at 9:00 AM. Please verify that student hall tickets are signed prior to commencement.",
+            "Examination timetable: The upcoming term assessment period runs from November 10 through November 21 (9:00 AM daily). Specific subject syllabi and schedules are published on the school portal.",
+            "Official exam notice: Midterm examinations are scheduled from November 10 to November 21. Daily testing sessions begin promptly at 9:00 AM."
           ]
         },
         {
@@ -84,6 +84,30 @@
             "Final Term",
             "Unit Test"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "View Attendance"
+                    },
+                    {
+                      "text": "Fee Details"
+                    },
+                    {
+                      "text": "School Notices"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

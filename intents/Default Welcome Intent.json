@@ -29,9 +29,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Hey there! Welcome to ParentConnect AI. Whether you're a parent or school staff, I've got you covered with attendance, bus routes, fees, and daily notices. What can I look up for you?",
-            "Hi! Welcome to ParentConnect AI. How can I help you today? Ask me anything about bus timings, student attendance, homework, or upcoming school events.",
-            "Hello! Welcome to ParentConnect AI, your 24/7 school assistant. What's on your mind today? I can pull up student records, lunch menus, fees, or event schedules in a snap."
+            "Welcome to ParentConnect AI, the school communication assistant for parents and faculty. How may I assist you today? Please choose an option below or enter your inquiry.",
+            "Greetings. Welcome to ParentConnect AI. I am here to assist with student records, academic schedules, fee statements, and school announcements. Please select an option below or type your question.",
+            "Welcome to ParentConnect AI, your 24/7 institutional assistant. How may I help you? You can access attendance records, exam dates, fee balances, or transportation updates."
           ]
         },
         {
@@ -44,6 +44,36 @@
             "Track School Bus",
             "Report Absence"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "View Attendance"
+                    },
+                    {
+                      "text": "Exam Schedule"
+                    },
+                    {
+                      "text": "Fee Details"
+                    },
+                    {
+                      "text": "Track School Bus"
+                    },
+                    {
+                      "text": "Report Absence"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

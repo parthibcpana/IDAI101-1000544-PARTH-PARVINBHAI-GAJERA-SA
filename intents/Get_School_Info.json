@@ -14,9 +14,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Sure thing! Our main campus is at 124 Greenfield Avenue. The front office is open Mon–Fri, 8:00 AM to 4:00 PM, and you can reach us directly at (555) 019-2800 or office@greenfieldschool.edu.",
-            "Gotcha! We're located at 124 Greenfield Avenue. Office hours are Monday through Friday, 8:00 AM to 4:00 PM. Give us a call anytime at (555) 019-2800 or email office@greenfieldschool.edu.",
-            "Alright! The school is at 124 Greenfield Avenue. Admin office runs Mon–Fri, 8:00 AM–4:00 PM. Front desk phone is (555) 019-2800 and email is office@greenfieldschool.edu."
+            "The main school campus is located at 124 Greenfield Avenue. Administrative office hours are Monday through Friday, from 8:00 AM to 4:00 PM. Front desk contact: (555) 019-2800 or office@greenfieldschool.edu.",
+            "Institutional information: Greenfield Academy is situated at 124 Greenfield Avenue. The administration office operates weekdays from 8:00 AM to 4:00 PM. Inquiries may be directed to (555) 019-2800.",
+            "Campus address and timings: 124 Greenfield Avenue. Regular office hours are Monday through Friday, 8:00 AM to 4:00 PM. General inquiries: office@greenfieldschool.edu."
           ]
         },
         {
@@ -27,6 +27,30 @@
             "Campus Address",
             "Staff Directory"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Office Hours"
+                    },
+                    {
+                      "text": "Campus Address"
+                    },
+                    {
+                      "text": "Staff Directory"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],

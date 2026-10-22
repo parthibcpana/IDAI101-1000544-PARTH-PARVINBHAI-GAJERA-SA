@@ -29,9 +29,9 @@
           "type": 0,
           "lang": "en",
           "speech": [
-            "Gotcha! Lost items (bottles, lunchboxes, jackets, glasses) are kept at the Central Admin Helpdesk, open Mon–Fri 8:00 AM–3:30 PM. Bus items are dropped off daily by drivers.",
-            "Lost something? Unclaimed items like water bottles, lunchboxes, blazers, and spectacles are at the front lobby helpdesk Mon–Fri 8:00 AM–3:30 PM. Drivers turn in bus items daily.",
-            "Check the Lost & Found desk in the main admin building (open Mon–Fri 8:00 AM to 3:30 PM). Jackets, bottles, and glasses left on buses are brought there every afternoon!"
+            "Misplaced personal articles (including water bottles, lunchboxes, jackets, and eyeglasses) are cataloged at the Central Administration Helpdesk, open Monday through Friday, 8:00 AM to 3:30 PM. Items left on school transport are received daily from route drivers.",
+            "Lost and found protocol: Misplaced items are secured at the Central Administration Helpdesk during school hours (8:00 AM to 3:30 PM). Unclaimed belongings from school buses are delivered each afternoon.",
+            "Items found on campus are held at the administrative reception desk between 8:00 AM and 3:30 PM. Please visit the desk or contact campus security for item identification."
           ]
         },
         {
@@ -43,6 +43,33 @@
             "Jacket / Sweater",
             "Eyeglasses"
           ],
+          "lang": "en"
+        },
+        {
+          "type": 4,
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Water Bottle"
+                    },
+                    {
+                      "text": "Lunchbox"
+                    },
+                    {
+                      "text": "Jacket"
+                    },
+                    {
+                      "text": "Eyeglasses"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
           "lang": "en"
         }
       ],
