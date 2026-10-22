@@ -38,11 +38,11 @@
           "type": 2,
           "title": "Quick choices:",
           "replies": [
-            "Check Attendance",
-            "Track School Bus",
+            "View Attendance",
+            "Exam Schedule",
             "Fee Details",
-            "Report Absence",
-            "Sports & Clubs"
+            "Track School Bus",
+            "Report Absence"
           ],
           "lang": "en"
         }
