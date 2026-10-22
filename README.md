@@ -6,11 +6,52 @@
 [![Repository](https://img.shields.io/badge/GitHub-IDAI101--1000544--PARTH--PARVINBHAI--GAJERA--SA-181717?style=flat-square&logo=github)](https://github.com/parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA)
 
 **Course:** Artificial Intelligence: Real-World Applications and Implications (`IDAI101`)  
-**Assessment:** Summative Assessment (SA: Full-Scale Conversational AI Implementation) — 60 Marks  
-**Agent Name:** ParentConnect AI  
+**Assignment Title:** Creating Intelligent Chatbots for Practical Applications  
+**Type of Assessment:** Summative Assessment (Individual Project) — 60 Marks  
+**Scenario:** Scenario 2: ParentConnect AI - School Communication Assistant  
 **Platform:** Google Dialogflow ES (Essentials)  
 **Domain:** EdTech / K-12 Institutional Administration & Community Engagement  
 **Architecture:** Intent-Entity NLP with Two-Tier Context Validation State Machine  
+
+---
+
+## Assignment Rationale & Official Chatbot Purpose
+
+### Assignment Purpose & Rationale
+This project equips students with practical engineering skills in designing, structuring, and deploying conversational AI solutions using Google Dialogflow. It covers the end-to-end development lifecycle: real-world operational problem analysis, user interaction and dialogue state design, entity extraction, context lifecycle management, and deployment testing under ethical AI standards.
+
+### Official Chatbot Purpose (Scenario 2 Alignment)
+As defined in the official project brief, the primary purpose of **ParentConnect AI** is:
+> *"To assist parents by providing quick and accurate information about student attendance, exam schedules, fee details, school announcements, and general queries. It ensures smooth and efficient communication, reducing the need for manual follow-ups and improving transparency between the school and parents."*
+
+### Intended Learning Outcomes (ILO) Alignment
+
+| Intended Learning Outcome | Project Realization in ParentConnect AI | Supporting Repository Artifacts |
+|---|---|---|
+| **ILO 1: Understand AI solutions in real-world domains (Education)** | Engineered a dual-facing school communication assistant addressing morning phone bottlenecks, bus tracking delays, and grade verification. | `README.md` (Operational Problem Analysis), `intents/Get_School_Info.json` |
+| **ILO 2: Design and deploy on Google Dialogflow** | Developed and packaged 32 intents, 14 entities, and custom context state machines inside Google Dialogflow ES. | `agent.json`, `package.json`, `intents/`, `entities/` |
+| **ILO 3: Ethical, responsive, and user-focused AI** | Enforced case-insensitive regex validation for `@Student_ID`, student data access restrictions, and anti-hallucination guardrails. | `README.md` (Ethical AI & Privacy), `entities/Student_ID.json` |
+| **ILO 4: Document and present outcomes on GitHub** | Published complete source files, architecture state machine diagrams, user journeys, and deployment guides. | GitHub Repository: `parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA` |
+
+---
+
+## Project Brief Compliance Matrix
+
+Every explicit requirement specified in the CRS Project Brief has been directly implemented and verified:
+
+| Specific Requirement from Brief | Benchmark | Implemented in ParentConnect AI | Exact Intents & Entities |
+|---|---|---|---|
+| **Student Attendance** | Quick & accurate information | Attendance query with working days (108/112), present rate (96.4%), and medical leave counts. | `Get_Student_Attendance`, `provide_id`, `fallback`, `@Attendance_Status`, `@Student_ID` |
+| **Exam Schedules** | Quick & accurate information | Midterm and final exam schedules, dates (Nov 10–21), timings (9:00 AM), and hall ticket instructions. | `Get_Exam_Schedule`, `@Academic_Term`, `@School_Subject` |
+| **Fee Details** | Quick & accurate information | Precise fee balance breakdown ($420.00 term tuition due Oct 15) and instant payment methods (UPI, Portal, Counter). | `Get_Fee_Details`, `provide_id`, `fallback`, `Get_Payment_Options`, `@Fee_Type`, `@Payment_Mode` |
+| **School Announcements** | Quick & accurate information | Official school circular summaries, PTM dates (Oct 24), sports trials, and holiday notifications. | `Get_School_Announcements`, `@Notice_Category` |
+| **General Queries** | Broad query coverage | Campus location, office hours, phone directory, cafeteria menus, bus routes, sports, and lost & found. | `Get_School_Info`, `Get_Cafeteria_Menu`, `Track_School_Bus`, `Get_Clubs_And_Sports`, `Get_Lost_And_Found` |
+| **Reducing Manual Follow-ups** | Operational automation | Automated absence notes sent to teachers, self-service faculty appointment bookings, and certificate requests. | `Report_Student_Absence`, `Request_Teacher_Appointment`, `Request_Certificate_Document` |
+| **Improving Transparency** | Direct, verified data | Unfiltered GPA and report card records, live bus GPS location, and exact itemized billing statements. | `Get_Report_Card`, `Track_School_Bus`, `Get_Fee_Details` |
+| **Minimum 15 Intents** | At least 15 intents | **32 discrete intents** implemented across 5 operational clusters (213% of requirement). | Complete `intents/` directory (32 intents) |
+| **Minimum 10 Entities** | At least 10 entities | **14 custom entities** covering student IDs, subjects, dates, fees, buses, meals, and documents (140% of requirement). | Complete `entities/` directory (14 entities) |
+| **Contextual Responses** | Two-tier context loops | Context state machine managing `asking_id` lifespans, trapping malformed inputs, and reprompting dynamically. | `[Intent]-asking_id` (Lifespan: 2), `provide_id`, `fallback` |
+| **Suggestion Prompts & Interactivity** | Interactive elements | Native Dialogflow Quick Replies (`type: 2`) suggestion chips for 1-tap mobile navigation. | Integrated across 20+ intents with confirmation chips |
 
 ---
 
