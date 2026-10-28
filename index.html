@@ -9,16 +9,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #070a12;
-      --card-bg: rgba(13, 19, 33, 0.72);
-      --card-border: rgba(255, 255, 255, 0.08);
-      --glass-highlight: rgba(255, 255, 255, 0.04);
-      --text-bright: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-dim: #64748b;
-      --accent-blue: #3b82f6;
-      --accent-cyan: #06b6d4;
-      --accent-emerald: #10b981;
+      /* Black + Cream Luxury Palette */
+      --bg: #09090b;
+      --card-bg: rgba(18, 18, 20, 0.75);
+      --card-border: rgba(245, 239, 227, 0.09);
+      --card-border-hover: rgba(245, 239, 227, 0.22);
+      --cream-bright: #faf6ee;
+      --cream-text: #ede6d8;
+      --cream-muted: #b5ab99;
+      --cream-dim: #7a7263;
+      --cream-accent: #e4dac7;
+      --cream-btn-bg: #faf6ee;
+      --cream-btn-text: #09090b;
+      --cream-btn-hover: #ede3d1;
       --mono-font: 'Space Grotesk', ui-monospace, monospace;
     }
 
@@ -31,13 +34,14 @@
     body {
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       background-color: var(--bg);
-      color: var(--text-bright);
+      color: var(--cream-text);
       min-height: 100vh;
       overflow-x: hidden;
       position: relative;
+      /* Soft warm cream ceiling ambient glow */
       background-image: 
-        radial-gradient(900px 450px at 20% -10%, rgba(37, 99, 235, 0.09) 0%, transparent 100%),
-        radial-gradient(800px 400px at 80% 110%, rgba(6, 182, 212, 0.06) 0%, transparent 100%);
+        radial-gradient(1100px 520px at 50% -40px, rgba(245, 239, 227, 0.055) 0%, transparent 100%),
+        radial-gradient(800px 400px at 80% 100%, rgba(245, 239, 227, 0.025) 0%, transparent 100%);
       -webkit-font-smoothing: antialiased;
     }
 
@@ -48,7 +52,7 @@
       left: 0;
       width: 100vw;
       height: 100vh;
-      opacity: 0.038;
+      opacity: 0.034;
       pointer-events: none;
       z-index: 9999;
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
@@ -59,9 +63,9 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(7, 10, 18, 0.75);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
+      background: rgba(9, 9, 11, 0.78);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
       border-bottom: 1px solid var(--card-border);
       padding: 0.85rem 2rem;
       display: flex;
@@ -80,28 +84,28 @@
       width: 36px;
       height: 36px;
       border-radius: 9px;
-      background: linear-gradient(135deg, rgba(37, 99, 235, 0.25), rgba(15, 23, 42, 0.8));
-      border: 1px solid rgba(147, 197, 253, 0.25);
+      background: rgba(245, 239, 227, 0.05);
+      border: 1px solid rgba(245, 239, 227, 0.18);
       display: flex;
       align-items: center;
       justify-content: center;
       font-family: var(--mono-font);
       font-weight: 700;
       font-size: 0.95rem;
-      color: #93c5fd;
+      color: var(--cream-bright);
     }
 
     .identity-meta h1 {
       font-size: 0.95rem;
       font-weight: 700;
-      color: #ffffff;
+      color: var(--cream-bright);
       letter-spacing: -0.01em;
       line-height: 1.2;
     }
 
     .identity-meta p {
       font-size: 0.72rem;
-      color: var(--text-dim);
+      color: var(--cream-dim);
       font-family: var(--mono-font);
       letter-spacing: 0.2px;
     }
@@ -110,9 +114,9 @@
       display: flex;
       align-items: center;
       gap: 1.25rem;
-      background: rgba(255, 255, 255, 0.025);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      padding: 0.4rem 1.1rem;
+      background: rgba(245, 239, 227, 0.03);
+      border: 1px solid rgba(245, 239, 227, 0.08);
+      padding: 0.4rem 1.15rem;
       border-radius: 9999px;
       font-size: 0.76rem;
     }
@@ -124,7 +128,7 @@
     }
 
     .author-label {
-      color: var(--text-dim);
+      color: var(--cream-dim);
       text-transform: uppercase;
       font-size: 0.68rem;
       font-family: var(--mono-font);
@@ -132,7 +136,7 @@
     }
 
     .author-val {
-      color: #f1f5f9;
+      color: var(--cream-bright);
       font-weight: 600;
     }
 
@@ -145,10 +149,10 @@
     .repo-pill {
       font-family: var(--mono-font);
       font-size: 0.72rem;
-      color: #93c5fd;
+      color: var(--cream-accent);
       text-decoration: none;
-      background: rgba(37, 99, 235, 0.1);
-      border: 1px solid rgba(37, 99, 235, 0.25);
+      background: rgba(245, 239, 227, 0.04);
+      border: 1px solid rgba(245, 239, 227, 0.14);
       padding: 0.35rem 0.85rem;
       border-radius: 6px;
       display: inline-flex;
@@ -158,17 +162,17 @@
     }
 
     .repo-pill:hover {
-      background: rgba(37, 99, 235, 0.2);
-      border-color: rgba(147, 197, 253, 0.4);
-      color: #ffffff;
+      background: rgba(245, 239, 227, 0.09);
+      border-color: rgba(245, 239, 227, 0.3);
+      color: var(--cream-bright);
     }
 
     .live-beacon-pill {
       font-family: var(--mono-font);
       font-size: 0.72rem;
-      color: #4ade80;
-      background: rgba(34, 197, 94, 0.08);
-      border: 1px solid rgba(34, 197, 94, 0.25);
+      color: #86efac;
+      background: rgba(34, 197, 94, 0.06);
+      border: 1px solid rgba(34, 197, 94, 0.2);
       padding: 0.35rem 0.75rem;
       border-radius: 6px;
       display: inline-flex;
@@ -179,9 +183,9 @@
     .pulse-dot {
       width: 6px;
       height: 6px;
-      background-color: #22c55e;
+      background-color: #4ade80;
       border-radius: 50%;
-      box-shadow: 0 0 8px #22c55e;
+      box-shadow: 0 0 8px #4ade80;
     }
 
     /* Split Workspace Main Area */
@@ -220,7 +224,9 @@
       -webkit-backdrop-filter: blur(24px);
       border-radius: 18px;
       padding: 1.75rem 2rem;
-      box-shadow: 0 16px 40px -15px rgba(0, 0, 0, 0.5);
+      box-shadow: 
+        0 20px 45px -15px rgba(0, 0, 0, 0.75),
+        inset 0 1px 0 rgba(245, 239, 227, 0.06);
       position: relative;
     }
 
@@ -228,7 +234,7 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      border-bottom: 1px solid rgba(245, 239, 227, 0.07);
       padding-bottom: 0.85rem;
       margin-bottom: 1.25rem;
     }
@@ -236,29 +242,29 @@
     .card-headline-bar h2 {
       font-size: 1.15rem;
       font-weight: 700;
-      color: #ffffff;
+      color: var(--cream-bright);
       letter-spacing: -0.015em;
     }
 
     .card-tag {
       font-family: var(--mono-font);
       font-size: 0.68rem;
-      color: var(--text-dim);
+      color: var(--cream-dim);
       text-transform: uppercase;
       letter-spacing: 0.75px;
     }
 
     .dossier-intro p {
       font-size: 0.92rem;
-      color: var(--text-muted);
+      color: var(--cream-muted);
       line-height: 1.65;
       margin-bottom: 1rem;
     }
 
     /* Minimalist Architectural Pipeline Diagram */
     .arch-flow-diagram {
-      background: rgba(7, 10, 18, 0.6);
-      border: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(9, 9, 11, 0.65);
+      border: 1px solid rgba(245, 239, 227, 0.06);
       border-radius: 14px;
       padding: 1.25rem 1rem;
       margin-top: 0.5rem;
@@ -274,8 +280,8 @@
     }
 
     .flow-node {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.07);
+      background: rgba(245, 239, 227, 0.025);
+      border: 1px solid rgba(245, 239, 227, 0.08);
       border-radius: 10px;
       padding: 0.75rem 0.9rem;
       flex: 1;
@@ -284,14 +290,14 @@
     }
 
     .flow-node:hover {
-      background: rgba(37, 99, 235, 0.06);
-      border-color: rgba(96, 165, 250, 0.25);
+      background: rgba(245, 239, 227, 0.05);
+      border-color: rgba(245, 239, 227, 0.2);
     }
 
     .node-num {
       font-family: var(--mono-font);
       font-size: 0.65rem;
-      color: var(--accent-cyan);
+      color: var(--cream-accent);
       font-weight: 700;
       letter-spacing: 0.5px;
       display: block;
@@ -301,18 +307,18 @@
     .node-title {
       font-size: 0.8rem;
       font-weight: 600;
-      color: #f8fafc;
+      color: var(--cream-bright);
       line-height: 1.2;
     }
 
     .node-sub {
       font-size: 0.68rem;
-      color: var(--text-dim);
+      color: var(--cream-dim);
       margin-top: 0.25rem;
     }
 
     .flow-connector {
-      color: rgba(255, 255, 255, 0.2);
+      color: rgba(245, 239, 227, 0.25);
       font-size: 0.9rem;
       font-family: var(--mono-font);
     }
@@ -331,8 +337,8 @@
     }
 
     .telemetry-cell {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(245, 239, 227, 0.02);
+      border: 1px solid rgba(245, 239, 227, 0.06);
       border-radius: 12px;
       padding: 1rem 1.1rem;
       cursor: pointer;
@@ -344,8 +350,8 @@
     }
 
     .telemetry-cell:hover {
-      background: rgba(255, 255, 255, 0.04);
-      border-color: rgba(147, 197, 253, 0.3);
+      background: rgba(245, 239, 227, 0.05);
+      border-color: var(--card-border-hover);
       transform: translateY(-2px);
     }
 
@@ -358,7 +364,7 @@
     .cell-intent-id {
       font-family: var(--mono-font);
       font-size: 0.68rem;
-      color: #93c5fd;
+      color: var(--cream-accent);
       font-weight: 600;
       letter-spacing: 0.5px;
     }
@@ -366,9 +372,9 @@
     .cell-badge {
       font-family: var(--mono-font);
       font-size: 0.62rem;
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      color: var(--text-dim);
+      background: rgba(245, 239, 227, 0.04);
+      border: 1px solid rgba(245, 239, 227, 0.09);
+      color: var(--cream-dim);
       padding: 0.15rem 0.45rem;
       border-radius: 4px;
     }
@@ -376,12 +382,12 @@
     .cell-title {
       font-size: 0.88rem;
       font-weight: 600;
-      color: #ffffff;
+      color: var(--cream-bright);
     }
 
     .cell-desc {
       font-size: 0.74rem;
-      color: var(--text-muted);
+      color: var(--cream-muted);
       line-height: 1.45;
     }
 
@@ -391,7 +397,7 @@
       gap: 0.3rem;
       font-family: var(--mono-font);
       font-size: 0.68rem;
-      color: #60a5fa;
+      color: var(--cream-accent);
       margin-top: 0.4rem;
       font-weight: 600;
     }
@@ -410,8 +416,8 @@
     }
 
     .guard-item {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(245, 239, 227, 0.02);
+      border: 1px solid rgba(245, 239, 227, 0.06);
       border-radius: 10px;
       padding: 0.85rem;
     }
@@ -419,14 +425,14 @@
     .guard-item strong {
       display: block;
       font-size: 0.78rem;
-      color: #f1f5f9;
+      color: var(--cream-bright);
       font-weight: 600;
       margin-bottom: 0.25rem;
     }
 
     .guard-item span {
       font-size: 0.7rem;
-      color: var(--text-dim);
+      color: var(--cream-dim);
       line-height: 1.4;
       display: block;
     }
@@ -444,7 +450,9 @@
       -webkit-backdrop-filter: blur(24px);
       border-radius: 18px;
       padding: 1.5rem;
-      box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.6);
+      box-shadow: 
+        0 20px 45px -15px rgba(0, 0, 0, 0.75),
+        inset 0 1px 0 rgba(245, 239, 227, 0.06);
       display: flex;
       flex-direction: column;
       gap: 1.25rem;
@@ -454,36 +462,61 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      border-bottom: 1px solid rgba(245, 239, 227, 0.07);
       padding-bottom: 0.85rem;
     }
 
     .chat-title-group h3 {
       font-size: 1rem;
       font-weight: 700;
-      color: #ffffff;
+      color: var(--cream-bright);
     }
 
     .chat-title-group p {
       font-size: 0.72rem;
-      color: var(--text-dim);
+      color: var(--cream-dim);
       font-family: var(--mono-font);
     }
 
     .station-telemetry {
       font-family: var(--mono-font);
       font-size: 0.68rem;
-      color: #93c5fd;
-      background: rgba(37, 99, 235, 0.1);
-      border: 1px solid rgba(37, 99, 235, 0.25);
+      color: var(--cream-accent);
+      background: rgba(245, 239, 227, 0.05);
+      border: 1px solid rgba(245, 239, 227, 0.12);
       padding: 0.25rem 0.65rem;
       border-radius: 6px;
+    }
+
+    /* Solid Cream Primary Button */
+    .launch-console-btn {
+      background: var(--cream-btn-bg);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: var(--cream-btn-text);
+      padding: 0.85rem;
+      border-radius: 10px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.55rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 16px rgba(245, 239, 227, 0.15);
+    }
+
+    .launch-console-btn:hover {
+      background: var(--cream-btn-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(245, 239, 227, 0.25);
     }
 
     .quick-feed-title {
       font-family: var(--mono-font);
       font-size: 0.68rem;
-      color: var(--text-dim);
+      color: var(--cream-dim);
       text-transform: uppercase;
       letter-spacing: 0.6px;
     }
@@ -495,9 +528,9 @@
     }
 
     .telemetry-chip {
-      background: rgba(255, 255, 255, 0.035);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      color: #cbd5e1;
+      background: rgba(245, 239, 227, 0.035);
+      border: 1px solid rgba(245, 239, 227, 0.09);
+      color: var(--cream-text);
       padding: 0.4rem 0.85rem;
       border-radius: 9999px;
       font-size: 0.78rem;
@@ -508,53 +541,30 @@
     }
 
     .telemetry-chip:hover {
-      background: rgba(255, 255, 255, 0.08);
-      border-color: rgba(255, 255, 255, 0.18);
-      color: #ffffff;
+      background: rgba(245, 239, 227, 0.09);
+      border-color: rgba(245, 239, 227, 0.25);
+      color: var(--cream-bright);
       transform: translateY(-1px);
     }
 
-    .launch-console-btn {
-      background: #1e3a8a;
-      border: 1px solid rgba(147, 197, 253, 0.25);
-      color: #ffffff;
-      padding: 0.85rem;
-      border-radius: 10px;
-      font-size: 0.88rem;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.55rem;
-      transition: all 0.2s ease;
-      box-shadow: 0 4px 14px rgba(30, 58, 138, 0.4);
-    }
-
-    .launch-console-btn:hover {
-      background: #2563eb;
-      transform: translateY(-1px);
-    }
-
-    /* Dialogflow Messenger Style Tuning */
+    /* Dialogflow Messenger Style Tuning: Black + Cream Theme */
     df-messenger {
-      --df-messenger-bot-message: #0f172a;
-      --df-messenger-button-titlebar-color: #0b0f19;
-      --df-messenger-button-titlebar-font-color: #ffffff;
-      --df-messenger-chat-background-color: #070a12;
-      --df-messenger-font-color: #f1f5f9;
+      --df-messenger-bot-message: #18181b;
+      --df-messenger-button-titlebar-color: #121215;
+      --df-messenger-button-titlebar-font-color: #faf6ee;
+      --df-messenger-chat-background-color: #09090b;
+      --df-messenger-font-color: #faf6ee;
       --df-messenger-font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
-      --df-messenger-send-icon: #3b82f6;
-      --df-messenger-user-message: #1e3a8a;
-      --df-messenger-user-message-font-color: #ffffff;
-      --df-messenger-input-box-color: #0f172a;
-      --df-messenger-input-placeholder-font-color: #64748b;
-      --df-messenger-chip-color: #0f172a;
-      --df-messenger-chip-border-color: rgba(255, 255, 255, 0.15);
+      --df-messenger-send-icon: #faf6ee;
+      --df-messenger-user-message: #faf6ee;
+      --df-messenger-user-message-font-color: #09090b;
+      --df-messenger-input-box-color: #141417;
+      --df-messenger-input-placeholder-font-color: #7a7263;
+      --df-messenger-chip-color: #18181b;
+      --df-messenger-chip-border-color: rgba(245, 239, 227, 0.16);
       --df-messenger-chat-window-width: 440px;
       --df-messenger-chat-window-height: 590px;
-      --df-messenger-chat-border-radius: 14px;
+      --df-messenger-chat-border-radius: 16px;
       z-index: 99999;
     }
 
