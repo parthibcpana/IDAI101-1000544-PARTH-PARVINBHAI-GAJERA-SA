@@ -85,7 +85,11 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [],
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
   "conditionalResponses": [],
   "condition": "",
   "conditionalExecutionHandlers": []
