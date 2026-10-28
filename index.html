@@ -6,21 +6,22 @@
   <title>ParentConnect AI — Greenfield Academy</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-dark: #080c16;
-      --surface-glass: rgba(15, 23, 42, 0.72);
-      --surface-border: rgba(255, 255, 255, 0.08);
-      --primary-accent: #3b82f6;
-      --primary-gradient: linear-gradient(135deg, #2563eb, #1d4ed8);
-      --gold-accent: #eab308;
-      --text-bright: #f8fafc;
-      --text-sub: #94a3b8;
-      --chip-bg: rgba(37, 99, 235, 0.12);
-      --chip-border: rgba(96, 165, 250, 0.25);
-      --chip-hover: rgba(37, 99, 235, 0.25);
-      --chip-text: #bfdbfe;
+      --bg: #090d16;
+      --card-bg: rgba(15, 23, 42, 0.7);
+      --card-border: rgba(255, 255, 255, 0.07);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --chip-bg: rgba(255, 255, 255, 0.04);
+      --chip-border: rgba(255, 255, 255, 0.08);
+      --chip-text: #cbd5e1;
+      --chip-hover-bg: rgba(255, 255, 255, 0.08);
+      --chip-hover-border: rgba(255, 255, 255, 0.16);
     }
 
     * {
@@ -30,303 +31,265 @@
     }
 
     body {
-      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-      background-color: var(--bg-dark);
-      color: var(--text-bright);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      position: relative;
-      overflow-x: hidden;
-      /* Premium Ambient Radial Mesh Glow */
-      background-image: 
-        radial-gradient(circle at 15% 15%, rgba(37, 99, 235, 0.18) 0%, transparent 45%),
-        radial-gradient(circle at 85% 85%, rgba(99, 102, 241, 0.14) 0%, transparent 45%),
-        radial-gradient(circle at 50% 50%, rgba(14, 165, 233, 0.06) 0%, transparent 60%),
-        linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-      background-size: 100% 100%, 100% 100%, 100% 100%, 36px 36px, 36px 36px;
+      /* Simple, refined single ambient ceiling wash */
+      background-image: radial-gradient(1100px 500px at 50% 0px, rgba(37, 99, 235, 0.09) 0%, rgba(9, 13, 22, 0) 100%);
+      background-repeat: no-repeat;
+      -webkit-font-smoothing: antialiased;
     }
 
-    /* Ambient Glow Orb Behind Hero */
-    .glow-orb {
-      position: absolute;
-      top: 20%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 550px;
-      height: 350px;
-      background: radial-gradient(ellipse, rgba(59, 130, 246, 0.2) 0%, rgba(30, 58, 138, 0.05) 50%, transparent 70%);
-      filter: blur(60px);
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* Top Glass Navbar */
+    /* Minimal Header Bar */
     header {
-      background: rgba(8, 12, 22, 0.7);
-      backdrop-filter: blur(16px);
-      border-bottom: 1px solid var(--surface-border);
-      padding: 1.1rem 2.5rem;
+      padding: 1.25rem 2.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      position: relative;
-      z-index: 10;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(9, 13, 22, 0.6);
+      backdrop-filter: blur(12px);
     }
 
-    .brand-group {
+    .brand {
       display: flex;
       align-items: center;
-      gap: 1rem;
+      gap: 0.85rem;
     }
 
-    .brand-crest {
-      width: 44px;
-      height: 44px;
-      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
-      border: 1.5px solid rgba(234, 179, 8, 0.6);
-      border-radius: 12px;
+    .brand-icon {
+      width: 38px;
+      height: 38px;
+      background: #1e293b;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: white;
-      font-weight: 800;
-      font-size: 1.3rem;
-      box-shadow: 0 4px 15px rgba(37, 99, 235, 0.35);
+      color: #93c5fd;
+      font-weight: 700;
+      font-size: 1.1rem;
     }
 
-    .brand-info h1 {
-      font-size: 1.25rem;
-      font-weight: 800;
-      letter-spacing: -0.3px;
-      background: linear-gradient(135deg, #ffffff 40%, #93c5fd 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    .brand-text h1 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.01em;
       line-height: 1.2;
     }
 
-    .brand-info p {
+    .brand-text p {
       font-size: 0.78rem;
-      color: var(--text-sub);
+      color: var(--text-dim);
       font-weight: 500;
-      letter-spacing: 0.2px;
     }
 
-    .live-status-pill {
+    .status-indicator {
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background: rgba(34, 197, 94, 0.1);
-      border: 1px solid rgba(34, 197, 94, 0.3);
-      color: #4ade80;
-      padding: 0.4rem 0.95rem;
-      border-radius: 9999px;
       font-size: 0.78rem;
-      font-weight: 600;
-      letter-spacing: 0.2px;
+      color: #94a3b8;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
     }
 
-    .live-beacon {
-      width: 8px;
-      height: 8px;
+    .status-dot {
+      width: 7px;
+      height: 7px;
       background-color: #22c55e;
       border-radius: 50%;
-      box-shadow: 0 0 10px #22c55e;
-      animation: pulse 2s infinite;
+      box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
     }
 
-    @keyframes pulse {
-      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
-      70% { transform: scale(1.1); box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
-      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
-    }
-
-    /* Main Centerpiece */
+    /* Main Showcase Centerpiece */
     main {
       flex: 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 2.5rem 1.5rem;
-      position: relative;
-      z-index: 5;
+      padding: 3rem 1.5rem;
     }
 
-    .glass-showcase {
-      background: var(--surface-glass);
-      backdrop-filter: blur(24px);
-      -webkit-backdrop-filter: blur(24px);
-      border: 1px solid var(--surface-border);
-      border-radius: 24px;
-      padding: 3rem 2.5rem;
-      max-width: 760px;
+    .portal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 3.25rem 2.5rem;
+      max-width: 720px;
       width: 100%;
       text-align: center;
-      box-shadow: 
-        0 25px 60px -15px rgba(0, 0, 0, 0.7),
-        inset 0 1px 0 rgba(255, 255, 255, 0.12);
-      position: relative;
+      box-shadow: 0 20px 50px -15px rgba(0, 0, 0, 0.5);
     }
 
-    .badge-top {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.45rem;
-      background: rgba(234, 179, 8, 0.12);
-      border: 1px solid rgba(234, 179, 8, 0.3);
-      color: #fde047;
+    .portal-tag {
+      display: inline-block;
       font-size: 0.72rem;
-      font-weight: 700;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.75px;
+      letter-spacing: 0.6px;
+      color: var(--text-dim);
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
       padding: 0.3rem 0.85rem;
       border-radius: 9999px;
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
     }
 
-    .glass-showcase h2 {
-      font-size: 2.25rem;
-      font-weight: 800;
+    .portal-card h2 {
+      font-size: 2.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.025em;
       line-height: 1.25;
-      letter-spacing: -0.5px;
-      margin-bottom: 1rem;
-      background: linear-gradient(135deg, #ffffff 30%, #bfdbfe 80%, #93c5fd 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.85rem;
     }
 
-    .glass-showcase p.lead-text {
-      color: var(--text-sub);
-      font-size: 1.02rem;
-      line-height: 1.65;
-      margin-bottom: 2rem;
-      max-width: 620px;
-      margin-left: auto;
-      margin-right: auto;
+    .portal-card p.summary {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+      line-height: 1.6;
+      max-width: 580px;
+      margin: 0 auto 2.25rem;
     }
 
-    /* Core Pillars Micro Grid */
-    .feature-strip {
+    /* Feature Grid */
+    .feature-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 0.85rem;
+      gap: 0.75rem;
       margin-bottom: 2.25rem;
     }
 
-    @media (max-width: 680px) {
-      .feature-strip {
-        grid-template-columns: 1fr 1fr;
+    @media (max-width: 640px) {
+      .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .portal-card {
+        padding: 2.25rem 1.25rem;
+      }
+      .portal-card h2 {
+        font-size: 1.65rem;
+      }
+      header {
+        padding: 1rem 1.25rem;
       }
     }
 
-    .feature-item {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.06);
+    .feature-cell {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.05);
       border-radius: 12px;
-      padding: 0.85rem 0.5rem;
+      padding: 0.95rem 0.6rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 0.35rem;
-      transition: all 0.2s ease;
     }
 
-    .feature-item:hover {
-      background: rgba(255, 255, 255, 0.06);
-      border-color: rgba(96, 165, 250, 0.3);
+    .feature-cell:hover {
+      background: rgba(255, 255, 255, 0.04);
+      border-color: rgba(255, 255, 255, 0.12);
       transform: translateY(-2px);
     }
 
     .feature-icon {
-      font-size: 1.35rem;
+      font-size: 1.25rem;
     }
 
-    .feature-label {
-      font-size: 0.8rem;
+    .feature-title {
+      font-size: 0.82rem;
       font-weight: 600;
-      color: #e2e8f0;
+      color: #f1f5f9;
     }
 
-    .feature-sub {
-      font-size: 0.68rem;
-      color: var(--text-sub);
+    .feature-caption {
+      font-size: 0.7rem;
+      color: var(--text-dim);
     }
 
-    /* Main Trigger Action */
-    .launch-action-bar {
+    /* Primary Action Button */
+    .cta-container {
       margin-bottom: 2rem;
     }
 
-    .launch-btn {
-      background: linear-gradient(135deg, #2563eb, #1d4ed8);
-      color: white;
-      border: 1px solid rgba(147, 197, 253, 0.35);
-      padding: 1.05rem 2.5rem;
-      border-radius: 14px;
-      font-size: 1.05rem;
-      font-weight: 700;
+    .primary-btn {
+      background: var(--primary);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 0.85rem 2.25rem;
+      border-radius: 12px;
+      font-size: 0.96rem;
+      font-weight: 600;
       cursor: pointer;
       font-family: inherit;
       display: inline-flex;
       align-items: center;
-      gap: 0.75rem;
-      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.45);
-      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      gap: 0.6rem;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+      transition: all 0.2s ease;
     }
 
-    .launch-btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 10px 28px rgba(37, 99, 235, 0.6);
-      background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    .primary-btn:hover {
+      background: var(--primary-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(37, 99, 235, 0.45);
     }
 
-    /* Suggestion Chips Section */
-    .suggestions-container {
-      border-top: 1px solid var(--surface-border);
+    /* Prompt Chips */
+    .chips-section {
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
       padding-top: 1.75rem;
     }
 
-    .suggestions-title {
+    .chips-header {
       font-size: 0.72rem;
-      font-weight: 700;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.8px;
-      color: var(--text-sub);
+      letter-spacing: 0.6px;
+      color: var(--text-dim);
       margin-bottom: 0.85rem;
     }
 
-    .chips-flex {
+    .chips-wrap {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 0.55rem;
+      gap: 0.5rem;
     }
 
-    .chip-interactive {
+    .chip {
       background: var(--chip-bg);
       border: 1px solid var(--chip-border);
       color: var(--chip-text);
-      padding: 0.45rem 0.95rem;
+      padding: 0.4rem 0.9rem;
       border-radius: 9999px;
       font-size: 0.82rem;
-      font-weight: 600;
+      font-weight: 500;
       cursor: pointer;
       font-family: inherit;
-      transition: all 0.2s ease;
-      backdrop-filter: blur(8px);
+      transition: all 0.15s ease;
     }
 
-    .chip-interactive:hover {
-      background: var(--chip-hover);
-      border-color: rgba(147, 197, 253, 0.5);
+    .chip:hover {
+      background: var(--chip-hover-bg);
+      border-color: var(--chip-hover-border);
       color: #ffffff;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+      transform: translateY(-1px);
     }
 
-    /* Dialogflow Messenger Native Overrides */
+    /* Dialogflow Native Theme Overrides */
     df-messenger {
       --df-messenger-bot-message: #f1f5f9;
       --df-messenger-button-titlebar-color: #0f172a;
@@ -334,16 +297,16 @@
       --df-messenger-chat-background-color: #ffffff;
       --df-messenger-font-color: #0f172a;
       --df-messenger-font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-      --df-messenger-send-icon: #1e3a8a;
-      --df-messenger-user-message: #1e3a8a;
+      --df-messenger-send-icon: #2563eb;
+      --df-messenger-user-message: #2563eb;
       --df-messenger-user-message-font-color: #ffffff;
       --df-messenger-input-box-color: #f8fafc;
       --df-messenger-input-placeholder-font-color: #94a3b8;
-      --df-messenger-chip-color: #eff6ff;
-      --df-messenger-chip-border-color: #bfdbfe;
+      --df-messenger-chip-color: #f1f5f9;
+      --df-messenger-chip-border-color: #cbd5e1;
       --df-messenger-chat-window-width: 440px;
       --df-messenger-chat-window-height: 590px;
-      --df-messenger-chat-border-radius: 16px;
+      --df-messenger-chat-border-radius: 14px;
       z-index: 999999;
     }
 
@@ -352,124 +315,106 @@
         --df-messenger-chat-window-width: 94vw;
         --df-messenger-chat-window-height: 82vh;
       }
-      .glass-showcase {
-        padding: 2rem 1.25rem;
-      }
-      .glass-showcase h2 {
-        font-size: 1.75rem;
-      }
     }
 
-    /* Discreet Bottom Footer Bar */
+    /* Minimal Footer */
     footer {
-      background: rgba(8, 12, 22, 0.7);
-      backdrop-filter: blur(12px);
-      border-top: 1px solid var(--surface-border);
-      padding: 0.85rem 2rem;
+      padding: 1.1rem 2rem;
       text-align: center;
-      font-size: 0.8rem;
-      color: var(--text-sub);
-      position: relative;
-      z-index: 10;
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      background: rgba(9, 13, 22, 0.5);
     }
 
     footer a {
-      color: #60a5fa;
+      color: #93c5fd;
       text-decoration: none;
-      font-weight: 600;
-      transition: color 0.15s ease;
+      font-weight: 500;
     }
 
     footer a:hover {
-      color: #93c5fd;
       text-decoration: underline;
     }
   </style>
-  <!-- Official Dialogflow Messenger Bootstrap Script -->
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </head>
 <body>
 
-  <!-- Ambient Glow Effect -->
-  <div class="glow-orb"></div>
-
-  <!-- Top Glass Bar -->
+  <!-- Minimal Header -->
   <header>
-    <div class="brand-group">
-      <div class="brand-crest">P</div>
-      <div class="brand-info">
+    <div class="brand">
+      <div class="brand-icon">G</div>
+      <div class="brand-text">
         <h1>ParentConnect AI</h1>
-        <p>Greenfield Academy &bull; Institutional NLU Assistant</p>
+        <p>Greenfield Academy Communication Portal</p>
       </div>
     </div>
-    <div class="live-status-pill">
-      <span class="live-beacon"></span>
-      <span>Live Dialogflow Engine</span>
+    <div class="status-indicator">
+      <span class="status-dot"></span>
+      <span>System Online</span>
     </div>
   </header>
 
-  <!-- Hero Glass Showcase -->
+  <!-- Clean Showcase Card -->
   <main>
-    <div class="glass-showcase">
-      <div class="badge-top">
-        IDAI101 Summative Assessment &bull; 60 Marks
-      </div>
-
-      <h2>School Communication Assistant</h2>
-      <p class="lead-text">
-        An intelligent conversational bridge linking parents, students, and institutional faculty. Built and deployed live with Google Dialogflow ES to provide deterministic, zero-hallucination assistance.
+    <div class="portal-card">
+      <div class="portal-tag">Official Institutional Assistant</div>
+      <h2>ParentConnect AI</h2>
+      <p class="summary">
+        Direct, verified access to student attendance records, exam timetables, school bus telemetry, and fee statements powered by Google Dialogflow.
       </p>
 
-      <div class="feature-strip">
-        <div class="feature-item" onclick="triggerChatSession('Check Attendance')">
+      <div class="feature-grid">
+        <div class="feature-cell" onclick="triggerChatSession('Check Attendance')">
           <span class="feature-icon">📋</span>
-          <span class="feature-label">Attendance</span>
-          <span class="feature-sub">Record verification</span>
+          <span class="feature-title">Attendance</span>
+          <span class="feature-caption">Record lookup</span>
         </div>
-        <div class="feature-item" onclick="triggerChatSession('Track School Bus')">
+        <div class="feature-cell" onclick="triggerChatSession('Track School Bus')">
           <span class="feature-icon">🚌</span>
-          <span class="feature-label">Transit Telemetry</span>
-          <span class="feature-sub">Routes 1 to 4 GPS</span>
+          <span class="feature-title">Bus Tracking</span>
+          <span class="feature-caption">Routes 1 to 4</span>
         </div>
-        <div class="feature-item" onclick="triggerChatSession('Fee Details')">
+        <div class="feature-cell" onclick="triggerChatSession('Fee Details')">
           <span class="feature-icon">💳</span>
-          <span class="feature-label">Fee Details</span>
-          <span class="feature-sub">Tuition statements</span>
+          <span class="feature-title">Fee Details</span>
+          <span class="feature-caption">Tuition balance</span>
         </div>
-        <div class="feature-item" onclick="triggerChatSession('Report Absence')">
+        <div class="feature-cell" onclick="triggerChatSession('Report Absence')">
           <span class="feature-icon">📝</span>
-          <span class="feature-label">Absence Slips</span>
-          <span class="feature-sub">Excused medical leave</span>
+          <span class="feature-title">Absence Slip</span>
+          <span class="feature-caption">Leave filing</span>
         </div>
       </div>
 
-      <div class="launch-action-bar">
-        <button class="launch-btn" onclick="triggerChatSession('Hi')">
+      <div class="cta-container">
+        <button class="primary-btn" onclick="triggerChatSession('Hi')">
           <span>💬</span>
           <span>Start Live Conversation</span>
         </button>
       </div>
 
-      <div class="suggestions-container">
-        <div class="suggestions-title">Quick Test Prompts</div>
-        <div class="chips-flex">
-          <button class="chip-interactive" onclick="triggerChatSession('View Attendance')">View Attendance</button>
-          <button class="chip-interactive" onclick="triggerChatSession('Exam Schedule')">Exam Schedule</button>
-          <button class="chip-interactive" onclick="triggerChatSession('Track School Bus')">Track School Bus</button>
-          <button class="chip-interactive" onclick="triggerChatSession('Fee Details')">Fee Details</button>
-          <button class="chip-interactive" onclick="triggerChatSession('Report Absence')">Report Absence</button>
-          <button class="chip-interactive" onclick="triggerChatSession('Cafeteria Menu')">Cafeteria Menu</button>
+      <div class="chips-section">
+        <div class="chips-header">Sample Inquiries</div>
+        <div class="chips-wrap">
+          <button class="chip" onclick="triggerChatSession('View Attendance')">View Attendance</button>
+          <button class="chip" onclick="triggerChatSession('Exam Schedule')">Exam Schedule</button>
+          <button class="chip" onclick="triggerChatSession('Track School Bus')">Track School Bus</button>
+          <button class="chip" onclick="triggerChatSession('Fee Details')">Fee Details</button>
+          <button class="chip" onclick="triggerChatSession('Report Absence')">Report Absence</button>
+          <button class="chip" onclick="triggerChatSession('Cafeteria Menu')">Cafeteria Menu</button>
         </div>
       </div>
     </div>
   </main>
 
-  <!-- Minimal Transparent Footer -->
+  <!-- Minimal Discreet Footer -->
   <footer>
     Parth Pravinbhai Gajera (1000544) &bull; IDAI101 &bull; <a href="https://github.com/parthibcpana/IDAI101-1000544-PARTH-PARVINBHAI-GAJERA-SA" target="_blank">GitHub Repository</a>
   </footer>
 
-  <!-- Official Google Dialogflow Messenger (Without unhandled intent triggers on startup) -->
+  <!-- Official Google Dialogflow Messenger -->
   <df-messenger
     chat-title="ParentConnect AI"
     agent-id="04c2bbf3-d49b-4e58-b900-1e8878eab50b"
@@ -485,7 +430,6 @@
       const chatWrapper = dfMessenger.shadowRoot.querySelector('.chat-wrapper');
       const bubble = dfMessenger.shadowRoot.querySelector('#widgetIcon');
       
-      // If the chat window is closed, click the bubble to open it
       if (chatWrapper) {
         const isHidden = window.getComputedStyle(chatWrapper).display === 'none' || chatWrapper.classList.contains('closed');
         if (isHidden && bubble) {
@@ -495,7 +439,6 @@
         bubble.click();
       }
 
-      // If a prompt query is supplied, populate and focus the chat input
       if (prompt) {
         setTimeout(() => {
           try {
